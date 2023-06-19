@@ -1,0 +1,26 @@
+Első adatpont: 2019-07-24
+Utolsó adatpont: 2022-09-05
+
+Ezt az időszakot kéne értelmesen részekre bontani.
+
+Fontosabb milestone-ok:
+
+2020-01-31: UK kilép az EU-ból, innentől nincsenek brit tagok
+2020-05-25: George Floyd dies (?)
+2021-03-03: Fidesz kilép az EPP-ből
+2022-02-24: Russian invasion kezdete
+
+2022-09-30: Russian Annexation of Donetsk, Kherson, Luhansk, and Zaporizhzhia # ez már nem lesz benne az adatsorban :(
+
+Időszakok:
+2019-07-24 -> 2019-10-31 (99d)
+2019-11-01 -> 2020-01-31 (91d)
+---- eddig van UK ----
+2020-02-01 -> 2020-06-30 (150d)
+2020-07-01 -> 2020-11-30 (152d)
+2020-12-01 -> 2021-03-03 (92d)
+2021-03-04 -> 2021-05-31 (88d)
+2021-06-01 -> 2021-10-31 (152d)
+2021-11-01 -> 2022-02-23 (114d)
+---- háború ----
+2022-02-24 -> 2022-09-05 (193d)
