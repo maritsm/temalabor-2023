@@ -50,7 +50,13 @@ We then talk about how the paper itself is organized, and very lengthily talk ab
 
 \section{Our data}
 
-Our data was acquired from blah blah blah...
+Our dataset was acquired directly from the European Parliament's website. It is organized as a \texttt{csv} file which contains entries for each proposed amendment to a law, with information about when the amendment was proposed, some details about the amendment, and more importantly, information about who proposed the amendment, what party they belong to, which EP group said party belongs to, and which country are they are representative of.
+
+This data can therefore be viewed as a bipartite graph, in which one part consists of the MEPs, and the other consists of the proposed amendments. An MEP and an amendment are joined by an edge if and only if said MEP contributed to the amendment (\textit{sponsored} the amendment). Importantly, a single amendment may have multiple contributors, which allows us to analyze the social structure of the European Parliament as a whole.
+
+To analyze the social structure, we \textit{projected} this bipartite graph onto the set of MEPs. This procedure creates a new graph, wherein the nodes represent MEPs, and each edge connects two MEPs which have two contributions in common. (I.e. they \textit{co-sponsored} a bill.)
+
+%% In the future, we're also planning to work with \textit{weighted projections}, which will allow for a more granular analysis of the social network.
 
 \section{Preliminary analysis}
 
@@ -66,10 +72,9 @@ We divided our data based on time. Our goal was to make it possible to analyze t
 
 The conclusion goes here.
 
-
 \section*{Acknowledgments}
 
-Thanks so much to everyone involved in creating this wonderful opportunity to uhhh, do things.
+Thanks so much to everyone involved in creating this wonderful masterpiece of a paper.
 
 \begin{thebibliography}{1}
 \bibliographystyle{IEEEtran}
