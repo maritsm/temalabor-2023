@@ -26,7 +26,7 @@
 \markboth{Journal of Literally Who Cares,~Vol.~1, No.~1, June~2023}%
 {Shell \MakeLowercase{\textit{et al.}}: A Sample Article Using IEEEtran.cls for IEEE Journals}
 
-\IEEEpubid{0000--0000/00\$00.00~\copyright~2021 IEEE}
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2021 IEEE}
 % Remember, if you use this you must call \IEEEpubidadjcol in the second
 % column for its text to clear the IEEEpubid mark.
 
@@ -52,7 +52,10 @@ We then talk about how the paper itself is organized, and very lengthily talk ab
 
 Our dataset was acquired directly from the European Parliament's website. It is organized as a \texttt{csv} file which contains entries for each proposed amendment to a law, with information about when the amendment was proposed, some details about the amendment, and more importantly, information about who proposed the amendment, what party they belong to, which EP group said party belongs to, and which country are they are representative of.
 
+
 This data can therefore be viewed as a bipartite graph, in which one part consists of the MEPs, and the other consists of the proposed amendments. An MEP and an amendment are joined by an edge if and only if said MEP contributed to the amendment (\textit{sponsored} the amendment). Importantly, a single amendment may have multiple contributors, which allows us to analyze the social structure of the European Parliament as a whole.
+
+In total, our dataset contains 750,578 entries, which is the total number of edges in this bipartite graph. The dataset has data on a grand total of 754 MEPs. %% lehetne ebből valami breakdown, hogy hány MEP van országonként, pártonként, pártcsoportonként stb.
 
 To analyze the social structure, we \textit{projected} this bipartite graph onto the set of MEPs. This procedure creates a new graph, wherein the nodes represent MEPs, and each edge connects two MEPs which have two contributions in common. (I.e. they \textit{co-sponsored} a bill.)
 
@@ -66,11 +69,13 @@ In this section, we talk about the conclusions we can draw from the data while a
 
 In this section, we talk about how we divided the data based on time.
 
-We divided our data based on time. Our goal was to make it possible to analyze the changes in the social environment based on time. We used major events that shaped European politics as breakpoints, because we expected that the social network might change drastically as a result of these events. The most important events we considered were the United Kingdom leaving the European Union (Brexit), on February 1st 2019, and the start of the Russian invasion of Ukraine on February 24th 2022. These events have undoubtedly shaped public opinion, and our research is centered around finding out whether they also influenced the social structure of the European Parliament.
+We divided our data based on time. Our goal was to make it possible to analyze the changes in the social environment based on time. We used major events that shaped European politics as breakpoints, because we expected that the social network might change drastically as a result of these events. The most important events we considered were the United Kingdom leaving the European Union (Brexit), on February 1st, 2019, and the start of the Russian invasion of Ukraine on February 24th, 2022. These events have undoubtedly shaped public opinion, and our research is centered around finding out whether they also influenced the social structure of the European Parliament.
+
+Our dataset contained data from July 24th, 2019 to September 5th, 2022, and we divided this time interval into 12 parts. Our goal was to divide the time interval based on important events that happened during this time, in order to facilitate the study of how these events influenced the political network. For example, a major event in this time period was Brexit, since after Brexit, delegates from the United Kingdom left the European Parliament. We therefore divided our time interval in such a way that the date of Brexit is the endpoint of one of the parts. We did a similar thing for two more events in the specified time period. An important date we considered was the controversial Hungarian right-wing party Fidesz leaving the EPP political group inside the European Parliament, and we expected that this changed the dynamics between political groups. The last major event we considered was of course the start of the Russian invasion of Ukraine. Since our data ends in September 2022, we are unfortunately not able to analyze the effects of later phases of the war, notably the 2022 Kharkiv counteroffensive. In the future, we plan to continue our research to investigate whether the change in the dynamics of the war was able to further influence political networks in the European Parliament.
 
 \section{Conclusion}
 
-The conclusion goes here.
+In conclusion, we can say that the social networks of the European Parliament are an ever-changing structure. Some changes to it happen seemingly spontaneously, while some of them happen as a result of important events. The events that can have a noticeable effect on this social structure can be internal (such as Fidesz leaving the EPP group), or external, such as COVID-19, or the Russo-Ukrainian war.
 
 \section*{Acknowledgments}
 
@@ -79,9 +84,35 @@ Thanks so much to everyone involved in creating this wonderful masterpiece of a 
 \begin{thebibliography}{1}
 \bibliographystyle{IEEEtran}
 
-\bibitem{asdf}
-Asdf
+\bibitem{Baller}
+Baller, Inger. "Specialists, party members, or national representatives: Patterns in co-sponsorship of amendments in the European Parliament." European Union Politics 18.3 (2017): 469-490.
 
+\bibitem{Cherepnalkoski}
+Cherepnalkoski, Darko, and Igor Mozetič. "Retweet networks of the European Parliament: Evaluation of the community structure." Applied network science 1 (2016): 1-20.
+
+\bibitem{Desmarais}
+Desmarais, Bruce A., et al. "Measuring legislative collaboration: The Senate press events network." Social Networks 40 (2015): 43-54.
+
+\bibitem{Fischer}
+Fischer, Manuel, et al. "How MPs ties to interest groups matter for legislative co-sponsorship." Social networks 57 (2019): 34-42.
+
+\bibitem{Fowler}
+Fowler, James H. "Connecting the Congress: A study of cosponsorship networks." Political analysis 14.4 (2006): 456-487.
+
+\bibitem{McPherson}
+McPherson, Miller, Lynn Smith-Lovin, and James M. Cook. "Birds of a feather: Homophily in social networks." Annual review of sociology 27.1 (2001): 415-444.
+
+\bibitem{Neal}
+Neal, Zachary. "The backbone of bipartite projections: Inferring relationships from co-authorship, co-sponsorship, co-attendance and other co-behaviors." Social Networks 39 (2014): 84-97.
+
+\bibitem{Peixoto}
+Peixoto, Tiago P., and Martin Rosvall. "Modelling sequences and temporal networks with dynamic community structures." Nature communications 8.1 (2017): 582.
+
+\bibitem{Porter}
+Porter, Mason A., et al. "A network analysis of committees in the US House of Representatives." Proceedings of the National Academy of Sciences 102.20 (2005): 7057-7062.
+
+\bibitem{Tanger}
+Tanger, Shaun M., and David N. Laband. "An empirical analysis of bill co-sponsorship in the US Senate: The Tree Act of 2007." Forest Policy and Economics 11.4 (2009): 260-265.
 
 \end{thebibliography}
 
