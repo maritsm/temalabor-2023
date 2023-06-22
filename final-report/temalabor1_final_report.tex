@@ -13,6 +13,10 @@
 \hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
 % updated with editorial comments 8/9/2021
 
+\usepackage{booktabs} 
+\usepackage{worldflags}
+\flagsdefault[width=6pt, length=9pt, framewidth=0.1mm]
+
 \begin{document}
 
 \title{Analyzing social networks in the European Parliament, and changes in the social network over time}
@@ -72,7 +76,56 @@ To analyze the social structure, we \textit{projected} this bipartite graph onto
 
 \section{Preliminary analysis}
 
-In this section, we talk about the conclusions we can draw from the data while analyzing it in its entirety.
+In this section, we talk about the conclusions we can draw from the data while analyzing it in its entirety. This phase of our analysis allowed us to get a sense of what the data looks like from a bird's eye view.
+
+\subsection{Analysis of activity by country}
+
+% {'Czechia': 1020, 'Poland': 2531, 'France': 4243, 'Netherlands': 1941, 'Slovakia': 1201, 'Romania': 2497, 'Spain': 3853, 'Croatia': 636, 'Greece': 1092, 'Portugal': 1406, 'Italy': 3550, 'United Kingdom': 268, 'Belgium': 1411, 'Germany': 5539, 'Finland': 859, 'Bulgaria': 1260, 'Ireland': 806, 'Hungary': 1135, 'Sweden': 1613, 'Malta': 614, 'Austria': 1272, 'Slovenia': 760, 'Latvia': 426, 'Cyprus': 502, 'Luxembourg': 623, 'Lithuania': 541, 'Estonia': 423, 'Denmark': 955, '': 175}
+
+We conducted an analysis of how many amendments were produced in each country. The data we acquired can be seen in \ref{amendments_by_country}. 
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | c |}
+			\hline
+			Country & Contributions  \\
+			\hline
+			\worldflag{DE} Germany & 5539 \\
+			\worldflag{FR} France & 4242 \\
+			\worldflag{ES} Spain & 3853 \\
+			\worldflag{IT} Italy & 3550 \\
+			\worldflag{PL} Poland & 2531 \\
+			\worldflag{RO} Romania & 2497 \\
+			\worldflag{NL} Netherlands & 1941 \\
+			\worldflag{SE} Sweden & 1613 \\
+			\worldflag{BE} Belgium & 1411 \\
+			\worldflag{PT} Portugal & 1406 \\
+			\worldflag{AT} Austria & 1272 \\
+			\worldflag{BG} Bulgaria & 1260 \\
+			\worldflag{SK} Slovakia & 1201 \\
+			\worldflag{HU} Hungary & 1135 \\
+			\worldflag{GR} Greece & 1092 \\
+			\worldflag{CZ} Czechia & 1020 \\
+			\worldflag{DE} Denmark & 955 \\
+			\worldflag{FI} Finland & 859 \\
+			\worldflag{IE} Ireland & 806 \\
+			\worldflag{SI} Slovenia & 760 \\
+			\worldflag{HR} Croatia & 636 \\
+			\worldflag{LU} Luxemburg & 623 \\
+			\worldflag{MT} Malta & 614 \\
+			\worldflag{LT} Lithuania & 541 \\
+			\worldflag{CY} Cyprus & 502 \\
+			\worldflag{LV} Latvia & 426 \\
+			\worldflag{EE} Estonia & 423 \\
+			\worldflag{GB} United Kingdom & 268 \\
+			\hline
+		\end{tabular}
+		\caption{Amendments by country}
+		\label{amendments_by_country}
+	\end{center}
+\end{figure}
+
+\subsection{Analysis of activity by political group}
 
 \section{Changes to the social network over time}
 
@@ -80,7 +133,33 @@ In this section, we talk about how we divided the data based on time.
 
 We divided our data based on time. Our goal was to make it possible to analyze the changes in the social environment based on time. We used major events that shaped European politics as breakpoints, because we expected that the social network might change drastically as a result of these events. The most important events we considered were the United Kingdom leaving the European Union (Brexit), on February 1st, 2019, and the start of the Russian invasion of Ukraine on February 24th, 2022. These events have undoubtedly shaped public opinion, and our research is centered around finding out whether they also influenced the social structure of the European Parliament.
 
-Our dataset contained data from July 24th, 2019 to September 5th, 2022, and we divided this time interval into 12 parts. Our goal was to divide the time interval based on important events that happened during this time, in order to facilitate the study of how these events influenced the political network. For example, a major event in this time period was Brexit, since after Brexit, delegates from the United Kingdom left the European Parliament. We therefore divided our time interval in such a way that the date of Brexit is the endpoint of one of the parts. We did a similar thing for two more events in the specified time period. An important date we considered was the controversial Hungarian right-wing party Fidesz leaving the EPP political group inside the European Parliament, and we expected that this changed the dynamics between political groups. The last major event we considered was of course the start of the Russian invasion of Ukraine. Since our data ends in September 2022, we are unfortunately not able to analyze the effects of later phases of the war, notably the 2022 Kharkiv counteroffensive. In the future, we plan to continue our research to investigate whether the change in the dynamics of the war was able to further influence political networks in the European Parliament.
+Our dataset contained data from July 24th, 2019 to September 5th, 2022, and we divided this time interval into 12 parts. Our goal was to divide the time interval based on important events that happened during this time, in order to facilitate the study of how these events influenced the political network. For example, a major event in this time period was Brexit, since after Brexit, delegates from the United Kingdom left the European Parliament. We therefore divided our time interval in such a way that the date of Brexit is the endpoint of one of the parts. We did a similar thing for two more events in the specified time period. An important date we considered was the controversial Hungarian right-wing party Fidesz leaving the EPP political group inside the European Parliament, as we expected that this changed the dynamics between political groups. The last major event we considered was of course the start of the Russian invasion of Ukraine. Since our data ends in September 2022, we are unfortunately not able to analyze the effects of later phases of the war, notably the 2022 Kharkiv counteroffensive. In the future, we plan to continue our research to investigate whether the change in the dynamics of the war was able to further influence political networks in the European Parliament.
+
+\begin{figure}[h]
+	\begin{center}
+		
+		\begin{tabular}{| c | c | p{1cm} | p{1cm} |}
+			\hline
+			Beginning & End  & Length (days) & \# Data points \\
+			\hline
+			2019-07-24 & 2019-10-31 & 99 & 6291 \\
+			2019-11-01 & 2020-01-31 & 91 & 18590 \\
+			2020-02-01 & 2020-05-20 & 109 & 52589 \\
+			2020-05-21 & 2020-08-31 & 102 & 71793 \\
+			2020-09-01 & 2020-11-30 & 90 & 85737 \\
+			2020-12-01 & 2021-03-03 & 92 & 70345 \\
+			2021-03-04 & 2021-05-31 & 88 & 64459 \\
+			2021-06-01 & 2021-08-31 & 91 & 75077 \\
+			2021-09-01 & 2021-11-30 & 90 & 51429 \\
+			2021-12-01 & 2022-02-23 & 84 & 105180 \\
+			2022-02-24 & 2022-05-31 & 96 & 86629 \\
+			2022-06-01 & 2022-09-05 & 96 & 62853 \\
+			\hline
+		\end{tabular}
+	\caption{Division of our data based on time}
+	\label{tab1}
+	\end{center}
+\end{figure}
 
 \section{Conclusion}
 
