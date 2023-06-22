@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  22 JUN 2023 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  22 JUN 2023 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,13 +792,13 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -952,45 +952,190 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+\flagwidth=\dimen396
+\flaglength=\dimen397
+\flagframe=\dimen398
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen399
+\flaglength=\dimen400
+\flagframe=\dimen401
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen402
+\flaglength=\dimen403
+\flagframe=\dimen404
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen405
+\flaglength=\dimen406
+\flagframe=\dimen407
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen408
+\flaglength=\dimen409
+\flagframe=\dimen410
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen411
+\flaglength=\dimen412
+\flagframe=\dimen413
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen414
+\flaglength=\dimen415
+\flagframe=\dimen416
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen417
+\flaglength=\dimen418
+\flagframe=\dimen419
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BG.tex)
+\flagwidth=\dimen420
+\flaglength=\dimen421
+\flagframe=\dimen422
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen423
+\flaglength=\dimen424
+\flagframe=\dimen425
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_HR.tex)
+\flagwidth=\dimen426
+\flaglength=\dimen427
+\flagframe=\dimen428
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen429
+\flaglength=\dimen430
+\flagframe=\dimen431
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex)
+\flagwidth=\dimen432
+\flaglength=\dimen433
+\flagframe=\dimen434
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex)
+\flagwidth=\dimen435
+\flaglength=\dimen436
+\flagframe=\dimen437
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen438
+\flaglength=\dimen439
+\flagframe=\dimen440
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_AT.tex)
+\flagwidth=\dimen441
+\flaglength=\dimen442
+\flagframe=\dimen443
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen444
+\flaglength=\dimen445
+\flagframe=\dimen446
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen447
+\flaglength=\dimen448
+\flagframe=\dimen449
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen450
+\flaglength=\dimen451
+\flagframe=\dimen452
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_HU.tex)
+\flagwidth=\dimen453
+\flaglength=\dimen454
+\flagframe=\dimen455
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen456
+\flaglength=\dimen457
+\flagframe=\dimen458
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GR.tex)
+\flagwidth=\dimen459
+\flaglength=\dimen460
+\flagframe=\dimen461
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CZ.tex)
+\flagwidth=\dimen462
+\flaglength=\dimen463
+\flagframe=\dimen464
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen465
+\flaglength=\dimen466
+\flagframe=\dimen467
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen468
+\flaglength=\dimen469
+\flagframe=\dimen470
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen471
+\flaglength=\dimen472
+\flagframe=\dimen473
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen474
+\flaglength=\dimen475
+\flagframe=\dimen476
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen477
+\flaglength=\dimen478
+\flagframe=\dimen479
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen480
+\h=\dimen481
+\lwb=\dimen482
+\lws=\dimen483
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
 []|\OT1/ptm/m/n/10 Length
  []
 
 
-Overfull \hbox (1.54726pt too wide) in paragraph at lines 154--155
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 206--207
 []|\OT1/ptm/m/n/10 105180| 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[2] [3
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-(./temalabor1_final_report.aux) ) 
+] (./temalabor1_final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 18709 strings out of 478287
- 401870 string characters out of 5849289
- 1211893 words of memory out of 5000000
- 36474 multiletter control sequences out of 15000+600000
- 501918 words of font info for 87 fonts, out of 8000000 for 9000
+ 18786 strings out of 478287
+ 405859 string characters out of 5849289
+ 1683516 words of memory out of 5000000
+ 36488 multiletter control sequences out of 15000+600000
+ 505018 words of font info for 99 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 99i,13n,103p,1353b,2735s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on temalabor1_final_report.pdf (2 pages, 185771 bytes).
+ 99i,13n,103p,1353b,2733s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on temalabor1_final_report.pdf (3 pages, 303587 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

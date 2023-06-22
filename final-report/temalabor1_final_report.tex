@@ -82,11 +82,13 @@ In this section, we talk about the conclusions we can draw from the data while a
 
 % {'Czechia': 1020, 'Poland': 2531, 'France': 4243, 'Netherlands': 1941, 'Slovakia': 1201, 'Romania': 2497, 'Spain': 3853, 'Croatia': 636, 'Greece': 1092, 'Portugal': 1406, 'Italy': 3550, 'United Kingdom': 268, 'Belgium': 1411, 'Germany': 5539, 'Finland': 859, 'Bulgaria': 1260, 'Ireland': 806, 'Hungary': 1135, 'Sweden': 1613, 'Malta': 614, 'Austria': 1272, 'Slovenia': 760, 'Latvia': 426, 'Cyprus': 502, 'Luxembourg': 623, 'Lithuania': 541, 'Estonia': 423, 'Denmark': 955, '': 175}
 
-We conducted an analysis of how many amendments were produced in each country. The data we acquired can be seen in \ref{amendments_by_country}. 
+We conducted an analysis of how many amendments were produced in each country. The data we acquired can be seen in Figure \ref{amendments_by_country}. Besides the contributions visible in the table, our data also included 175 data points, which did not have an MEP attached. For the remainder of this analysis, we will discard these data points.
+
+We direct the reader's attention to the fact that representatives of the United Kingdom were the least active in this period. This is unsurprising, since these representatives left the European Parliament early, in February 2020.
 
 \begin{figure}[h]
 	\begin{center}
-		\begin{tabular}{| l | c |}
+		\begin{tabular}{| l | r |}
 			\hline
 			Country & Contributions  \\
 			\hline
@@ -124,6 +126,56 @@ We conducted an analysis of how many amendments were produced in each country. T
 		\label{amendments_by_country}
 	\end{center}
 \end{figure}
+
+Of course, this data is heavily influenced by the uneven population distribution within the Union. We can see that the most populous countries are among the most active as well.
+
+In order to account for these differences, we normalized the data for population. For population data, we used the latest population data from \cite{citypopulation}. Or course, there is an inherent inaccuracy in this, because the population fluctuated during the time period we analyzed, but we believe that these errors are negligible.
+
+%{'Czechia': 96.91978472025387, 'Poland': 66.54201672210608, 'France': 65.00773703915328, 'Netherlands': 110.34257247250133, 'Slovakia': 221.22785326827773, 'Romania': 131.04987111504965, 'Spain': 81.28555135295402, 'Croatia': 164.26328304965634, 'Greece': 104.67308783021028, 'Portugal': 135.93648150364697, 'Italy': 60.322119779781104, 'United Kingdom': 4.001194386383995, 'Belgium': 121.80585510645365, 'Germany': 66.54482680107976, 'Finland': 154.38616671189817, 'Bulgaria': 193.25778794375094, 'Ireland': 156.53102392458234, 'Hungary': 116.1391934885103, 'Sweden': 153.30432114793666, 'Malta': 1181.764640216182, 'Austria': 139.68618488257246, 'Slovenia': 360.6716085004603, 'Latvia': 225.01311255990447, 'Cyprus': 546.7813963620521, 'Luxembourg': 965.2973286209883, 'Lithuania': 192.47456471752668, 'Estonia': 317.6095339924795, 'Denmark': 160.97348673966155}
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | r |}
+			\hline
+			Country & Contributions per million people  \\
+			\hline
+			\worldflag{MT} Malta & 1181.76 \\
+			\worldflag{LU} Luxembourg & 965.30 \\
+			\worldflag{CY} Cyprus & 546.78 \\
+			\worldflag{SI} Slovenia & 360.67 \\
+			\worldflag{EE} Estonia & 317.61 \\
+			\worldflag{LV} Latvia & 225.01 \\
+			\worldflag{SK} Slovakia & 221.23 \\
+			\worldflag{BG} Bulgaria & 193.26 \\
+			\worldflag{LT} Lithuania & 192.47 \\
+			\worldflag{HR} Croatia & 164.26 \\
+			\worldflag{DE} Denmark & 160.97 \\
+			\worldflag{IE} Ireland & 156.53 \\
+			\worldflag{FI} Finland & 154.39 \\
+			\worldflag{SE} Sweden & 153.30 \\
+			\worldflag{AT} Austria & 139.69 \\
+			\worldflag{PT} Portugal & 135.94 \\
+			\worldflag{RO} Romania & 131.05 \\
+			\worldflag{BE} Belgium & 121.81 \\
+			\worldflag{HU} Hungary & 116.14 \\
+			\worldflag{NL} Netherlands & 110.34 \\
+			\worldflag{GR} Greece & 104.67 \\
+			\worldflag{CZ} Czechia & 96.92 \\
+			\worldflag{ES} Spain & 81.29 \\
+			\worldflag{DE} Germany & 66.54 \\
+			\worldflag{PL} Poland & 66.54 \\
+			\worldflag{FR} France & 65.01 \\
+			\worldflag{IT} Italy & 60.32 \\
+			\worldflag{GB} United Kingdom & 4.00 \\
+			\hline
+		\end{tabular}
+		\caption{Amendments by country normalized for population}
+		\label{amendments_by_country_per_capita}
+	\end{center}
+\end{figure}
+
+In the normalized data, we see a near-perfect reversal of the previous chart. Having normalized for population, smaller countries seem more productive.
+
+This is also unsurprising, however, in view of the fact that smaller countries get disproportionately more representatives per capita. 
 
 \subsection{Analysis of activity by political group}
 
@@ -177,6 +229,9 @@ Baller, Inger. "Specialists, party members, or national representatives: Pattern
 
 \bibitem{Cherepnalkoski}
 Cherepnalkoski, Darko, and Igor Mozetič. "Retweet networks of the European Parliament: Evaluation of the community structure." Applied network science 1 (2016): 1-20.
+
+\bibitem{citypopulation}
+\url{https://www.citypopulation.de/}
 
 \bibitem{Desmarais}
 Desmarais, Bruce A., et al. "Measuring legislative collaboration: The Senate press events network." Social Networks 40 (2015): 43-54.
