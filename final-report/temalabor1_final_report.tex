@@ -53,7 +53,7 @@ Social networks, European Parliament.
 The European Parliament (EP for short) is a legislative institution of the European Union, in which representatives from each of the 28 (27 after Brexit) member states vote on legistation concerning the European Union. The Parliament consists of \textit{Members of the European Parliament} (MEPs), each of whom have a well-defined country of origin and political party. The political parties of each MEP are specific to their country of origin, but parties holding similar views organize themselves into \textit{political groups}, which act as super-parties in the context of the European Parliament.
 
 % ['EPP', 'ECR', 'ID', 'Greens/EFA', 'RE', 'S&D', 'NI', 'GUE/NGL', '']
-The major political groups in the EP are the European People's Party (EPP, centre-right), the Progressive Alliance of Socialists and Democrats (S\& D, left), Renew Europe (RE, liberal), the Greens–European Free Alliance (Greens/EFA, green), European Conservatives and Reformists (ECR, right), Identity and Democracy (ID, far-right) and The Left in the European Parliament (GUE/NGL, left). Representatives who do not belong to any of these groups are usually called Non-iscrits (French for `not registered'), often abbreviated as NI.
+The major political groups in the EP are the European People's Party (EPP, centre-right), the Progressive Alliance of Socialists and Democrats (S\&D, left), Renew Europe (RE, liberal), the Greens–European Free Alliance (Greens/EFA, green), European Conservatives and Reformists (ECR, right), Identity and Democracy (ID, far-right) and The Left in the European Parliament (GUE/NGL, left). Representatives who do not belong to any of these groups are usually called Non-iscrits (French for `not registered'), often abbreviated as NI.
 
 Our aim is to analyze the social networks of the European Parliament, and the temporal changes incited by major global events, such as the global COVID-19 pandemic, and the Russo-Ukrainian war.
 
@@ -78,7 +78,7 @@ To analyze the social structure, we \textit{projected} this bipartite graph onto
 
 In this section, we talk about the conclusions we can draw from the data while analyzing it in its entirety. This phase of our analysis allowed us to get a sense of what the data looks like from a bird's eye view.
 
-\subsection{Analysis of activity by country}
+\subsection{Analysis of activity by country} \label{countryactivity}
 
 % {'Czechia': 1020, 'Poland': 2531, 'France': 4243, 'Netherlands': 1941, 'Slovakia': 1201, 'Romania': 2497, 'Spain': 3853, 'Croatia': 636, 'Greece': 1092, 'Portugal': 1406, 'Italy': 3550, 'United Kingdom': 268, 'Belgium': 1411, 'Germany': 5539, 'Finland': 859, 'Bulgaria': 1260, 'Ireland': 806, 'Hungary': 1135, 'Sweden': 1613, 'Malta': 614, 'Austria': 1272, 'Slovenia': 760, 'Latvia': 426, 'Cyprus': 502, 'Luxembourg': 623, 'Lithuania': 541, 'Estonia': 423, 'Denmark': 955, '': 175}
 
@@ -129,7 +129,7 @@ We direct the reader's attention to the fact that representatives of the United 
 
 Of course, this data is heavily influenced by the uneven population distribution within the Union. We can see that the most populous countries are among the most active as well.
 
-In order to account for these differences, we normalized the data for population. For population data, we used the latest population data from \cite{citypopulation}. Or course, there is an inherent inaccuracy in this, because the population fluctuated during the time period we analyzed, but we believe that these errors are negligible.
+In order to account for these differences, we normalized the data for population. For population data, we used the latest population data from \cite{citypopulation}. Or course, there is an inherent inaccuracy in this, because the population of each country fluctuated during the time period we analyzed, but we believe that these errors are negligible.
 
 %{'Czechia': 96.91978472025387, 'Poland': 66.54201672210608, 'France': 65.00773703915328, 'Netherlands': 110.34257247250133, 'Slovakia': 221.22785326827773, 'Romania': 131.04987111504965, 'Spain': 81.28555135295402, 'Croatia': 164.26328304965634, 'Greece': 104.67308783021028, 'Portugal': 135.93648150364697, 'Italy': 60.322119779781104, 'United Kingdom': 4.001194386383995, 'Belgium': 121.80585510645365, 'Germany': 66.54482680107976, 'Finland': 154.38616671189817, 'Bulgaria': 193.25778794375094, 'Ireland': 156.53102392458234, 'Hungary': 116.1391934885103, 'Sweden': 153.30432114793666, 'Malta': 1181.764640216182, 'Austria': 139.68618488257246, 'Slovenia': 360.6716085004603, 'Latvia': 225.01311255990447, 'Cyprus': 546.7813963620521, 'Luxembourg': 965.2973286209883, 'Lithuania': 192.47456471752668, 'Estonia': 317.6095339924795, 'Denmark': 160.97348673966155}
 \begin{figure}[h]
@@ -173,13 +173,96 @@ In order to account for these differences, we normalized the data for population
 	\end{center}
 \end{figure}
 
+
+
 In the normalized data, we see a near-perfect reversal of the previous chart. Having normalized for population, smaller countries seem more productive.
 
-This is also unsurprising, however, in view of the fact that smaller countries get disproportionately more representatives per capita.
+This is also unsurprising, however, in view of the fact that smaller countries get disproportionately more representatives per capita. While each member state of the Union gets a certain number of representatives based on its population, the process through which representatives are chosen is not that clear cut. A set of rules are in place to ensure that smaller countries get fairer representation, letting smaller countries have more MEPs for each unit of population. Because of this, Figure \ref{amendments_by_country_per_capita} is skewed towards smaller states.
 
 %TODO:  MAKE ANOTHER CHART THAT IS NORMALIZED FOR NUMBER OF REPRESENTATIVES
 
+%{'Czechia': 48.57142857142857, 'Poland': 49.627450980392155, 'France': 57.33783783783784, 'Netherlands': 74.65384615384616, 'Slovakia': 92.38461538461539, 'Romania': 78.03125, 'Spain': 66.43103448275862, 'Croatia': 57.81818181818182, 'Greece': 52.0, 'Portugal': 66.95238095238095, 'Italy': 48.63013698630137, 'United Kingdom': 3.671232876712329, 'Belgium': 67.19047619047619, 'Germany': 57.697916666666664, 'Finland': 66.07692307692308, 'Bulgaria': 74.11764705882354, 'Ireland': 73.27272727272727, 'Hungary': 54.04761904761905, 'Sweden': 80.65, 'Malta': 102.33333333333333, 'Austria': 70.66666666666667, 'Slovenia': 95.0, 'Latvia': 53.25, 'Cyprus': 83.66666666666667, 'Luxembourg': 103.83333333333333, 'Lithuania': 49.18181818181818, 'Estonia': 70.5, 'Denmark': 73.46153846153847}
+
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | l | r |}
+			\hline
+			Country & \# MEPs & Contributions per MEP  \\
+			\hline
+			\worldflag{LU} Luxembourg & 6 & 103.83 \\
+			\worldflag{MT} Malta & 6 & 102.33 \\
+			\worldflag{SI} Slovenia & 8 & 95.00 \\
+			\worldflag{SK} Slovakia & 13 & 92.38 \\
+			\worldflag{CY} Cyprus & 6 & 83.67 \\
+			\worldflag{SE} Sweden & 20 & 80.65 \\
+			\worldflag{RO} Romania & 32 & 78.03 \\
+			\worldflag{NL} Netherlands & 26 & 74.65 \\
+			\worldflag{BG} Bulgaria & 17 & 74.12 \\
+			\worldflag{DE} Denmark & 13 & 73.46 \\
+			\worldflag{IE} Ireland & 11 & 73.27 \\
+			\worldflag{AT} Austria & 18 & 70.67 \\
+			\worldflag{EE} Estonia & 6 & 70.50 \\
+			\worldflag{BE} Belgium & 21 & 67.19 \\
+			\worldflag{PT} Portugal & 21 & 66.95 \\
+			\worldflag{ES} Spain & 58 & 66.43 \\
+			\worldflag{FI} Finland & 13 & 66.08 \\
+			\worldflag{HR} Croatia & 11 & 57.82 \\
+			\worldflag{DE} Germany & 96 & 57.70 \\
+			\worldflag{FR} France & 74 & 57.34 \\
+			\worldflag{HU} Hungary & 21 & 54.05 \\
+			\worldflag{LV} Latvia & 8 & 53.25 \\
+			\worldflag{GR} Greece & 21 & 52.00 \\
+			\worldflag{PL} Poland & 51 & 49.63 \\
+			\worldflag{LT} Lithuania & 11 & 49.18 \\
+			\worldflag{IT} Italy & 73 & 48.63 \\
+			\worldflag{CZ} Czechia & 21 & 48.57 \\
+			\worldflag{GB} United Kingdom & 73 & 3.67 \\
+			\hline
+		\end{tabular}
+		\caption{Amendments by country normalized for number of MEPs (pre-Brexit)}
+		\label{amendments_by_country_per_MEP}
+	\end{center}
+\end{figure}
+
+To account for this, we have created another normalized chart, which normalizes the data for the number of representatives each country has. On Figure \ref{amendments_by_country_per_MEP} we can see this data compiled into a table.
+
+This data still skews heavily towards smaller countries having more active representatives, and larger countries having lazier ones.
+
 \subsection{Analysis of activity by political group}
+
+Let us now turn to analyzing the political groups of the European Parliament. The political groups are overarching organizations that parties from any country can join, allowing them to have a unified voice in the European Parliament. In this subsection, we will take a look at how active each political group is. We investigate how many contributions were made by each political group, in total and by number of representatives per political group.
+
+\subsection{The MEPs with the highest degree}
+
+As we have turned our data into a graph of the social structure of the European Parliament, with nodes for each MEP, it makes sense to find out which MEPs have the highest degree in this graph. In other words, we want to find out which MEP co-sponsored the most bills.
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | l | r |}
+			\hline
+			Name & Pol. group & Degree  \\
+			\hline
+			\worldflag{BE} Olivier Chastel & RE & 5155 \\
+			\worldflag{ES} Lina Gálvez Muñoz & S\&D & 4483 \\
+			\worldflag{LU} Marc Angel & S\&D & 4350 \\
+			\worldflag{PT} Maria-Manuel Leitão-Marques & S\&D & 4245 \\
+			\worldflag{RO} Maria Grapini & S\&D & 4200 \\
+			\worldflag{RO} Nicolae Ștefănuță & RE & 3914 \\
+			\worldflag{SI} Milan Brglez & S\&D & 3650 \\
+			\worldflag{RO} Ramona Strugariu & RE & 3544 \\
+			\worldflag{PT} Manuel Pizarro & S\&D & 3533 \\
+			\worldflag{RO} Dragoș Pîslaru & RE & 3491 \\
+			\hline
+		\end{tabular}
+		\caption{Top 10 MEPs by degree in the social network}
+		\label{top10_meps_degree}
+	\end{center}
+\end{figure}
+
+On Figure \ref{top10_meps_degree} we can see the top 10 MEPs by degree in this social network graph. We can observe that only members of S\&D and RE can be found in the top ten. Seemingly, only the members of these two liberal, left-wing political groups go above and beyond in terms of productivity in the European Parliament.
+
+Notably, four of the ten most active MEPs are from Romania. Romania and Portugal seem overrepresented among the most productive MEPs, along with other mid-sized and smaller countries. It is to be noted that in the top ten, none of the top three most populous countries, Germany, France and Italy, despite the large number of representatives they send to the European Union. We can compare this to the data in subsection \ref{countryactivity}, where we can see that in general, MEPs from more populous countries contribute less to the European Parliament.
 
 \section{Changes to the social network over time}
 

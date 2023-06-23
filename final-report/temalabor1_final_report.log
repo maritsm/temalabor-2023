@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  22 JUN 2023 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  23 JUN 2023 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,39 +1103,237 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\flagwidth=\dimen484
+\flaglength=\dimen485
+\flagframe=\dimen486
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen487
+\flaglength=\dimen488
+\flagframe=\dimen489
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen490
+\flaglength=\dimen491
+\flagframe=\dimen492
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen493
+\flaglength=\dimen494
+\flagframe=\dimen495
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen496
+\flaglength=\dimen497
+\flagframe=\dimen498
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen499
+\flaglength=\dimen500
+\flagframe=\dimen501
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen502
+\flaglength=\dimen503
+\flagframe=\dimen504
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen505
+\flaglength=\dimen506
+\flagframe=\dimen507
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen508
+\flaglength=\dimen509
+\flagframe=\dimen510
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BG.tex)
+\flagwidth=\dimen511
+\flaglength=\dimen512
+\flagframe=\dimen513
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen514
+\flaglength=\dimen515
+\flagframe=\dimen516
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex)
+\flagwidth=\dimen517
+\flaglength=\dimen518
+\flagframe=\dimen519
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_AT.tex)
+\flagwidth=\dimen520
+\flaglength=\dimen521
+\flagframe=\dimen522
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen523
+\flaglength=\dimen524
+\flagframe=\dimen525
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen526
+\flaglength=\dimen527
+\flagframe=\dimen528
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen529
+\flaglength=\dimen530
+\flagframe=\dimen531
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen532
+\flaglength=\dimen533
+\flagframe=\dimen534
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex)
+\flagwidth=\dimen535
+\flaglength=\dimen536
+\flagframe=\dimen537
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_HR.tex)
+\flagwidth=\dimen538
+\flaglength=\dimen539
+\flagframe=\dimen540
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen541
+\flaglength=\dimen542
+\flagframe=\dimen543
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen544
+\flaglength=\dimen545
+\flagframe=\dimen546
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_HU.tex)
+\flagwidth=\dimen547
+\flaglength=\dimen548
+\flagframe=\dimen549
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen550
+\flaglength=\dimen551
+\flagframe=\dimen552
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GR.tex)
+\flagwidth=\dimen553
+\flaglength=\dimen554
+\flagframe=\dimen555
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen556
+\flaglength=\dimen557
+\flagframe=\dimen558
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen559
+\flaglength=\dimen560
+\flagframe=\dimen561
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen562
+\flaglength=\dimen563
+\flagframe=\dimen564
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CZ.tex)
+\flagwidth=\dimen565
+\flaglength=\dimen566
+\flagframe=\dimen567
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen568
+\h=\dimen569
+\lwb=\dimen570
+\lws=\dimen571
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\flagwidth=\dimen572
+\flaglength=\dimen573
+\flagframe=\dimen574
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen575
+\flaglength=\dimen576
+\flagframe=\dimen577
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen578
+\flaglength=\dimen579
+\flagframe=\dimen580
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen581
+\flaglength=\dimen582
+\flagframe=\dimen583
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen584
+\flaglength=\dimen585
+\flagframe=\dimen586
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen587
+\flaglength=\dimen588
+\flagframe=\dimen589
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen590
+\flaglength=\dimen591
+\flagframe=\dimen592
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen593
+\flaglength=\dimen594
+\flagframe=\dimen595
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen596
+\flaglength=\dimen597
+\flagframe=\dimen598
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen599
+\flaglength=\dimen600
+\flagframe=\dimen601
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []|\OT1/ptm/m/n/10 Length
  []
 
 
-Overfull \hbox (1.54726pt too wide) in paragraph at lines 208--209
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 291--292
 []|\OT1/ptm/m/n/10 105180| 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3
+[3] [4
 
 ] (./temalabor1_final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 18786 strings out of 478287
- 405859 string characters out of 5849289
- 1683516 words of memory out of 5000000
- 36488 multiletter control sequences out of 15000+600000
- 505018 words of font info for 99 fonts, out of 8000000 for 9000
+ 18868 strings out of 478287
+ 411051 string characters out of 5849289
+ 2273912 words of memory out of 5000000
+ 36493 multiletter control sequences out of 15000+600000
+ 506096 words of font info for 100 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 99i,13n,103p,1353b,2733s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,14n,103p,1353b,2733s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on temalabor1_final_report.pdf (3 pages, 303587 bytes).
+Output written on temalabor1_final_report.pdf (4 pages, 453452 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
