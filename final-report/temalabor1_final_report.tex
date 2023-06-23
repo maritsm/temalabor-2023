@@ -61,7 +61,9 @@ Some analysis of social networks in the European Union has already been done in 
 
 %We then talk about how the paper itself is organized, and very lengthily talk about whan kinds of stuff is contained in each section. This is of course for the reader's convenience, and definitely not an attempt to make this paper longer than it should be.
 
-\section{Our data}
+The present paper is organized as follows. In Section \ref{sec:data}, we discuss our dataset, and how we prepared our data for analysis. We also briefly mention the limitations of the dataset. In Section \ref{sec:prelim_anal}, we analyze the dataset in its entirety, without regard for the changes over time. We do this to familiarize the reader with the dataset, and to thus allow a deeper understanding of the European Parliament, before conducting the main part of our analysis, in Section \ref{sec:overtime_anal}. In Section \ref{sec:overtime_anal}, we dissect our dataset into a series of discrete time intervals, and we will analyze the evolution of the dataset over time. We will take special measures to make sure that the effects of certain major events are pronounced in our analysis. We do this by partitioning our data into meaningful intervals, and conducting our analysis by analyzing how the social network changed between these intervals. Finally, in Section \ref{sec:conclusion} we conclude our analysis by giving a few final remarks, and discussing future research.
+
+\section{Our data} \label{sec:data}
 
 Our dataset was acquired directly from the European Parliament's website. It is organized as a \texttt{csv} file which contains entries for each proposed amendment to a law, with information about when the amendment was proposed, some details about the amendment, and more importantly, information about who proposed the amendment, what party they belong to, which EP group said party belongs to, and which country are they are representative of.
 
@@ -74,7 +76,7 @@ To analyze the social structure, we \textit{projected} this bipartite graph onto
 
 %% In the future, we're also planning to work with \textit{weighted projections}, which will allow for a more granular analysis of the social network.
 
-\section{Preliminary analysis}
+\section{Preliminary analysis} \label{sec:prelim_anal}
 
 In this section, we talk about the conclusions we can draw from the data while analyzing it in its entirety. This phase of our analysis allowed us to get a sense of what the data looks like from a bird's eye view.
 
@@ -229,9 +231,62 @@ To account for this, we have created another normalized chart, which normalizes 
 
 This data still skews heavily towards smaller countries having more active representatives, and larger countries having lazier ones.
 
-\subsection{Analysis of activity by political group}
+\subsection{Analysis of activity by political group} \label{epgroupactivity}
 
 Let us now turn to analyzing the political groups of the European Parliament. The political groups are overarching organizations that parties from any country can join, allowing them to have a unified voice in the European Parliament. In this subsection, we will take a look at how active each political group is. We investigate how many contributions were made by each political group, in total and by number of representatives per political group.
+
+% {'EPP': 13384, 'ECR': 2118, 'ID': 2090, 'Greens/EFA': 2288, 'RE': 8995, 'S&D': 11672, 'NI': 614, 'GUE/NGL': 1816}
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | r |}
+			\hline
+			EP Group & Contributions\\
+			\hline
+			EPP & 13384 \\
+			S\&D & 11672 \\
+			RE & 8995 \\
+			Greens/EFA & 2288 \\
+			ECR & 2118 \\
+			ID & 2090 \\
+			GUE/NGL & 1816 \\
+			NI & 614 \\
+			\hline
+		\end{tabular}
+		\caption{Contributions to the European Parliament by political group}
+		\label{epgroup_contributions}
+	\end{center}
+\end{figure}
+
+% {'EPP': 73.53846153846153, 'ECR': 34.16129032258065, 'ID': 28.63013698630137, 'Greens/EFA': 30.91891891891892, 'RE': 83.28703703703704, 'S&D': 75.79220779220779, 'NI': 11.37037037037037, 'GUE/NGL': 44.292682926829265}
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | r | r |}
+			\hline
+			EP Group & \#MEPs & Contribs/MEP\\
+			\hline
+			RE & 108 & 83.29 \\
+			S\&D & 154 & 75.79 \\
+			EPP & 182 & 73.54 \\
+			GUE/NGL & 41 & 44.29 \\
+			ECR & 62 & 34.16 \\
+			Greens/EFA & 74 & 30.92 \\
+			ID & 73 & 28.63 \\
+			NI & 54 & 11.37 \\
+			\hline
+		\end{tabular}
+		\caption{Contributions to the European Parliament by political group, normalized by number of MEPs}
+		\label{epgroup_contributions_per_mep}
+	\end{center}
+\end{figure}
+
+On Figures \ref{epgroup_contributions} and \ref{epgroup_contributions_per_mep} we tabulated our data on each political group. On Figure \ref{epgroup_contributions}, we see the number of contributions each EP group made to the proceedings of the European Parliament, while on Figure \ref{epgroup_contributions_per_mep}, we see this data normalized based on the number of MEPs belonging to each EP group.
+
+What we can see from the normalized data is that in terms of contributions, the left-wing and liberal parties RE and S\&D do the most in the European Parliament, and similarly, among the smaller parties, we see left-wing GUE/NGL punching above its weight.
+
+At the same time, we see the far-right party ID not contributing nearly as much to amendments in the European Parliament. We believe that this has to do with ID's continued euroskeptic ideology. The other EP group that is trailing the chart, the NI, also includes many euroskeptics. A significant portion of right-wing nationalist parties are contained in this group.
+
+As such, we may conclude that according to our data, left-wing political groups do more work in the European Parliament.
 
 \subsection{The MEPs with the highest degree}
 
@@ -260,11 +315,11 @@ As we have turned our data into a graph of the social structure of the European 
 	\end{center}
 \end{figure}
 
-On Figure \ref{top10_meps_degree} we can see the top 10 MEPs by degree in this social network graph. We can observe that only members of S\&D and RE can be found in the top ten. Seemingly, only the members of these two liberal, left-wing political groups go above and beyond in terms of productivity in the European Parliament.
+On Figure \ref{top10_meps_degree} we can see the top 10 MEPs by degree in this social network graph. We can observe that only members of S\&D and RE can be found in the top ten. Seemingly, only the members of these two liberal, left-wing political groups go above and beyond in terms of productivity in the European Parliament. This is consistent with the findings of Subsection \ref{epgroupactivity}, where we concluded that on average, left-wing parties contribute to more amendments. This additional data suggest that not only do they contribute more on average, they also house the most productive members of the European Parliament.
 
-Notably, four of the ten most active MEPs are from Romania. Romania and Portugal seem overrepresented among the most productive MEPs, along with other mid-sized and smaller countries. It is to be noted that in the top ten, none of the top three most populous countries, Germany, France and Italy, despite the large number of representatives they send to the European Union. We can compare this to the data in subsection \ref{countryactivity}, where we can see that in general, MEPs from more populous countries contribute less to the European Parliament.
+Notably, four of the ten most active MEPs are from Romania. Romania and Portugal seem overrepresented among the most productive MEPs, along with other mid-sized and smaller countries. It is to be noted that in the top ten, none of the top three most populous countries, Germany, France and Italy, appear; despite the large number of representatives they send to the European Union. We can compare this to the data in Subsection \ref{countryactivity}, where we can see that in general, MEPs from more populous countries contribute less to the European Parliament.
 
-\section{Changes to the social network over time}
+\section{Changes to the social network over time} \label{sec:overtime_anal}
 
 In this section, we talk about how we divided the data based on time.
 
@@ -298,7 +353,7 @@ Our dataset contained data from July 24th, 2019 to September 5th, 2022, and we d
 	\end{center}
 \end{figure}
 
-\section{Conclusion}
+\section{Conclusion} \label{sec:conclusion}
 
 In conclusion, we can say that the social networks of the European Parliament are an ever-changing structure. Some changes to it happen seemingly spontaneously, while some of them happen as a result of important events. The events that can have a noticeable effect on this social structure can be internal (such as Fidesz leaving the EPP group), or external, such as COVID-19, or the Russo-Ukrainian war.
 
