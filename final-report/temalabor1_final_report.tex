@@ -23,11 +23,12 @@
 
 \author{{BERNÁT Ádám, MARITS Márton}
         % <-this % stops a space
-\thanks{This paper was produced by deez nuts. They are in your mom.}% <-this % stops a space
-\thanks{Manuscript received June 20, 2023; published two seconds later.}}
+%\thanks{This paper was produced by us.}% <-this % stops a space
+%\thanks{Manuscript received June 20, 2023; published two seconds later.}
+}
 
 % The paper headers
-\markboth{Journal of Literally Who Cares,~Vol.~1, No.~1, June~2023}%
+\markboth{Journal of BME Témalabor,~Vol.~1, No.~1, June~2023}%
 {Shell \MakeLowercase{\textit{et al.}}: A Sample Article Using IEEEtran.cls for IEEE Journals}
 
 %\IEEEpubid{0000--0000/00\$00.00~\copyright~2021 IEEE}
@@ -72,7 +73,11 @@ This data can therefore be viewed as a bipartite graph, in which one part consis
 
 In total, our dataset contains 750,578 entries, which is the total number of edges in this bipartite graph. The dataset has data on a grand total of 754 MEPs. %% lehetne ebből valami breakdown, hogy hány MEP van országonként, pártonként, pártcsoportonként stb.
 
-To analyze the social structure, we \textit{projected} this bipartite graph onto the set of MEPs. This procedure creates a new graph, wherein the nodes represent MEPs, and each edge connects two MEPs which have two contributions in common. (I.e. they \textit{co-sponsored} a bill.)
+To analyze the social structure, we \textit{projected} this bipartite graph onto the set of MEPs. This procedure creates a new graph, wherein the nodes represent MEPs, and each edge connects two MEPs which have a contribution in common. (I.e. they \textit{co-sponsored} a bill.)
+
+With this projection, a new, not necessarily bipartite graph was created, which represents the state of the social network of the European Parliament. Notably, the number of contributions in common are not considered. An edge between two MEPs in this graph might represent a single amendment they co-sponsored, or it might represent a long-lasting relationship of co-sponsorship. The projection unfortunately obscures the details of the strength of the co-sponsorship based connection.
+
+To account for this, we also worked with a different type of projection, a \textit{weighted projection}. This modification of the projection algorithm serves to solve the problem outlined above. With a weighted projection, as previously, we create a new graph, whose nodes represent the MEPs, and connect to MEPs if they have co-sponsored a bill together. However, we also account for the number of co-contributions, which become the weight of each edge.
 
 %% In the future, we're also planning to work with \textit{weighted projections}, which will allow for a more granular analysis of the social network.
 
@@ -310,7 +315,7 @@ As we have turned our data into a graph of the social structure of the European 
 			\worldflag{RO} Dragoș Pîslaru & RE & 3491 \\
 			\hline
 		\end{tabular}
-		\caption{Top 10 MEPs by degree in the social network}
+		\caption{Top 10 MEPs by degree in the MEP to amendment bipartite graph}
 		\label{top10_meps_degree}
 	\end{center}
 \end{figure}
@@ -318,6 +323,37 @@ As we have turned our data into a graph of the social structure of the European 
 On Figure \ref{top10_meps_degree} we can see the top 10 MEPs by degree in this social network graph. We can observe that only members of S\&D and RE can be found in the top ten. Seemingly, only the members of these two liberal, left-wing political groups go above and beyond in terms of productivity in the European Parliament. This is consistent with the findings of Subsection \ref{epgroupactivity}, where we concluded that on average, left-wing parties contribute to more amendments. This additional data suggest that not only do they contribute more on average, they also house the most productive members of the European Parliament.
 
 Notably, four of the ten most active MEPs are from Romania. Romania and Portugal seem overrepresented among the most productive MEPs, along with other mid-sized and smaller countries. It is to be noted that in the top ten, none of the top three most populous countries, Germany, France and Italy, appear; despite the large number of representatives they send to the European Union. We can compare this to the data in Subsection \ref{countryactivity}, where we can see that in general, MEPs from more populous countries contribute less to the European Parliament.
+
+\subsection{Degree centrality in the social network}
+
+We have thus found the MEPs with the highest degree in the original, bipartite graph. Let us now find the MEPs with the highest degree in the projected social network graph. The difference from the previous subsection is that we are only considering how many co-sponsorship partners a certain MEP has, disregarding the amount of bill they co-sponsored.
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | l | r |}
+			\hline
+			Name & Pol. group & Degree  \\
+			\hline
+			\worldflag{BE} Hilde Vautmans & RE & 183 \\
+			\worldflag{DK} Karen Melchior & RE & 173 \\
+			\worldflag{LU} Marc Angel & S\&D & 169 \\
+			\worldflag{BE} Olivier Chastel & RE & 167 \\
+			\worldflag{PL} Łukasz Kohut & S\&D & 166 \\
+			\worldflag{SK} Michal Šimečka & RE & 160 \\
+			\worldflag{SK} Michal Wiezik & EPP & 152 \\
+			\worldflag{RO} Ramona Strugariu & RE & 151 \\
+			\worldflag{LT} Petras Auštrevičius & RE & 151 \\
+			\worldflag{IE} Maria Walsh & EPP & 146 \\
+			\hline
+		\end{tabular}
+		\caption{Top 10 MEPs by degree in the social network}
+		\label{top10_meps_degreecentrality}
+	\end{center}
+\end{figure}
+
+On Figure \ref{top10_meps_degreecentrality}, we can see the top 10 MEPs by degree centrality, i.e. by highest degree in the social network. We can see that some MEPs from the previous table also made the top 10 in this different measure, although there are also new faces.
+
+We still see the dominance to the EP groups RE and S\&D, although in this chart, a lone member of EPP can also be found. Once again, we mostly see people from minor and mid-sized countries. The largest countries, such Italy, France and Germany have not produced any well-connected MEPs by this measure either. We see countries like Belgium, Romania and Slovakia overrepresented.
 
 \section{Changes to the social network over time} \label{sec:overtime_anal}
 
@@ -425,7 +461,7 @@ Among political groups, we found that the general result of Section \ref{sec:pre
 	\end{center}
 \end{figure}
 
-\subsection{Contributions over time}
+%\subsection{Contributions over time}
 
 %???
 
