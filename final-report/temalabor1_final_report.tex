@@ -37,11 +37,11 @@
 \maketitle
 
 \begin{abstract}
-We did a couple things to some graphs which contained data about social networks in the European Parliament.
+We analyze a dataset of amendment co-sponsorship in the European Parliament. From this dataset, we construct a graph representing the co-sponsorship social network of the European Parliament, and we analyze its changes over time, paying special attention to the effects of major events, such as Brexit, COVID-19 and the Russo-Ukrainian war. We also analyze the breakdown of the social network by country and by political group.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Social networks, European Parliament.
+Social networks, political groups, European Parliament, graph projections.
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -61,7 +61,7 @@ Some analysis of social networks in the European Union has already been done in 
 
 %We then talk about how the paper itself is organized, and very lengthily talk about whan kinds of stuff is contained in each section. This is of course for the reader's convenience, and definitely not an attempt to make this paper longer than it should be.
 
-The present paper is organized as follows. In Section \ref{sec:data}, we discuss our dataset, and how we prepared our data for analysis. We also briefly mention the limitations of the dataset. In Section \ref{sec:prelim_anal}, we analyze the dataset in its entirety, without regard for the changes over time. We do this to familiarize the reader with the dataset, and to thus allow a deeper understanding of the European Parliament, before conducting the main part of our analysis, in Section \ref{sec:overtime_anal}. In Section \ref{sec:overtime_anal}, we dissect our dataset into a series of discrete time intervals, and we will analyze the evolution of the dataset over time. We will take special measures to make sure that the effects of certain major events are pronounced in our analysis. We do this by partitioning our data into meaningful intervals, and conducting our analysis by analyzing how the social network changed between these intervals. Finally, in Section \ref{sec:conclusion} we conclude our analysis by giving a few final remarks, and discussing future research.
+The present paper is organized as follows. In Section \ref{sec:data}, we discuss our dataset, and how we prepared our data for analysis. We also briefly mention the limitations of the dataset. In Section \ref{sec:prelim_anal}, we analyze the dataset in its entirety, without regard for the changes over time. We do this to familiarize the reader with the dataset, and to thus allow a deeper understanding of the European Parliament, before conducting the main part of our analysis, in Section \ref{sec:overtime_anal}. In Section \ref{sec:overtime_anal}, we dissect our dataset into a series of discrete time intervals, and we will analyze the evolution of the dataset over time. We will take special measures to make sure that the effects of certain major events are pronounced in our analysis. We do this by partitioning our data into meaningful intervals, and conducting our analysis by analyzing how the social network changed between these intervals. Finally, in Section \ref{sec:conclusion} we conclude our analysis by giving a few final remarks, and in Section \ref{sec:futureresearch}, we discuss future research plans, and other possible research topics related to this one.
 
 \section{Our data} \label{sec:data}
 
@@ -110,7 +110,7 @@ We direct the reader's attention to the fact that representatives of the United 
 			\worldflag{HU} Hungary & 1135 \\
 			\worldflag{GR} Greece & 1092 \\
 			\worldflag{CZ} Czechia & 1020 \\
-			\worldflag{DE} Denmark & 955 \\
+			\worldflag{DK} Denmark & 955 \\
 			\worldflag{FI} Finland & 859 \\
 			\worldflag{IE} Ireland & 806 \\
 			\worldflag{SI} Slovenia & 760 \\
@@ -150,7 +150,7 @@ In order to account for these differences, we normalized the data for population
 			\worldflag{BG} Bulgaria & 193.26 \\
 			\worldflag{LT} Lithuania & 192.47 \\
 			\worldflag{HR} Croatia & 164.26 \\
-			\worldflag{DE} Denmark & 160.97 \\
+			\worldflag{DK} Denmark & 160.97 \\
 			\worldflag{IE} Ireland & 156.53 \\
 			\worldflag{FI} Finland & 154.39 \\
 			\worldflag{SE} Sweden & 153.30 \\
@@ -201,7 +201,7 @@ This is also unsurprising, however, in view of the fact that smaller countries g
 			\worldflag{RO} Romania & 32 & 78.03 \\
 			\worldflag{NL} Netherlands & 26 & 74.65 \\
 			\worldflag{BG} Bulgaria & 17 & 74.12 \\
-			\worldflag{DE} Denmark & 13 & 73.46 \\
+			\worldflag{DK} Denmark & 13 & 73.46 \\
 			\worldflag{IE} Ireland & 11 & 73.27 \\
 			\worldflag{AT} Austria & 18 & 70.67 \\
 			\worldflag{EE} Estonia & 6 & 70.50 \\
@@ -229,7 +229,7 @@ This is also unsurprising, however, in view of the fact that smaller countries g
 
 To account for this, we have created another normalized chart, which normalizes the data for the number of representatives each country has. On Figure \ref{amendments_by_country_per_MEP} we can see this data compiled into a table.
 
-This data still skews heavily towards smaller countries having more active representatives, and larger countries having lazier ones.
+This data still skews heavily towards smaller countries having more active representatives, and larger countries having lazier ones. Notably, the top two countries on this table, Luxembourg and Malta, are also the two least populous.
 
 \subsection{Analysis of activity by political group} \label{epgroupactivity}
 
@@ -353,9 +353,92 @@ Our dataset contained data from July 24th, 2019 to September 5th, 2022, and we d
 	\end{center}
 \end{figure}
 
+\subsection{Consistent contributors}
+
+A natural question that might arise when researching this topic, is how many MEPs even managed to work throughout the entire 3-year period covered by our data. That is, how many MEPs contributed to at least \textit{some} amendments across every interval. We found that 195 MEPs of the 705 contributed to an amendment at least once in every time period. This constitutes 27.7\% of MEPs.
+
+We then broke this data down by country and by political group. We found that all 27 member states (except for the UK) and all 8 political groups were present in the breakdown, although not evenly. Among countries, we found Italy to have the most MEPs that contributed in every interval, 27, while Germany, despite being the country with the most representatives in the European Parliament by far, only had 16 such contributors. The full data can be found in Figure \ref{consistent_contributors_by_country}.
+
+Among political groups, we found that the general result of Section \ref{sec:prelim_anal}, that is, left-wing parties contributing more, still appears to be true. We found that the two parties with the highest number of consistent contributors were RE with 55, and S\&D with 42, both overtaking the largest political group, EPP, which only had 34 consistently productive MEPs. The full data broken down by political group can be found in Figure \ref{epgroup_consistent_contributors}.
+
+%{'Spain': 20, 'Romania': 10, 'Belgium': 6, 'Italy': 29, 'Malta': 3, 'Germany': 16, 'Slovakia': 7, 'Ireland': 4, 'Slovenia': 3, 'Poland': 8, 'France': 25, 'Croatia': 1, 'Czechia': 8, 'Finland': 3, 'Netherlands': 11, 'Luxembourg': 3, 'Lithuania': 4, 'Austria': 3, 'Sweden': 7, 'Bulgaria': 5, 'Greece': 7, 'Portugal': 5, 'Hungary': 2, 'Estonia': 2, 'Latvia': 1, 'Denmark': 1, 'Cyprus': 1}
+% egyenlőségnél angol név szerinti NÉVSOR SZERINT rendezem
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | r |}
+			\hline
+			Country & Consistent MEPs  \\
+			\hline
+			\worldflag{IT} Italy & 29 \\
+			\worldflag{FR} France & 25 \\
+			\worldflag{ES} Spain & 20 \\
+			\worldflag{DE} Germany & 16 \\
+			\worldflag{NL} Netherlands & 11 \\
+			\worldflag{RO} Romania & 10 \\
+			\worldflag{CZ} Czechia & 8 \\
+			\worldflag{PL} Poland & 8 \\
+			\worldflag{GR} Greece & 7 \\
+			\worldflag{SK} Slovakia & 7 \\
+			\worldflag{SE} Sweden & 7 \\
+			\worldflag{BE} Belgium & 6 \\
+			\worldflag{BG} Bulgaria & 5 \\
+			\worldflag{PT} Portugal & 5 \\
+			\worldflag{IE} Ireland & 4 \\
+			\worldflag{LT} Lithuania & 4 \\
+			\worldflag{AT} Austria & 3 \\
+			\worldflag{FI} Finland & 3 \\
+			\worldflag{LU} Luxemburg & 3 \\
+			\worldflag{MT} Malta & 3 \\
+			\worldflag{SI} Slovenia & 3 \\
+			\worldflag{EE} Estonia & 2 \\
+			\worldflag{HU} Hungary & 2 \\
+			\worldflag{HR} Croatia & 1 \\
+			\worldflag{CY} Cyprus & 1 \\
+			\worldflag{DK} Denmark & 1 \\
+			\worldflag{LV} Latvia & 1 \\	
+			\hline
+		\end{tabular}
+		\caption{Consistent contributors by country}
+		\label{consistent_contributors_by_country}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{tabular}{| l | r |}
+			\hline
+			EP Group & Contributions\\
+			\hline
+			RE & 55 \\
+			S\&D & 42 \\
+			EPP & 34 \\	
+			ECR & 20 \\
+			ID & 19 \\
+			GUE/NGL & 13 \\
+			Greens/EFA & 8 \\
+			NI & 4 \\
+			\hline
+		\end{tabular}
+		\caption{Consistent contributors by EP group}
+		\label{epgroup_consistent_contributors}
+	\end{center}
+\end{figure}
+
+\subsection{Contributions over time}
+
+%???
+
+
 \section{Conclusion} \label{sec:conclusion}
 
 In conclusion, we can say that the social networks of the European Parliament are an ever-changing structure. Some changes to it happen seemingly spontaneously, while some of them happen as a result of important events. The events that can have a noticeable effect on this social structure can be internal (such as Fidesz leaving the EPP group), or external, such as COVID-19, or the Russo-Ukrainian war.
+
+\section{Future reserach} \label{sec:futureresearch}
+
+In the future, we plan to expand our current work by collecting newer data, and analyzing the development of the European Parliament social network in the current day. We are especially interested in how the social network changes with respect to the major events of the Russo-Ukrainian war. Unfortunately, due to the limitations of the data, we were only able to study the effects of the start of the war, as we only had data up to September 2022. Since many major events in the Russo-Ukrainian war happened since September 2022, we are more than interested in studying their effects on the European Union, specifically the European Parliament.
+
+Furthermore, we plan to apply even more mathematical methods to the dataset. %TODO: elaborate
 
 \section*{Acknowledgments}
 
