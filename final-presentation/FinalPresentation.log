@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  29 JUN 2023 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  29 JUN 2023 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2303,72 +2303,488 @@ Package pdftex.def Info: BipartiteGraph.png  used on input line 116.
 (/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [49
 
 ]
-<Betweeness_2020asBasis.png, id=1365, 422.0568pt x 357.0138pt>
+\flagwidth=\dimen966
+\flaglength=\dimen967
+\flagframe=\dimen968
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen969
+\flaglength=\dimen970
+\flagframe=\dimen971
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen972
+\flaglength=\dimen973
+\flagframe=\dimen974
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen975
+\flaglength=\dimen976
+\flagframe=\dimen977
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen978
+\flaglength=\dimen979
+\flagframe=\dimen980
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen981
+\flaglength=\dimen982
+\flagframe=\dimen983
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen984
+\flaglength=\dimen985
+\flagframe=\dimen986
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen987
+\flaglength=\dimen988
+\flagframe=\dimen989
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen990
+\flaglength=\dimen991
+\flagframe=\dimen992
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen993
+\flaglength=\dimen994
+\flagframe=\dimen995
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [50
+
+]
+\flagwidth=\dimen996
+\flaglength=\dimen997
+\flagframe=\dimen998
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen999
+\flaglength=\dimen1000
+\flagframe=\dimen1001
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen1002
+\flaglength=\dimen1003
+\flagframe=\dimen1004
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen1005
+\flaglength=\dimen1006
+\flagframe=\dimen1007
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1008
+\flaglength=\dimen1009
+\flagframe=\dimen1010
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen1011
+\flaglength=\dimen1012
+\flagframe=\dimen1013
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1014
+\flaglength=\dimen1015
+\flagframe=\dimen1016
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen1017
+\flaglength=\dimen1018
+\flagframe=\dimen1019
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen1020
+\flaglength=\dimen1021
+\flagframe=\dimen1022
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1023
+\flaglength=\dimen1024
+\flagframe=\dimen1025
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [51
+
+]
+\flagwidth=\dimen1026
+\flaglength=\dimen1027
+\flagframe=\dimen1028
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1029
+\flaglength=\dimen1030
+\flagframe=\dimen1031
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen1032
+\flaglength=\dimen1033
+\flagframe=\dimen1034
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen1035
+\flaglength=\dimen1036
+\flagframe=\dimen1037
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1038
+\flaglength=\dimen1039
+\flagframe=\dimen1040
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen1041
+\flaglength=\dimen1042
+\flagframe=\dimen1043
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1044
+\flaglength=\dimen1045
+\flagframe=\dimen1046
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen1047
+\flaglength=\dimen1048
+\flagframe=\dimen1049
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen1050
+\flaglength=\dimen1051
+\flagframe=\dimen1052
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1053
+\flaglength=\dimen1054
+\flagframe=\dimen1055
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [52
+
+]
+\flagwidth=\dimen1056
+\flaglength=\dimen1057
+\flagframe=\dimen1058
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1059
+\flaglength=\dimen1060
+\flagframe=\dimen1061
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen1062
+\flaglength=\dimen1063
+\flagframe=\dimen1064
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen1065
+\flaglength=\dimen1066
+\flagframe=\dimen1067
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1068
+\flaglength=\dimen1069
+\flagframe=\dimen1070
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen1071
+\flaglength=\dimen1072
+\flagframe=\dimen1073
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1074
+\flaglength=\dimen1075
+\flagframe=\dimen1076
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen1077
+\flaglength=\dimen1078
+\flagframe=\dimen1079
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen1080
+\flaglength=\dimen1081
+\flagframe=\dimen1082
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1083
+\flaglength=\dimen1084
+\flagframe=\dimen1085
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [53
+
+]
+\flagwidth=\dimen1086
+\flaglength=\dimen1087
+\flagframe=\dimen1088
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1089
+\flaglength=\dimen1090
+\flagframe=\dimen1091
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1092
+\flaglength=\dimen1093
+\flagframe=\dimen1094
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1095
+\flaglength=\dimen1096
+\flagframe=\dimen1097
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1098
+\flaglength=\dimen1099
+\flagframe=\dimen1100
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1101
+\flaglength=\dimen1102
+\flagframe=\dimen1103
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1104
+\flaglength=\dimen1105
+\flagframe=\dimen1106
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1107
+\flaglength=\dimen1108
+\flagframe=\dimen1109
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1110
+\flaglength=\dimen1111
+\flagframe=\dimen1112
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1113
+\flaglength=\dimen1114
+\flagframe=\dimen1115
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [54
+
+]
+\flagwidth=\dimen1116
+\flaglength=\dimen1117
+\flagframe=\dimen1118
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1119
+\flaglength=\dimen1120
+\flagframe=\dimen1121
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1122
+\flaglength=\dimen1123
+\flagframe=\dimen1124
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1125
+\flaglength=\dimen1126
+\flagframe=\dimen1127
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1128
+\flaglength=\dimen1129
+\flagframe=\dimen1130
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1131
+\flaglength=\dimen1132
+\flagframe=\dimen1133
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1134
+\flaglength=\dimen1135
+\flagframe=\dimen1136
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1137
+\flaglength=\dimen1138
+\flagframe=\dimen1139
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1140
+\flaglength=\dimen1141
+\flagframe=\dimen1142
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1143
+\flaglength=\dimen1144
+\flagframe=\dimen1145
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [55
+
+]
+\flagwidth=\dimen1146
+\flaglength=\dimen1147
+\flagframe=\dimen1148
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1149
+\flaglength=\dimen1150
+\flagframe=\dimen1151
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1152
+\flaglength=\dimen1153
+\flagframe=\dimen1154
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1155
+\flaglength=\dimen1156
+\flagframe=\dimen1157
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1158
+\flaglength=\dimen1159
+\flagframe=\dimen1160
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1161
+\flaglength=\dimen1162
+\flagframe=\dimen1163
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1164
+\flaglength=\dimen1165
+\flagframe=\dimen1166
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1167
+\flaglength=\dimen1168
+\flagframe=\dimen1169
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1170
+\flaglength=\dimen1171
+\flagframe=\dimen1172
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1173
+\flaglength=\dimen1174
+\flagframe=\dimen1175
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [56
+
+]
+\flagwidth=\dimen1176
+\flaglength=\dimen1177
+\flagframe=\dimen1178
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1179
+\flaglength=\dimen1180
+\flagframe=\dimen1181
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1182
+\flaglength=\dimen1183
+\flagframe=\dimen1184
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1185
+\flaglength=\dimen1186
+\flagframe=\dimen1187
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1188
+\flaglength=\dimen1189
+\flagframe=\dimen1190
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1191
+\flaglength=\dimen1192
+\flagframe=\dimen1193
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1194
+\flaglength=\dimen1195
+\flagframe=\dimen1196
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1197
+\flaglength=\dimen1198
+\flagframe=\dimen1199
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1200
+\flaglength=\dimen1201
+\flagframe=\dimen1202
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1203
+\flaglength=\dimen1204
+\flagframe=\dimen1205
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [57
+
+]
+<Betweeness_2020asBasis.png, id=1574, 422.0568pt x 357.0138pt>
 File: Betweeness_2020asBasis.png Graphic file (type png)
 <use Betweeness_2020asBasis.png>
-Package pdftex.def Info: Betweeness_2020asBasis.png  used on input line 348.
+Package pdftex.def Info: Betweeness_2020asBasis.png  used on input line 410.
 (pdftex.def)             Requested size: 134.54572pt x 113.81102pt.
-<Eigenvector_2021asBasis.png, id=1366, 416.2752pt x 357.0138pt>
+<Eigenvector_2021asBasis.png, id=1575, 416.2752pt x 357.0138pt>
 File: Eigenvector_2021asBasis.png Graphic file (type png)
 <use Eigenvector_2021asBasis.png>
-Package pdftex.def Info: Eigenvector_2021asBasis.png  used on input line 348.
+Package pdftex.def Info: Eigenvector_2021asBasis.png  used on input line 410.
 (pdftex.def)             Requested size: 132.70264pt x 113.81102pt.
 
-[50
+[58
 
  <./Betweeness_2020asBasis.png> <./Eigenvector_2021asBasis.png>]
 File: Betweeness_2020asBasis.png Graphic file (type png)
 <use Betweeness_2020asBasis.png>
-Package pdftex.def Info: Betweeness_2020asBasis.png  used on input line 348.
+Package pdftex.def Info: Betweeness_2020asBasis.png  used on input line 410.
 (pdftex.def)             Requested size: 134.54572pt x 113.81102pt.
 File: Eigenvector_2021asBasis.png Graphic file (type png)
 <use Eigenvector_2021asBasis.png>
-Package pdftex.def Info: Eigenvector_2021asBasis.png  used on input line 348.
+Package pdftex.def Info: Eigenvector_2021asBasis.png  used on input line 410.
 (pdftex.def)             Requested size: 132.70264pt x 113.81102pt.
- [51
+ [59
 
 ]
-<plain_picture.png, id=1421, 448.01378pt x 303.47377pt>
+<plain_picture.png, id=1629, 448.01378pt x 303.47377pt>
 File: plain_picture.png Graphic file (type png)
 <use plain_picture.png>
-Package pdftex.def Info: plain_picture.png  used on input line 362.
+Package pdftex.def Info: plain_picture.png  used on input line 424.
 (pdftex.def)             Requested size: 235.22443pt x 159.3356pt.
 
-[52
+[60
 
  <./plain_picture.png>]
 File: plain_picture.png Graphic file (type png)
 <use plain_picture.png>
-Package pdftex.def Info: plain_picture.png  used on input line 362.
+Package pdftex.def Info: plain_picture.png  used on input line 424.
 (pdftex.def)             Requested size: 235.22443pt x 159.3356pt.
- [53
+ [61
 
 ]
 File: plain_picture.png Graphic file (type png)
 <use plain_picture.png>
-Package pdftex.def Info: plain_picture.png  used on input line 362.
+Package pdftex.def Info: plain_picture.png  used on input line 424.
 (pdftex.def)             Requested size: 235.22443pt x 159.3356pt.
- [54
+ [62
 
 ]
-<PM_group_Colors.png, id=1500, 448.01378pt x 303.47377pt>
+<PM_group_Colors.png, id=1711, 448.01378pt x 303.47377pt>
 File: PM_group_Colors.png Graphic file (type png)
 <use PM_group_Colors.png>
-Package pdftex.def Info: PM_group_Colors.png  used on input line 372.
+Package pdftex.def Info: PM_group_Colors.png  used on input line 434.
 (pdftex.def)             Requested size: 260.42924pt x 176.407pt.
- [55
+ [63
 
  <./PM_group_Colors.png>]
 File: PM_group_Colors.png Graphic file (type png)
 <use PM_group_Colors.png>
-Package pdftex.def Info: PM_group_Colors.png  used on input line 372.
+Package pdftex.def Info: PM_group_Colors.png  used on input line 434.
 (pdftex.def)             Requested size: 260.42924pt x 176.407pt.
- [56
+ [64
 
-] [57
+] [65
 
 ]
-[58
+[66
 
 ]
 \tf@nav=\write6
@@ -2385,22 +2801,23 @@ Package rerunfilecheck Info: File `FinalPresentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30336 strings out of 478287
- 650561 string characters out of 5849289
- 1092886 words of memory out of 5000000
- 47376 multiletter control sequences out of 15000+600000
- 478536 words of font info for 61 fonts, out of 8000000 for 9000
+ 30575 strings out of 478287
+ 662853 string characters out of 5849289
+ 1094886 words of memory out of 5000000
+ 47433 multiletter control sequences out of 15000+600000
+ 478892 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,397b,1600s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on FinalPresentation.pdf (58 pages, 9908490 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on FinalPresentation.pdf (66 pages, 10004221 bytes).
 PDF statistics:
- 1658 PDF objects out of 1728 (max. 8388607)
- 1529 compressed objects within 16 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 1877 PDF objects out of 2073 (max. 8388607)
+ 1736 compressed objects within 18 object streams
+ 133 named destinations out of 1000 (max. 500000)
  224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
