@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  29 JUN 2023 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  29 JUN 2023 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,7 +1134,7 @@ thkerncmss.
 ] [11
 
 ]
-<BipartiteGraph.png, id=357, 451.6875pt x 430.60875pt>
+<BipartiteGraph.png, id=355, 451.6875pt x 430.60875pt>
 File: BipartiteGraph.png Graphic file (type png)
 <use BipartiteGraph.png>
 Package pdftex.def Info: BipartiteGraph.png  used on input line 116.
@@ -2303,12 +2303,12 @@ Package pdftex.def Info: BipartiteGraph.png  used on input line 116.
 (/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [49
 
 ]
-<Betweeness_2020asBasis.png, id=1364, 422.0568pt x 357.0138pt>
+<Betweeness_2020asBasis.png, id=1365, 422.0568pt x 357.0138pt>
 File: Betweeness_2020asBasis.png Graphic file (type png)
 <use Betweeness_2020asBasis.png>
 Package pdftex.def Info: Betweeness_2020asBasis.png  used on input line 348.
 (pdftex.def)             Requested size: 134.54572pt x 113.81102pt.
-<Eigenvector_2021asBasis.png, id=1365, 416.2752pt x 357.0138pt>
+<Eigenvector_2021asBasis.png, id=1366, 416.2752pt x 357.0138pt>
 File: Eigenvector_2021asBasis.png Graphic file (type png)
 <use Eigenvector_2021asBasis.png>
 Package pdftex.def Info: Eigenvector_2021asBasis.png  used on input line 348.
@@ -2328,9 +2328,47 @@ Package pdftex.def Info: Eigenvector_2021asBasis.png  used on input line 348.
  [51
 
 ]
+<plain_picture.png, id=1421, 448.01378pt x 303.47377pt>
+File: plain_picture.png Graphic file (type png)
+<use plain_picture.png>
+Package pdftex.def Info: plain_picture.png  used on input line 362.
+(pdftex.def)             Requested size: 235.22443pt x 159.3356pt.
+
 [52
 
-] [53
+ <./plain_picture.png>]
+File: plain_picture.png Graphic file (type png)
+<use plain_picture.png>
+Package pdftex.def Info: plain_picture.png  used on input line 362.
+(pdftex.def)             Requested size: 235.22443pt x 159.3356pt.
+ [53
+
+]
+File: plain_picture.png Graphic file (type png)
+<use plain_picture.png>
+Package pdftex.def Info: plain_picture.png  used on input line 362.
+(pdftex.def)             Requested size: 235.22443pt x 159.3356pt.
+ [54
+
+]
+<PM_group_Colors.png, id=1500, 448.01378pt x 303.47377pt>
+File: PM_group_Colors.png Graphic file (type png)
+<use PM_group_Colors.png>
+Package pdftex.def Info: PM_group_Colors.png  used on input line 372.
+(pdftex.def)             Requested size: 260.42924pt x 176.407pt.
+ [55
+
+ <./PM_group_Colors.png>]
+File: PM_group_Colors.png Graphic file (type png)
+<use PM_group_Colors.png>
+Package pdftex.def Info: PM_group_Colors.png  used on input line 372.
+(pdftex.def)             Requested size: 260.42924pt x 176.407pt.
+ [56
+
+] [57
+
+]
+[58
 
 ]
 \tf@nav=\write6
@@ -2347,10 +2385,10 @@ Package rerunfilecheck Info: File `FinalPresentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30308 strings out of 478287
- 650120 string characters out of 5849289
- 1092814 words of memory out of 5000000
- 47360 multiletter control sequences out of 15000+600000
+ 30336 strings out of 478287
+ 650561 string characters out of 5849289
+ 1092886 words of memory out of 5000000
+ 47376 multiletter control sequences out of 15000+600000
  478536 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,397b,1600s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2359,10 +2397,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on FinalPresentation.pdf (53 pages, 541789 bytes).
+Output written on FinalPresentation.pdf (58 pages, 9908490 bytes).
 PDF statistics:
- 1518 PDF objects out of 1728 (max. 8388607)
- 1400 compressed objects within 14 object streams
- 107 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1658 PDF objects out of 1728 (max. 8388607)
+ 1529 compressed objects within 16 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

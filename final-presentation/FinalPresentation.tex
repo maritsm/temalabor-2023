@@ -127,7 +127,7 @@ We then created a projection of this bipartite graph:
 	\pause \item Edges: 2 MEPs are connected if they amended the same document	
 \end{itemize}
 
-\pause Alternatively weighted projection could be used (where we reward secluded document matching and punish popular document matching)
+\pause We have also considered and implemented weighted projection. We used the so called: "Collaboration weighted projection"(where we reward secluded document matching and punish popular document matching)
 
 \end{frame}
 
@@ -349,17 +349,43 @@ Eigenvector centrality \\
 
 
 \begin{frame}
+	\frametitle{Projection}
+	Some visualizations of the MEP social network graph (there were also some 0 degree nodes):
+	\pause
+	\begin{center}
+		\includegraphics[height=5.6cm]{plain_picture.png}
+	\end{center} 
+	\pause 
+	{\tiny The Smaller interval ones look similar, however they aren't necessarily connected like this one}
+	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projection}
+	Color coding the nodes (according to EP groups):
+	\pause
+	\begin{center}
+		\includegraphics[height=6.2cm]{PM_group_Colors.png}
+	\end{center} 
+	
+\end{frame}
+
+
+
+
+\begin{frame}
 \frametitle{What's next?}
 
 We require additional data for multiple reasons:
 
 \begin{itemize}
-	\item We need reference material for centrality numbers and their changes (e.g. for Spearman rank correlation test) 
+
 	\item Cutting at more relevant dates, for finer distiction.
 	
 \bigskip
 
-Further consideration might be fruitful, namely, to use a weighted projection.
+Further consideration might be fruitful, namely, the further useage of weighted projection. (Some machine learning opportunity)
 
 \end{itemize}
 \end{frame}
