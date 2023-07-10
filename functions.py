@@ -122,6 +122,37 @@ EP_GROUP_NO_SEATS_POST_BREXIT = {
     'GUE/NGL': 39,
 }
 
+COUNTRY_ABBREV = {
+    "Austria" : "AT",
+    "Belgium" : "BE",
+    "Bulgaria" : "BG",
+    "Croatia" : "HR",
+    "Cyprus" : "CY",
+    "Czechia" : "CZ",
+    "Denmark" : "DK",
+    "Estonia" : "EE",
+    "Finland" : "FI",
+    "France" : "FR",
+    "Germany" : "DE",
+    "United Kingdom" : "GB",
+    "Greece" : "GR",
+    "Hungary" : "HU",
+    "Ireland" : "IE",
+    "Italy" : "IT",
+    "Latvia" : "LV",
+    "Lithuania" : "LT",
+    "Luxembourg" : "LU",
+    "Malta" : "MT",
+    "Netherlands" : "NL",
+    "Poland" : "PL",
+    "Portugal" : "PT",
+    "Romania" : "RO",
+    "Slovakia" : "SK",
+    "Slovenia" : "SI",
+    "Spain" : "ES",
+    "Sweden" : "SE"
+}
+
 def getPopulationData(countryname):
     return COUNTRY_POPULATION[countryname]
 def getNumberOfMEPs(countryname, pre_brexit = True):
@@ -175,3 +206,14 @@ def getMEPData(column, value):
 
 ## TODO:  some code that will automate the process of making LaTeX tables from pandas data
 
+def pprintPandas(df):
+    for i in df:
+        print(i[0], getMEPData("MEPName", i[0])["MemberState"], getMEPData("MEPName", i[0])["EPGroup"], i[1])
+
+def pandasToLatex(df): #TODO: ezen még van mit upgradelni
+    o = ""
+    for i in df:
+
+        o += f'{i[0]} & {getMEPData("MEPName", i[0])["MemberState"]} & {getMEPData("MEPName", i[0])["EPGroup"]} & {i[1]} \\\\ \n'
+    #COUNTRY_ABBREV
+    return o
