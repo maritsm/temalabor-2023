@@ -171,4 +171,7 @@ def getMEPData(column, value):
                           'DocumentType',
                           'Date'])
     return dict(x)
- 
+
+
+## TODO:  some code that will automate the process of making LaTeX tables from pandas data
+
