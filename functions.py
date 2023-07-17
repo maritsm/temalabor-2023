@@ -181,6 +181,13 @@ def listPoliticalGroups():
     o = pd.unique(ENTIRE_DATASET['EPGroup'])
     return o
 
+def graphInfo(G):
+    print(f"Some information about this graph:\n"
+        f"Number of nodes: {nx.number_of_nodes(G)}\n"
+        f"Number of edges: {nx.number_of_edges(G)}\n")
+    print(f"The nodes in this graph include: {list(G.nodes)[:100]}")
+
+
 def getMEPDataFromID(identifier):
     x = ENTIRE_DATASET.loc[ENTIRE_DATASET['OfficialMEPID'] == identifier]
     x = x.iloc[0]
