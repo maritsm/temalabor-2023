@@ -224,3 +224,14 @@ def pandasToLatex(df): #TODO: ezen még van mit upgradelni
         o += f'{i[0]} & {getMEPData("MEPName", i[0])["MemberState"]} & {getMEPData("MEPName", i[0])["EPGroup"]} & {i[1]} \\\\ \n'
     #COUNTRY_ABBREV
     return o
+
+
+### acquiring the split data from the csv files in ./db/split
+
+def acquireSplitData():
+    o = []
+    for i in range(39):
+    # the number is manual, TODO: make it automatic from the number of files in the folder:
+    # https://stackoverflow.com/questions/2632205/how-to-count-the-number-of-files-in-a-directory-using-python
+        o.append(pd.read_csv(f"./db/split/{i}.csv"))
+    return o
