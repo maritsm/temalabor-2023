@@ -3,7 +3,6 @@ import networkx as nx
 
 from constants import *
 
-
 def getPopulationData(countryname):
     return COUNTRY_POPULATION[countryname]
 def getNumberOfMEPs(countryname, pre_brexit = True):
@@ -30,6 +29,10 @@ def listMEPs():
 
 def listPoliticalGroups():
     o = pd.unique(ENTIRE_DATASET['EPGroup'])
+    return o
+
+def listMEPs_by_polgroup(polgroup):
+    o = pd.unique(ENTIRE_DATASET.loc[ENTIRE_DATASET['EPGroup'] == polgroup]['MEPName'])
     return o
 
 def graphInfo(G):

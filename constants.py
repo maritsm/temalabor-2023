@@ -1,3 +1,6 @@
+import pandas as pd
+import networkx as nx
+
 DATA_LOCATION = "db/ep_cosponsorship_dataset.csv"
 # we put `keep_default_na` here so that nan-s get parsed in the way we want
 ENTIRE_DATASET = pd.read_csv(DATA_LOCATION, header = 0, keep_default_na = False)
