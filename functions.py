@@ -35,6 +35,10 @@ def listMEPs_by_polgroup(polgroup):
     o = pd.unique(ENTIRE_DATASET.loc[ENTIRE_DATASET['EPGroup'] == polgroup]['MEPName'])
     return o
 
+def listMEPs_by_country(country):
+    o = pd.unique(ENTIRE_DATASET.loc[ENTIRE_DATASET['MemberState'] == country]['MEPName'])
+    return o
+
 def graphInfo(G):
     print(f"Some information about this graph:\n"
         f"Number of nodes: {nx.number_of_nodes(G)}\n"
