@@ -5,6 +5,8 @@ DATA_LOCATION = "db/ep_cosponsorship_dataset.csv"
 # we put `keep_default_na` here so that nan-s get parsed in the way we want
 ENTIRE_DATASET = pd.read_csv(DATA_LOCATION, header = 0, keep_default_na = False)
 
+MEPLIST = pd.read_csv("db/meplist_9th_term.csv", header = 0, keep_default_na = False)
+
 COUNTRY_POPULATION = {
     "Austria" : 9106126,
     "Belgium" : 11584008,

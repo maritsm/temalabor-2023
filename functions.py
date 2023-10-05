@@ -22,21 +22,20 @@ def createNxGraph():
     return G
 
 def listMEPs():
-    # we use MEPName instead of OfficialMEPID
-    o = pd.unique(ENTIRE_DATASET['MEPName'])
-    #print(type(o)) #DEBUG
-    return o
+    return MEPLIST["person_name"]
 
 def listPoliticalGroups():
     o = pd.unique(ENTIRE_DATASET['EPGroup'])
     return o
 
+
+# TODO: extend function to use the "start_date" and "end_date" that's now available for the MEP polgroup membership in `epgroup_memberships_9th_term.csv`
 def listMEPs_by_polgroup(polgroup):
     o = pd.unique(ENTIRE_DATASET.loc[ENTIRE_DATASET['EPGroup'] == polgroup]['MEPName'])
     return o
 
 def listMEPs_by_country(country):
-    o = pd.unique(ENTIRE_DATASET.loc[ENTIRE_DATASET['MemberState'] == country]['MEPName'])
+    o = MEPLIST.loc[MEPLIST['country'] == country]['person_name']
     return o
 
 def graphInfo(G):
