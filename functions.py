@@ -28,6 +28,10 @@ def listPoliticalGroups():
     o = pd.unique(ENTIRE_DATASET['EPGroup'])
     return o
 
+def listCountries():
+    o = pd.unique(ENTIRE_DATASET['MemberState'])
+    return o
+
 
 # TODO: extend function to use the "start_date" and "end_date" that's now available for the MEP polgroup membership in `epgroup_memberships_9th_term.csv`
 def listMEPs_by_polgroup(polgroup):
