@@ -9,6 +9,8 @@ MEPLIST = pd.read_csv("db/meplist_9th_term.csv", header = 0, keep_default_na = F
 
 EPGROUP_MEMBERSHIP = pd.read_csv("db/epgroup_memberships_9th_term.csv", header = 0, keep_default_na = False)
 
+ORG_MEMBERSHIP = pd.read_csv("db/organization_membership_9th_term.csv", header = 0, keep_default_na = False)
+
 COUNTRY_POPULATION = {
     "Austria" : 9106126,
     "Belgium" : 11584008,
