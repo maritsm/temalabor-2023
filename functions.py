@@ -45,7 +45,8 @@ def getBiggestOrgs(howmany=5):
     for i in listOrgs():
         x.append([i, orgMemberCount(i)])
     df_orgmembercount = pd.DataFrame(x, columns=["OrgName", "MemberCount"])
-    return df_orgmembercount.sort_values(by="MemberCount", ascending=False)[0:howmany]
+    asd = df_orgmembercount.sort_values(by="MemberCount", ascending=False)[0:howmany]
+    return asd["OrgName"]
 
 def isOrgMember(mepName, org, date=None):
     if date==None:
