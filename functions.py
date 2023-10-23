@@ -47,6 +47,13 @@ def getBiggestOrgs(howmany=5):
     df_orgmembercount = pd.DataFrame(x, columns=["OrgName", "MemberCount"])
     return df_orgmembercount.sort_values(by="MemberCount", ascending=False)[0:howmany]
 
+def isOrgMember(mepName, org, date=None):
+    if date==None:
+        df = ORG_MEMBERSHIP.loc[ORG_MEMBERSHIP["organization_name"] == org]["person_name"]
+        return mepName in df.values
+    else:
+        raise NotImplementedError("sorry, can't check for the date yet :(")
+
 
 # TODO: extend function to use the "start_date" and "end_date" that's now available for the MEP polgroup membership in `epgroup_memberships_9th_term.csv`
 def listMEPs_by_polgroup(polgroup):
