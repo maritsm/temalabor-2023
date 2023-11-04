@@ -1,3 +1,5 @@
+from constants import *
+
 def listMEPs():
     return MEPLIST["person_name"]
 
@@ -24,6 +26,16 @@ def getBiggestOrgs(howmany=5):
     df_orgmembercount = pd.DataFrame(x, columns=["OrgName", "MemberCount"])
     asd = df_orgmembercount.sort_values(by="MemberCount", ascending=False)[0:howmany]
     return asd["OrgName"]
+
+def getCommitteeSplitData():
+    imp_comm_datasets = {}
+    for comm in IMPORTANT_COMMITTEES:
+        imp_comm_datasets[comm] = ENTIRE_DATASET.loc[ENTIRE_DATASET["Committee"] == comm]
+    return imp_comm_datasets
+
+def getCommitteeData(comm):
+    # get the data for the specific committee
+    return getCommitteeSplitData()[comm]
 
 ### acquiring the split data from the csv files in ./db/split
 

@@ -11,6 +11,11 @@ EPGROUP_MEMBERSHIP = pd.read_csv("db/epgroup_memberships_9th_term.csv", header =
 
 ORG_MEMBERSHIP = pd.read_csv("db/organization_membership_9th_term.csv", header = 0, keep_default_na = False)
 
+# the committees we will analyze
+IMPORTANT_COMMITTEES = ["ENVI", "AFET", "ITRE"]
+
+### from down here it's obsolete data
+
 COUNTRY_POPULATION = {
     "Austria" : 9106126,
     "Belgium" : 11584008,
