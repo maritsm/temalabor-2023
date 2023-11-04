@@ -49,6 +49,8 @@ def getBiggestOrgs(howmany=5):
     return asd["OrgName"]
 
 def isOrgMember(mepName, org, date=None):
+    ## if `date` is not set, then we return True if the person
+    ## was in the Org at any point
     if date==None:
         df = ORG_MEMBERSHIP.loc[ORG_MEMBERSHIP["organization_name"] == org]["person_name"]
         return mepName in df.values
