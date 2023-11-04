@@ -27,6 +27,8 @@ def getBiggestOrgs(howmany=5):
     asd = df_orgmembercount.sort_values(by="MemberCount", ascending=False)[0:howmany]
     return asd["OrgName"]
 
+## DATA PER COMMITTEE
+
 def getCommitteeSplitData():
     imp_comm_datasets = {}
     for comm in IMPORTANT_COMMITTEES:
@@ -36,6 +38,17 @@ def getCommitteeSplitData():
 def getCommitteeData(comm):
     # get the data for the specific committee
     return getCommitteeSplitData()[comm]
+
+## DATA FOR EACH DOSSIER PER COMMITTEE
+
+def getDossierSplitData():
+    dossiers = {}
+    for comm, data in getCommitteeSplitData().items():
+        dossiers[comm] = pd.unique(data["Dossier"])
+    return dossiers
+
+def getDossierData(comm):
+    return getDossierSplitData()[comm]
 
 ### acquiring the split data from the csv files in ./db/split
 
