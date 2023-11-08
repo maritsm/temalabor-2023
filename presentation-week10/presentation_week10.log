@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  6 NOV 2023 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  8 NOV 2023 08:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,9 +860,45 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [5
 
-] [6
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 54.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[6
 
 ] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
 
 ]
 \tf@nav=\write6
@@ -879,19 +915,22 @@ Package rerunfilecheck Info: File `presentation_week10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21309 strings out of 478287
- 412878 string characters out of 5849289
- 669798 words of memory out of 5000000
- 39078 multiletter control sequences out of 15000+600000
- 471071 words of font info for 34 fonts, out of 8000000 for 9000
+ 21419 strings out of 478287
+ 415096 string characters out of 5849289
+ 669800 words of memory out of 5000000
+ 39151 multiletter control sequences out of 15000+600000
+ 476009 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,122p,417b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on presentation_week10.pdf (7 pages, 32836 bytes).
+ 128i,14n,122p,417b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on presentation_week10.pdf (15 pages, 74420 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 31 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
