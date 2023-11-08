@@ -40,7 +40,7 @@
 	\vspace{2mm}
 	
 	\pause For this, we picked two important properties of the network to investigate\begin{itemize}
-		\pause \item Centrality of MEPs
+		\pause \item Centrality of groups/MEPs
 		
 		\pause \item Cohesion of the network
 	\end{itemize}
@@ -49,13 +49,41 @@
 
 \begin{frame}{Analyzing centrality in the network}
 	
-	TODO
+	Centralities: in a similar manner to node centralities, the centrality of a group can be calculated. 
+	
+	\vspace{2mm}
+	
+	\pause We will measure the centralities of certain groups in the MEP social network graph. 
+	
+	\vspace{2mm}
+	
+	\pause Closeness centrality, Betweenness centrality
+	
+	\vspace{2mm} e.g: $S \subset V$ is a set of nodes 
+	
+	\pause \[
+		\text{closeness(S)} = \frac{|V-S|}{\sum_{u \in |V-S|}d_{S,u} }
+	\]
 	
 \end{frame}
 
 \begin{frame}{Analyzing centrality in the network}
 	
-	TODO
+	Further Improvements: Choosing a more telling subgraph (commitees).
+	\vspace{4mm}
+	\pause
+	
+	\begin{columns}
+	\column{5cm}
+	Betwenness centrality of parties:
+	\\
+	\includegraphics[height=3.5cm]{img/BTW_group_centrality_party_biggest3.png}
+
+	\pause \column{5cm}
+	Closeness centrality of countries:
+	\includegraphics[height=3.5cm]{img/Closeness_group_centrality_country_close_4.png}
+
+	\end{columns}
 	
 \end{frame}
 
