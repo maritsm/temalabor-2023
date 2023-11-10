@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  9 NOV 2023 09:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  9 NOV 2023 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,20 +882,20 @@ Package pdftex.def Info: img/euparl.jpg  used on input line 38.
  [5
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 52.
+ut line 53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -922,7 +922,7 @@ thkerncmss.
 File: img/BTW_group_centrality_party_biggest3.png Graphic file (type png)
 <use img/BTW_group_centrality_party_biggest3.png>
 Package pdftex.def Info: img/BTW_group_centrality_party_biggest3.png  used on i
-nput line 92.
+nput line 93.
 (pdftex.def)             Requested size: 132.47397pt x 99.58464pt.
 <img/Closeness_group_centrality_country_close_4.png, id=358, 400.3758pt x 312.9
 291pt>
@@ -930,7 +930,7 @@ File: img/Closeness_group_centrality_country_close_4.png Graphic file (type png
 )
 <use img/Closeness_group_centrality_country_close_4.png>
 Package pdftex.def Info: img/Closeness_group_centrality_country_close_4.png  us
-ed on input line 92.
+ed on input line 93.
 (pdftex.def)             Requested size: 127.41418pt x 99.58464pt.
  [14
 
@@ -939,13 +939,13 @@ ity_country_close_4.png>]
 File: img/BTW_group_centrality_party_biggest3.png Graphic file (type png)
 <use img/BTW_group_centrality_party_biggest3.png>
 Package pdftex.def Info: img/BTW_group_centrality_party_biggest3.png  used on i
-nput line 92.
+nput line 93.
 (pdftex.def)             Requested size: 132.47397pt x 99.58464pt.
 File: img/Closeness_group_centrality_country_close_4.png Graphic file (type png
 )
 <use img/Closeness_group_centrality_country_close_4.png>
 Package pdftex.def Info: img/Closeness_group_centrality_country_close_4.png  us
-ed on input line 92.
+ed on input line 93.
 (pdftex.def)             Requested size: 127.41418pt x 99.58464pt.
  [15
 
@@ -953,13 +953,13 @@ ed on input line 92.
 File: img/BTW_group_centrality_party_biggest3.png Graphic file (type png)
 <use img/BTW_group_centrality_party_biggest3.png>
 Package pdftex.def Info: img/BTW_group_centrality_party_biggest3.png  used on i
-nput line 92.
+nput line 93.
 (pdftex.def)             Requested size: 132.47397pt x 99.58464pt.
 File: img/Closeness_group_centrality_country_close_4.png Graphic file (type png
 )
 <use img/Closeness_group_centrality_country_close_4.png>
 Package pdftex.def Info: img/Closeness_group_centrality_country_close_4.png  us
-ed on input line 92.
+ed on input line 93.
 (pdftex.def)             Requested size: 127.41418pt x 99.58464pt.
  [16
 
@@ -976,42 +976,42 @@ ed on input line 92.
 <img/Cohesion_by_party.png, id=539, 373.395pt x 248.93pt>
 File: img/Cohesion_by_party.png Graphic file (type png)
 <use img/Cohesion_by_party.png>
-Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 136.
+Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 137.
 (pdftex.def)             Requested size: 149.37814pt x 99.58464pt.
  [21
 
  <./img/Cohesion_by_party.png>]
 File: img/Cohesion_by_party.png Graphic file (type png)
 <use img/Cohesion_by_party.png>
-Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 136.
+Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 137.
 (pdftex.def)             Requested size: 149.37814pt x 99.58464pt.
  [22
 
 ]
 File: img/Cohesion_by_party.png Graphic file (type png)
 <use img/Cohesion_by_party.png>
-Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 136.
+Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 137.
 (pdftex.def)             Requested size: 149.37814pt x 99.58464pt.
  [23
 
 ]
 File: img/Cohesion_by_party.png Graphic file (type png)
 <use img/Cohesion_by_party.png>
-Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 136.
+Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 137.
 (pdftex.def)             Requested size: 149.37814pt x 99.58464pt.
  [24
 
 ]
 File: img/Cohesion_by_party.png Graphic file (type png)
 <use img/Cohesion_by_party.png>
-Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 136.
+Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 137.
 (pdftex.def)             Requested size: 149.37814pt x 99.58464pt.
  [25
 
 ]
 File: img/Cohesion_by_party.png Graphic file (type png)
 <use img/Cohesion_by_party.png>
-Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 136.
+Package pdftex.def Info: img/Cohesion_by_party.png  used on input line 137.
 (pdftex.def)             Requested size: 149.37814pt x 99.58464pt.
 
 [26
@@ -1050,7 +1050,7 @@ s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/symbols/msam10.pfb>
-Output written on presentation_week10.pdf (27 pages, 406113 bytes).
+Output written on presentation_week10.pdf (27 pages, 406198 bytes).
 PDF statistics:
  775 PDF objects out of 1000 (max. 8388607)
  705 compressed objects within 8 object streams
