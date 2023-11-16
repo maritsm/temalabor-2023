@@ -7,10 +7,9 @@ import matplotlib.pyplot as plt
 import csv
 import datetime
 
-from IPython.display import display, HTML
-display(HTML("<style>.container { width:100% !important; }</style>")) #ez hogy a rákban nem a defaultja a jupyternek?
 
 # saját függvényeink
 from functions import *
 from getdata import *
 #from constants import *
+from cohesiveness import *

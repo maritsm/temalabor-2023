@@ -40,6 +40,7 @@ def getCommitteeData(comm):
     return getCommitteeSplitData()[comm]
 
 def getImportantCommitteeMembers(comm=None):
+    #TODO: also correct for different membership at different times
     IMPORTANT_COMMITTEE_MEMBERS = {}
     for committee in IMPORTANT_COMMITTEES:
         IMPORTANT_COMMITTEE_MEMBERS[committee] = []
