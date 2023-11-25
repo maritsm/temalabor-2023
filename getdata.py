@@ -52,6 +52,9 @@ def getImportantCommitteeMembers(comm=None):
         return IMPORTANT_COMMITTEE_MEMBERS
     else:
         return IMPORTANT_COMMITTEE_MEMBERS[comm]
+    
+def getCosponsorshipDataset():
+    return nx.from_pandas_edgelist(COSPONSORSHIP_EDGELIST, source ="amendment_id", target = "person_full_name")
 
 
 
