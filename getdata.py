@@ -56,7 +56,12 @@ def getImportantCommitteeMembers(comm=None):
 def getCosponsorshipDataset():
     return nx.from_pandas_edgelist(COSPONSORSHIP_EDGELIST, source ="amendment_id", target = "person_full_name")
 
-
+def getBigBoyDataFrame():
+    pa = PROCEDURE_POLICYAREA
+    cosp = COSPONSORSHIP_EDGELIST
+    docorg = DOCUMENT_ORGANIZATION
+    smallboy = pd.merge(cosp, pa, on="procedure_interinst_id")
+    return pd.merge(smallboy, DOCUMENT_ORGANIZATION, on = "document_eu_id")
 
 ## DATA FOR EACH DOSSIER PER COMMITTEE
 
