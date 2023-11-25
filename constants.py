@@ -11,6 +11,12 @@ EPGROUP_MEMBERSHIP = pd.read_csv("db/epgroup_memberships_9th_term.csv", header =
 
 ORG_MEMBERSHIP = pd.read_csv("db/organization_membership_9th_term.csv", header = 0, keep_default_na = False)
 
+COSPONSORSHIP_EDGELIST = pd.read_csv("db/cosponsorship_edgelist_9th_term.csv", header = 0, keep_default_na = False)
+
+DOCUMENT_ORGANIZATION = pd.read_csv("db/document_organization_9th_term.csv", header = 0, keep_default_na = False)
+
+PROCEDURE_POLICYAREA = pd.read_csv("db/procedure_policyarea_9th_term.csv", header = 0, keep_default_na = False)
+
 # the committees we will analyze
 IMPORTANT_COMMITTEES = ["ENVI", "AFET", "ITRE"]
 
