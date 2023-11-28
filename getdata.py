@@ -46,7 +46,7 @@ def getImportantCommitteeMembers(comm=None):
         IMPORTANT_COMMITTEE_MEMBERS[committee] = []
         for mep in MEPLIST.values:
             name = mep[1]
-            if isOrgMember(name, "Committee on the Environment, Public Health and Food Safety"):
+            if isOrgMember(name, "Committee on the Environment, Public Health and Food Safety"): #### ????????
                 IMPORTANT_COMMITTEE_MEMBERS[committee].append(name)
     if comm == None:
         return IMPORTANT_COMMITTEE_MEMBERS
