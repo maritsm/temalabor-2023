@@ -92,3 +92,8 @@ def isOrgMember(mepName, org, date=None):
         return mepName in df.values
     else:
         raise NotImplementedError("sorry, can't check for the date yet :(")
+
+###########
+    
+def getProcedureDates():
+    return pd.read_csv("db/procdate.csv", header = 0, keep_default_na = False)
