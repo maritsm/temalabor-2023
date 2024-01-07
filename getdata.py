@@ -97,3 +97,11 @@ def isOrgMember(mepName, org, date=None):
     
 def getProcedureDates():
     return pd.read_csv("db/procdate.csv", header = 0, keep_default_na = False)
+
+def getProcedureDateDict():
+    cosp = COSPONSORSHIP_EDGELIST
+    proc = cosp.groupby("procedure_interinst_id")
+    procedure_dates = {}
+    for i, x in proc:
+        procedure_dates[i] = min(x["date"].unique())
+    return procedure_dates
