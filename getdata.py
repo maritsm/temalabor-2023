@@ -1,5 +1,7 @@
 from constants import *
 
+from cohesiveness import *
+
 def listMEPs():
     return MEPLIST["person_name"]
 
@@ -105,3 +107,25 @@ def getProcedureDateDict():
     for i, x in proc:
         procedure_dates[i] = min(x["date"].unique())
     return procedure_dates
+
+def getCohDf():
+    ## copypastelgetés a `splitbigboy.ipynb`-ból
+    my_committees = ["ITRE", "ENVI", "AFET"]
+    bigboy = getBigBoyDataFrame()
+    data_to_plot = {}
+    for cmtee in my_committees:
+        cmteeonly = bigboy.loc[bigboy["organization_abbr"] == cmtee]
+        cmtee_members = getImportantCommitteeMembers(comm=cmtee)
+        pedno = cmteeonly.groupby(cmteeonly.procedure_interinst_id)
+
+        coh_overtime = {}
+        for i, x in pedno:
+            pdedgelist = nx.from_pandas_edgelist(x, source='amendment_id', target = 'person_full_name')
+            coh_overtime[i] = cohesiveness(pdedgelist, pdedgelist)
+        data_to_plot[cmtee] = coh_overtime
+    coh_df = pd.DataFrame(data_to_plot)
+    procdate =  getProcedureDateDict()
+    coh_df.index = coh_df.index.map(lambda x : procdate[x])
+    coh_df.sort_index(inplace=True)
+
+    return coh_df
