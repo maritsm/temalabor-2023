@@ -1,0 +1,2976 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  8 JAN 2024 11:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**FinalPresentation2.tex
+(./FinalPresentation2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2022/01/21 v3.65 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\beamer@tempbox=\box50
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
+\beamer@decode@box=\box51
+)
+\beamer@commentbox=\box52
+\beamer@modecount=\count190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box53
+\beamer@animcurrent=\box54
+\beamer@animshowbox=\box55
+\beamer@sectionbox=\box56
+\beamer@logobox=\box57
+\beamer@linebox=\box58
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count284
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count287
+\pgfmath@box=\box60
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count288
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count289
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box64
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count292
+\XC@countmixins=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen257
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count296
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
+Package hyperref Info: Option `implicit' set `false' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count297
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen258
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count298
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+\Hy@abspage=\count299
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks28
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count302
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count303
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count304
+\c@part=\count305
+\c@section=\count306
+\c@subsection=\count307
+\c@subsubsection=\count308
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count309
+\beamer@zoomframecount=\count310
+\beamer@frametextheight=\dimen261
+\c@subsectionslide=\count311
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks29
+\framewidth=\dimen262
+\c@framenumber=\count312
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count313
+\beamer@autobreaklastheight=\dimen263
+\beamer@frametitletoks=\toks30
+\beamer@framesubtitletoks=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks32
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box71
+\bmb@colorbox=\box72
+\bmb@boxwidth=\dimen264
+\bmb@boxheight=\dimen265
+\bmb@prevheight=\dimen266
+\bmb@temp=\dimen267
+\bmb@dima=\dimen268
+\bmb@dimb=\dimen269
+\bmb@prevheight=\dimen270
+)
+\beamer@blockheadheight=\dimen271
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+\beamer@bibiconwidth=\skip55
+\c@figure=\count314
+\c@table=\count315
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen272
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen273
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen274
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count316
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count317
+\leftroot@=\count318
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count319
+\DOTSCASE@=\count320
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+\big@size=\dimen275
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count321
+\c@MaxMatrixCols=\count322
+\dotsspace@=\muskip17
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks35
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks36
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
+\@envbody=\toks37
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks44
+)
+\c@theorem=\count328
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen282
+\beamer@dimb=\dimen283
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen284
+\captionmargin@=\dimen285
+\captionwidth=\dimen286
+\caption@tempdima=\dimen287
+\caption@indent=\dimen288
+\caption@parindent=\dimen289
+\caption@hangindent=\dimen290
+Package caption Info: beamer document class detected.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
+))
+\c@caption@flags=\count329
+\c@continuedfloat=\count330
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@subfigure=\count331
+\c@subtable=\count332
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemecrane.sty)
+\c@thm=\count333
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflags.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box75
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen291
+\pgf@nodesepend=\dimen292
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen293
+\pgffor@skip=\dimen294
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen295
+)
+\tikz@lastx=\dimen296
+\tikz@lasty=\dimen297
+\tikz@lastxsaved=\dimen298
+\tikz@lastysaved=\dimen299
+\tikz@lastmovetox=\dimen300
+\tikz@lastmovetoy=\dimen301
+\tikzleveldistance=\dimen302
+\tikzsiblingdistance=\dimen303
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
+)
+\tikz@expandcount=\count342
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
+)
+\XKV@depth=\count343
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box80
+\pgfnodeparttwobox=\box81
+\pgfnodepartthreebox=\box82
+\pgfnodepartfourbox=\box83
+\pgfnodeparttwentybox=\box84
+\pgfnodepartnineteenbox=\box85
+\pgfnodeparteighteenbox=\box86
+\pgfnodepartseventeenbox=\box87
+\pgfnodepartsixteenbox=\box88
+\pgfnodepartfifteenbox=\box89
+\pgfnodepartfourteenbox=\box90
+\pgfnodepartthirteenbox=\box91
+\pgfnodeparttwelvebox=\box92
+\pgfnodepartelevenbox=\box93
+\pgfnodeparttenbox=\box94
+\pgfnodepartninebox=\box95
+\pgfnodeparteightbox=\box96
+\pgfnodepartsevenbox=\box97
+\pgfnodepartsixbox=\box98
+\pgfnodepartfivebox=\box99
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+\tikz@math@for@depth=\count344
+\tikz@math@dimen=\dimen304
+\tikz@math@toks=\toks49
+)
+\fl@gwidth=\dimen305
+\fl@glength=\dimen306
+\fl@gframe=\dimen307
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count345
+\l__pdf_internal_box=\box100
+)
+No file FinalPresentation2.aux.
+\openout1 = `FinalPresentation2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count346
+\scratchdimen=\dimen308
+\scratchbox=\box101
+\nofMPsegments=\count347
+\nofMParguments=\count348
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count349
+\MPscratchDim=\dimen309
+\MPnumerator=\count350
+\makeMPintoPDFobject=\count351
+\everyMPtoPDFconversion=\toks51
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 38.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count352
+)
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
+\@outlinefile=\write5
+\openout5 = `FinalPresentation2.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 38.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 38.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+8.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
+8.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 38.
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
+tionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
+ionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
+ry-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
+ry-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+No file FinalPresentation2.nav.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 68.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[3
+
+] [4
+
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+]
+
+LaTeX Warning: File `BipartiteGraph.png' not found on input line 116.
+
+
+! Package pdftex.def Error: File `BipartiteGraph.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[12
+
+]
+
+LaTeX Warning: File `BipartiteGraph.png' not found on input line 116.
+
+
+! Package pdftex.def Error: File `BipartiteGraph.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[13
+
+]
+
+LaTeX Warning: File `BipartiteGraph.png' not found on input line 116.
+
+
+! Package pdftex.def Error: File `BipartiteGraph.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[14
+
+]
+
+LaTeX Warning: File `BipartiteGraph.png' not found on input line 116.
+
+
+! Package pdftex.def Error: File `BipartiteGraph.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
+]
+\flagwidth=\dimen310
+\flaglength=\dimen311
+\flagframe=\dimen312
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen313
+\flaglength=\dimen314
+\flagframe=\dimen315
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen316
+\flaglength=\dimen317
+\flagframe=\dimen318
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen319
+\flaglength=\dimen320
+\flagframe=\dimen321
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen322
+\flaglength=\dimen323
+\flagframe=\dimen324
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen325
+\flaglength=\dimen326
+\flagframe=\dimen327
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen328
+\flaglength=\dimen329
+\flagframe=\dimen330
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen331
+\flaglength=\dimen332
+\flagframe=\dimen333
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen334
+\flaglength=\dimen335
+\flagframe=\dimen336
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen337
+\flaglength=\dimen338
+\flagframe=\dimen339
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen340
+\h=\dimen341
+\lwb=\dimen342
+\lws=\dimen343
+) [20
+
+]
+\flagwidth=\dimen344
+\flaglength=\dimen345
+\flagframe=\dimen346
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen347
+\flaglength=\dimen348
+\flagframe=\dimen349
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen350
+\flaglength=\dimen351
+\flagframe=\dimen352
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen353
+\flaglength=\dimen354
+\flagframe=\dimen355
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen356
+\flaglength=\dimen357
+\flagframe=\dimen358
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen359
+\flaglength=\dimen360
+\flagframe=\dimen361
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen362
+\flaglength=\dimen363
+\flagframe=\dimen364
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen365
+\flaglength=\dimen366
+\flagframe=\dimen367
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen368
+\flaglength=\dimen369
+\flagframe=\dimen370
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen371
+\flaglength=\dimen372
+\flagframe=\dimen373
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen374
+\h=\dimen375
+\lwb=\dimen376
+\lws=\dimen377
+) [21
+
+]
+\flagwidth=\dimen378
+\flaglength=\dimen379
+\flagframe=\dimen380
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen381
+\flaglength=\dimen382
+\flagframe=\dimen383
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen384
+\flaglength=\dimen385
+\flagframe=\dimen386
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen387
+\flaglength=\dimen388
+\flagframe=\dimen389
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen390
+\flaglength=\dimen391
+\flagframe=\dimen392
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen393
+\flaglength=\dimen394
+\flagframe=\dimen395
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen396
+\flaglength=\dimen397
+\flagframe=\dimen398
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen399
+\flaglength=\dimen400
+\flagframe=\dimen401
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen402
+\flaglength=\dimen403
+\flagframe=\dimen404
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen405
+\flaglength=\dimen406
+\flagframe=\dimen407
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen408
+\h=\dimen409
+\lwb=\dimen410
+\lws=\dimen411
+) [22
+
+]
+\flagwidth=\dimen412
+\flaglength=\dimen413
+\flagframe=\dimen414
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen415
+\flaglength=\dimen416
+\flagframe=\dimen417
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen418
+\flaglength=\dimen419
+\flagframe=\dimen420
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen421
+\flaglength=\dimen422
+\flagframe=\dimen423
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen424
+\flaglength=\dimen425
+\flagframe=\dimen426
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen427
+\flaglength=\dimen428
+\flagframe=\dimen429
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen430
+\flaglength=\dimen431
+\flagframe=\dimen432
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen433
+\flaglength=\dimen434
+\flagframe=\dimen435
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen436
+\flaglength=\dimen437
+\flagframe=\dimen438
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen439
+\flaglength=\dimen440
+\flagframe=\dimen441
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen442
+\h=\dimen443
+\lwb=\dimen444
+\lws=\dimen445
+) [23
+
+]
+\flagwidth=\dimen446
+\flaglength=\dimen447
+\flagframe=\dimen448
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen449
+\flaglength=\dimen450
+\flagframe=\dimen451
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen452
+\flaglength=\dimen453
+\flagframe=\dimen454
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_ES.tex)
+\flagwidth=\dimen455
+\flaglength=\dimen456
+\flagframe=\dimen457
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen458
+\flaglength=\dimen459
+\flagframe=\dimen460
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen461
+\flaglength=\dimen462
+\flagframe=\dimen463
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen464
+\flaglength=\dimen465
+\flagframe=\dimen466
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen467
+\flaglength=\dimen468
+\flagframe=\dimen469
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LV.tex)
+\flagwidth=\dimen470
+\flaglength=\dimen471
+\flagframe=\dimen472
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen473
+\flaglength=\dimen474
+\flagframe=\dimen475
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen476
+\h=\dimen477
+\lwb=\dimen478
+\lws=\dimen479
+) [24
+
+]
+\flagwidth=\dimen480
+\flaglength=\dimen481
+\flagframe=\dimen482
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen483
+\flaglength=\dimen484
+\flagframe=\dimen485
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen486
+\flaglength=\dimen487
+\flagframe=\dimen488
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen489
+\flaglength=\dimen490
+\flagframe=\dimen491
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen492
+\flaglength=\dimen493
+\flagframe=\dimen494
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen495
+\flaglength=\dimen496
+\flagframe=\dimen497
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen498
+\flaglength=\dimen499
+\flagframe=\dimen500
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen501
+\flaglength=\dimen502
+\flagframe=\dimen503
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen504
+\flaglength=\dimen505
+\flagframe=\dimen506
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen507
+\flaglength=\dimen508
+\flagframe=\dimen509
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen510
+\h=\dimen511
+\lwb=\dimen512
+\lws=\dimen513
+) [25
+
+]
+\flagwidth=\dimen514
+\flaglength=\dimen515
+\flagframe=\dimen516
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen517
+\flaglength=\dimen518
+\flagframe=\dimen519
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen520
+\flaglength=\dimen521
+\flagframe=\dimen522
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen523
+\flaglength=\dimen524
+\flagframe=\dimen525
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen526
+\flaglength=\dimen527
+\flagframe=\dimen528
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen529
+\flaglength=\dimen530
+\flagframe=\dimen531
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen532
+\flaglength=\dimen533
+\flagframe=\dimen534
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen535
+\flaglength=\dimen536
+\flagframe=\dimen537
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen538
+\flaglength=\dimen539
+\flagframe=\dimen540
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen541
+\flaglength=\dimen542
+\flagframe=\dimen543
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen544
+\h=\dimen545
+\lwb=\dimen546
+\lws=\dimen547
+) [26
+
+]
+\flagwidth=\dimen548
+\flaglength=\dimen549
+\flagframe=\dimen550
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen551
+\flaglength=\dimen552
+\flagframe=\dimen553
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen554
+\flaglength=\dimen555
+\flagframe=\dimen556
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen557
+\flaglength=\dimen558
+\flagframe=\dimen559
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen560
+\flaglength=\dimen561
+\flagframe=\dimen562
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen563
+\flaglength=\dimen564
+\flagframe=\dimen565
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen566
+\flaglength=\dimen567
+\flagframe=\dimen568
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen569
+\flaglength=\dimen570
+\flagframe=\dimen571
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen572
+\flaglength=\dimen573
+\flagframe=\dimen574
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen575
+\flaglength=\dimen576
+\flagframe=\dimen577
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen578
+\h=\dimen579
+\lwb=\dimen580
+\lws=\dimen581
+) [27
+
+]
+\flagwidth=\dimen582
+\flaglength=\dimen583
+\flagframe=\dimen584
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen585
+\flaglength=\dimen586
+\flagframe=\dimen587
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen588
+\flaglength=\dimen589
+\flagframe=\dimen590
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen591
+\flaglength=\dimen592
+\flagframe=\dimen593
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen594
+\flaglength=\dimen595
+\flagframe=\dimen596
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen597
+\flaglength=\dimen598
+\flagframe=\dimen599
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen600
+\flaglength=\dimen601
+\flagframe=\dimen602
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen603
+\flaglength=\dimen604
+\flagframe=\dimen605
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen606
+\flaglength=\dimen607
+\flagframe=\dimen608
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen609
+\flaglength=\dimen610
+\flagframe=\dimen611
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen612
+\h=\dimen613
+\lwb=\dimen614
+\lws=\dimen615
+) [28
+
+]
+\flagwidth=\dimen616
+\flaglength=\dimen617
+\flagframe=\dimen618
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen619
+\flaglength=\dimen620
+\flagframe=\dimen621
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen622
+\flaglength=\dimen623
+\flagframe=\dimen624
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen625
+\flaglength=\dimen626
+\flagframe=\dimen627
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen628
+\flaglength=\dimen629
+\flagframe=\dimen630
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_EE.tex)
+\flagwidth=\dimen631
+\flaglength=\dimen632
+\flagframe=\dimen633
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen634
+\flaglength=\dimen635
+\flagframe=\dimen636
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen637
+\flaglength=\dimen638
+\flagframe=\dimen639
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FR.tex)
+\flagwidth=\dimen640
+\flaglength=\dimen641
+\flagframe=\dimen642
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen643
+\flaglength=\dimen644
+\flagframe=\dimen645
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen646
+\h=\dimen647
+\lwb=\dimen648
+\lws=\dimen649
+) [29
+
+]
+\flagwidth=\dimen650
+\flaglength=\dimen651
+\flagframe=\dimen652
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen653
+\flaglength=\dimen654
+\flagframe=\dimen655
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen656
+\flaglength=\dimen657
+\flagframe=\dimen658
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen659
+\flaglength=\dimen660
+\flagframe=\dimen661
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen662
+\flaglength=\dimen663
+\flagframe=\dimen664
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen665
+\flaglength=\dimen666
+\flagframe=\dimen667
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen668
+\flaglength=\dimen669
+\flagframe=\dimen670
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen671
+\flaglength=\dimen672
+\flagframe=\dimen673
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen674
+\flaglength=\dimen675
+\flagframe=\dimen676
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CZ.tex)
+\flagwidth=\dimen677
+\flaglength=\dimen678
+\flagframe=\dimen679
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen680
+\h=\dimen681
+\lwb=\dimen682
+\lws=\dimen683
+) [30
+
+]
+\flagwidth=\dimen684
+\flaglength=\dimen685
+\flagframe=\dimen686
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen687
+\flaglength=\dimen688
+\flagframe=\dimen689
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen690
+\flaglength=\dimen691
+\flagframe=\dimen692
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen693
+\flaglength=\dimen694
+\flagframe=\dimen695
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen696
+\flaglength=\dimen697
+\flagframe=\dimen698
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen699
+\flaglength=\dimen700
+\flagframe=\dimen701
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen702
+\flaglength=\dimen703
+\flagframe=\dimen704
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen705
+\flaglength=\dimen706
+\flagframe=\dimen707
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen708
+\flaglength=\dimen709
+\flagframe=\dimen710
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CZ.tex)
+\flagwidth=\dimen711
+\flaglength=\dimen712
+\flagframe=\dimen713
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen714
+\h=\dimen715
+\lwb=\dimen716
+\lws=\dimen717
+) [31
+
+]
+\flagwidth=\dimen718
+\flaglength=\dimen719
+\flagframe=\dimen720
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen721
+\flaglength=\dimen722
+\flagframe=\dimen723
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen724
+\flaglength=\dimen725
+\flagframe=\dimen726
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen727
+\flaglength=\dimen728
+\flagframe=\dimen729
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen730
+\flaglength=\dimen731
+\flagframe=\dimen732
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen733
+\flaglength=\dimen734
+\flagframe=\dimen735
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen736
+\flaglength=\dimen737
+\flagframe=\dimen738
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen739
+\flaglength=\dimen740
+\flagframe=\dimen741
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen742
+\flaglength=\dimen743
+\flagframe=\dimen744
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CZ.tex)
+\flagwidth=\dimen745
+\flaglength=\dimen746
+\flagframe=\dimen747
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen748
+\h=\dimen749
+\lwb=\dimen750
+\lws=\dimen751
+) [32
+
+]
+\flagwidth=\dimen752
+\flaglength=\dimen753
+\flagframe=\dimen754
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen755
+\flaglength=\dimen756
+\flagframe=\dimen757
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_MT.tex)
+\flagwidth=\dimen758
+\flaglength=\dimen759
+\flagframe=\dimen760
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SI.tex)
+\flagwidth=\dimen761
+\flaglength=\dimen762
+\flagframe=\dimen763
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen764
+\flaglength=\dimen765
+\flagframe=\dimen766
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CY.tex)
+\flagwidth=\dimen767
+\flaglength=\dimen768
+\flagframe=\dimen769
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen770
+\flaglength=\dimen771
+\flagframe=\dimen772
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen773
+\flaglength=\dimen774
+\flagframe=\dimen775
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen776
+\flaglength=\dimen777
+\flagframe=\dimen778
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_CZ.tex)
+\flagwidth=\dimen779
+\flaglength=\dimen780
+\flagframe=\dimen781
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_GB.tex
+\b=\dimen782
+\h=\dimen783
+\lwb=\dimen784
+\lws=\dimen785
+) [33
+
+]
+[34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+]
+\flagwidth=\dimen786
+\flaglength=\dimen787
+\flagframe=\dimen788
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen789
+\flaglength=\dimen790
+\flagframe=\dimen791
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen792
+\flaglength=\dimen793
+\flagframe=\dimen794
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen795
+\flaglength=\dimen796
+\flagframe=\dimen797
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen798
+\flaglength=\dimen799
+\flagframe=\dimen800
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen801
+\flaglength=\dimen802
+\flagframe=\dimen803
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen804
+\flaglength=\dimen805
+\flagframe=\dimen806
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen807
+\flaglength=\dimen808
+\flagframe=\dimen809
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen810
+\flaglength=\dimen811
+\flagframe=\dimen812
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen813
+\flaglength=\dimen814
+\flagframe=\dimen815
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [44
+
+]
+\flagwidth=\dimen816
+\flaglength=\dimen817
+\flagframe=\dimen818
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen819
+\flaglength=\dimen820
+\flagframe=\dimen821
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen822
+\flaglength=\dimen823
+\flagframe=\dimen824
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen825
+\flaglength=\dimen826
+\flagframe=\dimen827
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen828
+\flaglength=\dimen829
+\flagframe=\dimen830
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen831
+\flaglength=\dimen832
+\flagframe=\dimen833
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen834
+\flaglength=\dimen835
+\flagframe=\dimen836
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen837
+\flaglength=\dimen838
+\flagframe=\dimen839
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen840
+\flaglength=\dimen841
+\flagframe=\dimen842
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen843
+\flaglength=\dimen844
+\flagframe=\dimen845
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [45
+
+]
+\flagwidth=\dimen846
+\flaglength=\dimen847
+\flagframe=\dimen848
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen849
+\flaglength=\dimen850
+\flagframe=\dimen851
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen852
+\flaglength=\dimen853
+\flagframe=\dimen854
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen855
+\flaglength=\dimen856
+\flagframe=\dimen857
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen858
+\flaglength=\dimen859
+\flagframe=\dimen860
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen861
+\flaglength=\dimen862
+\flagframe=\dimen863
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen864
+\flaglength=\dimen865
+\flagframe=\dimen866
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen867
+\flaglength=\dimen868
+\flagframe=\dimen869
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen870
+\flaglength=\dimen871
+\flagframe=\dimen872
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen873
+\flaglength=\dimen874
+\flagframe=\dimen875
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [46
+
+]
+\flagwidth=\dimen876
+\flaglength=\dimen877
+\flagframe=\dimen878
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen879
+\flaglength=\dimen880
+\flagframe=\dimen881
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen882
+\flaglength=\dimen883
+\flagframe=\dimen884
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen885
+\flaglength=\dimen886
+\flagframe=\dimen887
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen888
+\flaglength=\dimen889
+\flagframe=\dimen890
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen891
+\flaglength=\dimen892
+\flagframe=\dimen893
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen894
+\flaglength=\dimen895
+\flagframe=\dimen896
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen897
+\flaglength=\dimen898
+\flagframe=\dimen899
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen900
+\flaglength=\dimen901
+\flagframe=\dimen902
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen903
+\flaglength=\dimen904
+\flagframe=\dimen905
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [47
+
+]
+\flagwidth=\dimen906
+\flaglength=\dimen907
+\flagframe=\dimen908
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen909
+\flaglength=\dimen910
+\flagframe=\dimen911
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen912
+\flaglength=\dimen913
+\flagframe=\dimen914
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen915
+\flaglength=\dimen916
+\flagframe=\dimen917
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen918
+\flaglength=\dimen919
+\flagframe=\dimen920
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen921
+\flaglength=\dimen922
+\flagframe=\dimen923
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen924
+\flaglength=\dimen925
+\flagframe=\dimen926
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen927
+\flaglength=\dimen928
+\flagframe=\dimen929
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen930
+\flaglength=\dimen931
+\flagframe=\dimen932
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen933
+\flaglength=\dimen934
+\flagframe=\dimen935
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [48
+
+]
+\flagwidth=\dimen936
+\flaglength=\dimen937
+\flagframe=\dimen938
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen939
+\flaglength=\dimen940
+\flagframe=\dimen941
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen942
+\flaglength=\dimen943
+\flagframe=\dimen944
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen945
+\flaglength=\dimen946
+\flagframe=\dimen947
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen948
+\flaglength=\dimen949
+\flagframe=\dimen950
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen951
+\flaglength=\dimen952
+\flagframe=\dimen953
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen954
+\flaglength=\dimen955
+\flagframe=\dimen956
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen957
+\flaglength=\dimen958
+\flagframe=\dimen959
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen960
+\flaglength=\dimen961
+\flagframe=\dimen962
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen963
+\flaglength=\dimen964
+\flagframe=\dimen965
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IE.tex) [49
+
+]
+\flagwidth=\dimen966
+\flaglength=\dimen967
+\flagframe=\dimen968
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen969
+\flaglength=\dimen970
+\flagframe=\dimen971
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen972
+\flaglength=\dimen973
+\flagframe=\dimen974
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen975
+\flaglength=\dimen976
+\flagframe=\dimen977
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen978
+\flaglength=\dimen979
+\flagframe=\dimen980
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen981
+\flaglength=\dimen982
+\flagframe=\dimen983
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen984
+\flaglength=\dimen985
+\flagframe=\dimen986
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen987
+\flaglength=\dimen988
+\flagframe=\dimen989
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen990
+\flaglength=\dimen991
+\flagframe=\dimen992
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen993
+\flaglength=\dimen994
+\flagframe=\dimen995
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [50
+
+]
+\flagwidth=\dimen996
+\flaglength=\dimen997
+\flagframe=\dimen998
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen999
+\flaglength=\dimen1000
+\flagframe=\dimen1001
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen1002
+\flaglength=\dimen1003
+\flagframe=\dimen1004
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen1005
+\flaglength=\dimen1006
+\flagframe=\dimen1007
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1008
+\flaglength=\dimen1009
+\flagframe=\dimen1010
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen1011
+\flaglength=\dimen1012
+\flagframe=\dimen1013
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1014
+\flaglength=\dimen1015
+\flagframe=\dimen1016
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen1017
+\flaglength=\dimen1018
+\flagframe=\dimen1019
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen1020
+\flaglength=\dimen1021
+\flagframe=\dimen1022
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1023
+\flaglength=\dimen1024
+\flagframe=\dimen1025
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [51
+
+]
+\flagwidth=\dimen1026
+\flaglength=\dimen1027
+\flagframe=\dimen1028
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1029
+\flaglength=\dimen1030
+\flagframe=\dimen1031
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen1032
+\flaglength=\dimen1033
+\flagframe=\dimen1034
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen1035
+\flaglength=\dimen1036
+\flagframe=\dimen1037
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1038
+\flaglength=\dimen1039
+\flagframe=\dimen1040
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen1041
+\flaglength=\dimen1042
+\flagframe=\dimen1043
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1044
+\flaglength=\dimen1045
+\flagframe=\dimen1046
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen1047
+\flaglength=\dimen1048
+\flagframe=\dimen1049
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen1050
+\flaglength=\dimen1051
+\flagframe=\dimen1052
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1053
+\flaglength=\dimen1054
+\flagframe=\dimen1055
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [52
+
+]
+\flagwidth=\dimen1056
+\flaglength=\dimen1057
+\flagframe=\dimen1058
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1059
+\flaglength=\dimen1060
+\flagframe=\dimen1061
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DK.tex)
+\flagwidth=\dimen1062
+\flaglength=\dimen1063
+\flagframe=\dimen1064
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SK.tex)
+\flagwidth=\dimen1065
+\flaglength=\dimen1066
+\flagframe=\dimen1067
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_BE.tex)
+\flagwidth=\dimen1068
+\flaglength=\dimen1069
+\flagframe=\dimen1070
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LU.tex)
+\flagwidth=\dimen1071
+\flaglength=\dimen1072
+\flagframe=\dimen1073
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1074
+\flaglength=\dimen1075
+\flagframe=\dimen1076
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NL.tex)
+\flagwidth=\dimen1077
+\flaglength=\dimen1078
+\flagframe=\dimen1079
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PL.tex)
+\flagwidth=\dimen1080
+\flaglength=\dimen1081
+\flagframe=\dimen1082
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1083
+\flaglength=\dimen1084
+\flagframe=\dimen1085
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex) [53
+
+]
+\flagwidth=\dimen1086
+\flaglength=\dimen1087
+\flagframe=\dimen1088
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1089
+\flaglength=\dimen1090
+\flagframe=\dimen1091
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1092
+\flaglength=\dimen1093
+\flagframe=\dimen1094
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1095
+\flaglength=\dimen1096
+\flagframe=\dimen1097
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1098
+\flaglength=\dimen1099
+\flagframe=\dimen1100
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1101
+\flaglength=\dimen1102
+\flagframe=\dimen1103
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1104
+\flaglength=\dimen1105
+\flagframe=\dimen1106
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1107
+\flaglength=\dimen1108
+\flagframe=\dimen1109
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1110
+\flaglength=\dimen1111
+\flagframe=\dimen1112
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1113
+\flaglength=\dimen1114
+\flagframe=\dimen1115
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [54
+
+]
+\flagwidth=\dimen1116
+\flaglength=\dimen1117
+\flagframe=\dimen1118
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1119
+\flaglength=\dimen1120
+\flagframe=\dimen1121
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1122
+\flaglength=\dimen1123
+\flagframe=\dimen1124
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1125
+\flaglength=\dimen1126
+\flagframe=\dimen1127
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1128
+\flaglength=\dimen1129
+\flagframe=\dimen1130
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1131
+\flaglength=\dimen1132
+\flagframe=\dimen1133
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1134
+\flaglength=\dimen1135
+\flagframe=\dimen1136
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1137
+\flaglength=\dimen1138
+\flagframe=\dimen1139
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1140
+\flaglength=\dimen1141
+\flagframe=\dimen1142
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1143
+\flaglength=\dimen1144
+\flagframe=\dimen1145
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [55
+
+]
+\flagwidth=\dimen1146
+\flaglength=\dimen1147
+\flagframe=\dimen1148
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1149
+\flaglength=\dimen1150
+\flagframe=\dimen1151
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1152
+\flaglength=\dimen1153
+\flagframe=\dimen1154
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1155
+\flaglength=\dimen1156
+\flagframe=\dimen1157
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1158
+\flaglength=\dimen1159
+\flagframe=\dimen1160
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1161
+\flaglength=\dimen1162
+\flagframe=\dimen1163
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1164
+\flaglength=\dimen1165
+\flagframe=\dimen1166
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1167
+\flaglength=\dimen1168
+\flagframe=\dimen1169
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1170
+\flaglength=\dimen1171
+\flagframe=\dimen1172
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1173
+\flaglength=\dimen1174
+\flagframe=\dimen1175
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [56
+
+]
+\flagwidth=\dimen1176
+\flaglength=\dimen1177
+\flagframe=\dimen1178
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1179
+\flaglength=\dimen1180
+\flagframe=\dimen1181
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_RO.tex)
+\flagwidth=\dimen1182
+\flaglength=\dimen1183
+\flagframe=\dimen1184
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_LT.tex)
+\flagwidth=\dimen1185
+\flaglength=\dimen1186
+\flagframe=\dimen1187
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_SE.tex)
+\flagwidth=\dimen1188
+\flaglength=\dimen1189
+\flagframe=\dimen1190
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1191
+\flaglength=\dimen1192
+\flagframe=\dimen1193
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_PT.tex)
+\flagwidth=\dimen1194
+\flaglength=\dimen1195
+\flagframe=\dimen1196
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_NE.tex)
+\flagwidth=\dimen1197
+\flaglength=\dimen1198
+\flagframe=\dimen1199
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_DE.tex)
+\flagwidth=\dimen1200
+\flaglength=\dimen1201
+\flagframe=\dimen1202
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_IT.tex)
+\flagwidth=\dimen1203
+\flaglength=\dimen1204
+\flagframe=\dimen1205
+
+(/usr/share/texlive/texmf-dist/tex/latex/worldflags/worldflag_FI.tex) [57
+
+]
+
+LaTeX Warning: File `Betweeness_2020asBasis.png' not found on input line 410.
+
+
+! Package pdftex.def Error: File `Betweeness_2020asBasis.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Eigenvector_2021asBasis.png' not found on input line 410.
+
+
+! Package pdftex.def Error: File `Eigenvector_2021asBasis.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[58
+
+]
+
+LaTeX Warning: File `Betweeness_2020asBasis.png' not found on input line 410.
+
+
+! Package pdftex.def Error: File `Betweeness_2020asBasis.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Eigenvector_2021asBasis.png' not found on input line 410.
+
+
+! Package pdftex.def Error: File `Eigenvector_2021asBasis.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[59
+
+]
+
+LaTeX Warning: File `plain_picture.png' not found on input line 424.
+
+
+! Package pdftex.def Error: File `plain_picture.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[60
+
+]
+
+LaTeX Warning: File `plain_picture.png' not found on input line 424.
+
+
+! Package pdftex.def Error: File `plain_picture.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[61
+
+]
+
+LaTeX Warning: File `plain_picture.png' not found on input line 424.
+
+
+! Package pdftex.def Error: File `plain_picture.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[62
+
+]
+
+LaTeX Warning: File `PM_group_Colors.png' not found on input line 434.
+
+
+! Package pdftex.def Error: File `PM_group_Colors.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.434 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[63
+
+]
+
+LaTeX Warning: File `PM_group_Colors.png' not found on input line 434.
+
+
+! Package pdftex.def Error: File `PM_group_Colors.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.434 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[64
+
+] [65
+
+] [66
+
+]
+\tf@nav=\write6
+\openout6 = `FinalPresentation2.nav'.
+
+\tf@toc=\write7
+\openout7 = `FinalPresentation2.toc'.
+
+\tf@snm=\write8
+\openout8 = `FinalPresentation2.snm'.
+
+ (./FinalPresentation2.aux)
+
+Package rerunfilecheck Warning: File `FinalPresentation2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `FinalPresentation2.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 30664 strings out of 478287
+ 666402 string characters out of 5849289
+ 1095247 words of memory out of 5000000
+ 47517 multiletter control sequences out of 15000+600000
+ 479228 words of font info for 64 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,16n,122p,398b,1600s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on FinalPresentation2.pdf (66 pages, 585210 bytes).
+PDF statistics:
+ 1871 PDF objects out of 2073 (max. 8388607)
+ 1738 compressed objects within 18 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+
