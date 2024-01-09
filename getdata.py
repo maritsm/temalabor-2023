@@ -116,9 +116,11 @@ def getCohDf():
     for cmtee in my_committees:
         cmteeonly = bigboy.loc[bigboy["organization_abbr"] == cmtee]
         cmtee_members = getImportantCommitteeMembers(comm=cmtee)
+        #TODO: EP Groupra is filterelni
         pedno = cmteeonly.groupby(cmteeonly.procedure_interinst_id)
 
         coh_overtime = {}
+        ## TODO: itt vetítés
         for i, x in pedno:
             pdedgelist = nx.from_pandas_edgelist(x, source='amendment_id', target = 'person_full_name')
             coh_overtime[i] = cohesiveness(pdedgelist, pdedgelist)
