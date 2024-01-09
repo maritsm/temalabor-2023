@@ -40,7 +40,7 @@ def getCommitteeSplitData():
 def getCommitteeData(comm):
     # get the data for the specific committee
     return getCommitteeSplitData()[comm]
-
+"""
 def getImportantCommitteeMembers(comm=None):
     #TODO: also correct for different membership at different times
     IMPORTANT_COMMITTEE_MEMBERS = {}
@@ -48,13 +48,19 @@ def getImportantCommitteeMembers(comm=None):
         IMPORTANT_COMMITTEE_MEMBERS[committee] = []
         for mep in MEPLIST.values:
             name = mep[1]
-            if isOrgMember(name, "Committee on the Environment, Public Health and Food Safety"): #### ????????
+            if isOrgMember(name, committee): #### ????????
                 IMPORTANT_COMMITTEE_MEMBERS[committee].append(name)
     if comm == None:
         return IMPORTANT_COMMITTEE_MEMBERS
     else:
         return IMPORTANT_COMMITTEE_MEMBERS[comm]
+"""   
+def getImportantCommitteeMembers(comm):
+    orm = ORG_MEMBERSHIP
+    orm_comm = orm.loc[orm["organization_abbr"] == comm]
+    return orm_comm["person_name"]
     
+
 def getCosponsorshipDataset():
     return nx.from_pandas_edgelist(COSPONSORSHIP_EDGELIST, source ="amendment_id", target = "person_full_name")
 
@@ -115,15 +121,27 @@ def getCohDf():
     data_to_plot = {}
     for cmtee in my_committees:
         cmteeonly = bigboy.loc[bigboy["organization_abbr"] == cmtee]
-        cmtee_members = getImportantCommitteeMembers(comm=cmtee)
-        #TODO: EP Groupra is filterelni
+
+    # mindenki menjen lowercase-ben...
+        cmtee_members = list(getImportantCommitteeMembers(comm=cmtee))
+        cmtee_members = [i.lower() for i in cmtee_members]
+
         pedno = cmteeonly.groupby(cmteeonly.procedure_interinst_id)
 
+        # Az ep_cosponsorshipben Keresztnév Vezetéknév
+        # Az organization_membershipben Kersztnév VEZETÉKNÉV
+        # emiatt nem lehet normálisan hozzáadni az extra mepeket
+        # az OfficialMEPId meg conflictelhet az amendment_id-vel
+        # #fun
+
         coh_overtime = {}
-        ## TODO: itt vetítés
         for i, x in pedno:
-            pdedgelist = nx.from_pandas_edgelist(x, source='amendment_id', target = 'person_full_name')
-            coh_overtime[i] = cohesiveness(pdedgelist, pdedgelist)
+            x["person_name_lower"] = x["person_full_name"].apply(lambda b : b.lower())
+            p = nx.from_pandas_edgelist(x, source='amendment_id', target = 'person_name_lower')
+            p.add_nodes_from(cmtee_members)
+            g = nx.algorithms.bipartite.projected_graph(p,cmtee_members)
+            coh_overtime[i] = cohesiveness(g, g)
+
         data_to_plot[cmtee] = coh_overtime
     coh_df = pd.DataFrame(data_to_plot)
     procdate =  getProcedureDateDict()
