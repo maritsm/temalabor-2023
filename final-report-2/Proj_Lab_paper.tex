@@ -22,8 +22,9 @@
 
 \author{{BERNÁT Ádám, MARITS Márton}
         % <-this % stops a space
-\thanks{This paper was produced by deez nuts. They are in your mom.}% <-this % stops a space
-\thanks{Manuscript received June 20, 2023; published two seconds later.}}
+%\thanks{This paper was produced by deez nuts. They are in your mom.}% <-this % stops a space
+%\thanks{Manuscript received June 20, 2023; published two seconds later.}
+}
 
 % The paper headers
 \markboth{Journal of BME Témalabor,~Vol.~1, No.~1, June~2023}%
@@ -35,22 +36,36 @@
 
 \maketitle
 
+\begin{abstract}
+	Abstract goes here
+\end{abstract}
+
+\section{Introduction}
+
+Blah blah blah
+
 \section{Our methods} \label{sec:method}
-Having gathered the combined data between 2019 and 2023, we spit it into multiple smaller sets with respect to the date. We tried monthly division, but the most suitable intervals seemed to be the quarterly and the half-yearly ones. Each data set is projected onto the set of  MEPs, using these graphs to observe the group behaviors of different parties in the European Parliament. Calculating the multiple different centralities for each one and graphing the change in the resulting centralities. The centralities that we used are:
+
+Having gathered the aggregated data from between 2019 and 2023, we spit the dataset into multiple smaller sets with respect to the date. We tried monthly division, but the most suitable intervals seemed to be the quarterly and the half-yearly ones. Each data set is projected onto the set of  MEPs, using these graphs to observe the group behaviors of different parties in the European Parliament. We calculated multiple different centrality measures for each group and plotted the change of these measures over time. The different centrality measures that we used were the following:
 
 \begin{itemize}
 \item \underline{Group Degree Centrality}: The group degree centrality of a group of MEPs (e.g: European People's Party) is the fraction of non-group members connected to group members.
 \item \underline{Group Closeness Centrality}: Group closeness centrality of a group of MEPs is a measure of how close the group is to the other members in the graph.
 \item \underline{Group Betweenness Centrality}: Group betweenness centrality of a group of MEPs is the sum of the fraction of all pairs' shortest paths that pass through any member of the given group.
 \end{itemize}
+
 These measures are very similar to their corresponding vertex versions. The correct definitions and methodologies of the group centrality measures are discussed in \cite{Centralities}
 
-In some cases, we further considered the different committees within the European Union. Each committee consists of several MEPs and are specialised on issues arising from one specific area and making laws in relation to said area. For example, the ITRE committee stands for "Committee on Industry, Research and Energy" and thus deals with lawmaking related to industry research and energy. When we specified a committee, we selected MEPs from the given committee, and we only considered these MEPs as the whole graph.
+In some cases, we further considered the different committees within the European Union. Each committee consists of several MEPs and are specialized on issues arising from one specific area and making laws in relation to said area. For example, the ITRE committee stands for ``Committee on Industry, Research and Energy" and thus deals with issues related to industrial, research and energy policy. When we specified a committee, we selected MEPs from the given committee, and we considered the MEPs in the committee as the vertices of a graph.
 
-Our expectations and presuppositions were the followings. If an event, cause, phenomenon, problem, or conflict is occurring close (either geographically or economically) to  the EU, those parties that are willing to step up and have more prominent agendas regarding the aforementioned event will most likely have higher group centrality ratios as they must interact with other parties and members of the European Parliament in order to further their agendas. More cooperation and willingness for discussion from a party will lead it towards a more "central" position as it interacts with many MEPs from other parties. On the other hand, deep division surrounding an event and unwillingness to move from one's position will result in stagnating and declining centrality for the more isolated party.
+Our expectations and presuppositions were the following. If an event, cause, phenomenon, problem, or conflict is occurring close (either geographically or economically) to the EU, those parties that are willing to step up and have more prominent agendas regarding the aforementioned event will most likely have higher group centrality ratios as they must interact with other parties and members of the European Parliament in order to further their agendas. More cooperation and willingness for discussion from a party will lead it towards a more ``central" position as it interacts with many MEPs from other parties. On the other hand, deep division surrounding an event and unwillingness to move from one's position will result in stagnation and declining centrality for the more isolated party.
 
 \section{Our results} \label{sec:results}
-\textbf{The committee-wise whole graph approach:} We have calculated and graphed the centralities of all the major political party groups within the EU. Here are the quarterly results of the further partitioned data, in which we separated the MEPs into committees. See figures \ref{EPP_ENVI_Q_closeness}. \ref{S&D_ENVI_Q_closeness}. \ref{EPP_ITRE_Q_closeness}. and \ref{S&D_ITRE_Q_closeness}; here we used closeness centrality as our measure. 
+
+%TODO
+
+%\textbf{The committee-wise whole graph approach:} %ez nagyon nem angolos :(
+\textbf{The first approach:} We have calculated and plotted the centralities of all major political party groups within the EU. Here are the quarterly results of the further partitioned data, in which we separated the MEPs into committees. See figures \ref{EPP_ENVI_Q_closeness}. \ref{S&D_ENVI_Q_closeness}. \ref{EPP_ITRE_Q_closeness}. and \ref{S&D_ITRE_Q_closeness}; here we used closeness centrality as our measure. 
 
 
 \begin{figure}[h]
@@ -88,9 +103,9 @@ The abbreviations correspond to two prominent committees:\\
 ITRE: Committee on Industry, Research and Energy\\
 ENVI: Committee on the Environment, Public Health and Food Safety
 
-It is also worth noting that a centrality is 0 either because a committee did not work during an interval or because the resulting graph is so fractured that it has no big component.
+It is also worth noting that a centrality may be zero either because a committee did not work during a given time period or because the resulting graph is so fractured that it is not connected. %TODO
 
-Some similar graphs are presented in Figures \ref{fig:btw_EPP} and \ref{fig:btw_S&D}; the difference is that here the centrality measure is betwenness.
+Some similar graphs are presented in Figures \ref{fig:btw_EPP} and \ref{fig:btw_S&D}; the difference is that in this case, the centrality measure is betwenness centrality.
 
 \begin{figure}[h]
   \centering
@@ -108,13 +123,14 @@ Some similar graphs are presented in Figures \ref{fig:btw_EPP} and \ref{fig:btw_
 
 \end{figure}
 
-The results are hardly decipherable, which we think can be attributed to mainly two things: 
+The results are hardly decipherable, which we believe can be attributed to two major factors: 
 \begin{itemize}
-\item Firstly, the data is too far stretched, creating uneven graphs with many components, and here in a really broken-up graph, centralities are relatively meaningless when compared to a much bigger graph's centralities.
-\item Secondly, the individual committees often focus on their respective areas, so big spikes are most likely indicate that an important agenda is on the table; a lack of agendas will result in tiny centrality.
+\item First, the data is too far stretched, creating uneven graphs with many components, and in a graph with many components, centralities are relatively meaningless when compared to centralities in a much larger graph.
+\item Second, the individual committees often focus on their respective areas, so big spikes most likely indicate that an important agenda is on the table; while a lack of agendas will result in a lower centrality value.
 \end{itemize}
 
-\textbf{The committee-wise greatest component approach:} Here as well, we restricted ourselves to one committee at a time and considered the greatest component of the connectivity graph of the MEPs. The centrality measurements were made on this giant component; in Figures \ref{EPP_ENVI_Q_closeness_BIG}. \ref{S&D_ENVI_Q_closeness_BIG}. \ref{EPP_ITRE_Q_closeness_BIG}. and \ref{S&D_ITRE_Q_closeness_BIG}. We used the group closeness centrality.
+%\textbf{The committee-wise greatest component approach:}
+\textbf{The second approach}: Again, we restricted ourselves to one committee at a time and considered the greatest component of the connectivity graph of the MEPs. The centrality measurements were made on this giant component; in Figures \ref{EPP_ENVI_Q_closeness_BIG}. \ref{S&D_ENVI_Q_closeness_BIG}. \ref{EPP_ITRE_Q_closeness_BIG}. and \ref{S&D_ITRE_Q_closeness_BIG}. We used group closeness centrality as the measure of centrality in this case.
 
 \begin{figure}[h]
   \centering
@@ -147,13 +163,16 @@ The results are hardly decipherable, which we think can be attributed to mainly 
   \end{minipage}
 \end{figure}
 
-Observing the graphs There seems to be an increase in activity of the ITRE committee as of the second and third quarters of 2022; the group centralities are higher than before. This might be an indicator of the sanction planning for and the energy price consequences of the Russian-Ukranian conflict.
+Observing the graphs, there seems to be an increase in activity of the ITRE committee in the second and third quarters of 2022; the group centralities are higher than before. We believe that this increase is caused by the planning of sanctions on Russia due to the Russo-Ukrainian war, and discussion related to the energy crisis that arose due to the conflict.
+%This might be an indicator of the sanction planning for and the energy price consequences of the Russian-Ukranian conflict.
 
-Despite the more reasonable graphs, there are still many 0 centrality data points, which is attributed to the sparseness of the edges between MEPs after so many restrictions. 
+These graphs show more clear trends, but there are still many data points with zero centrality, which we attribute to the sparseness of edges between MEPs, which is caused by filtering the data points to the specific group of MEPs that we are investigating. 
 
-\textbf{The greatest component approach for the half-yearly MEP graphs:} A different approach would be to use even more robust time periods, and no committee filter should be placed on the members. Thus, a more telling tale emerged when observing the half-yearly samples of the complete MEP structure. Similarly to the previous approach, here we also only considered the biggest components of the MEP graphs. 
+%\textbf{The greatest component approach for the half-yearly MEP graphs:}
+%TODO
+\textbf{The third approach}: A different approach would be of use even more robust time periods, and no committee filter should be placed on the members. Thus, a more telling tale emerged when observing the half-yearly samples of the complete MEP structure. Similarly to the previous approach, here we also only considered the biggest components of the MEP graphs. 
 
-Figures \ref{EPP_HY_deg}. and \ref{EPP_HY_cls}. are, respectively, graphing the degree and closeness centralities of the EPP group of the graphs.
+On Figures \ref{EPP_HY_deg} and \ref{EPP_HY_cls}, we have plotted the degree and closeness centralities of the EPP group, respectively.
 
 \begin{figure}[h]
   \centering
@@ -170,7 +189,7 @@ Figures \ref{EPP_HY_deg}. and \ref{EPP_HY_cls}. are, respectively, graphing the 
   \end{minipage}
 \end{figure}
 
-Similarly, figures \ref{S&D_HY_deg}. and \ref{S&D_HY_cls}. are, respectively, graphing the degree and closeness centralities of the S\&D group in the graphs.
+Similarly, Figures \ref{S&D_HY_deg} and \ref{S&D_HY_cls} show the degree and closeness centralities of the S\&D group.
 
 \begin{figure}[h]
   \centering
@@ -187,7 +206,7 @@ Similarly, figures \ref{S&D_HY_deg}. and \ref{S&D_HY_cls}. are, respectively, gr
   \end{minipage}
 \end{figure}
 
-Lastly, figures \ref{ID_HY_deg}. and \ref{ID_HY_cls}. are, respectively, graphing the degree and closeness centralities of the ID group in the graphs. The ID is considered a far-right or heavily right-leaning party within the European Parliament.
+Lastly, Figures \ref{ID_HY_deg} and \ref{ID_HY_cls} show the degree and closeness centralities of the ID group in the graphs. The ID is considered a far-right or heavily right-leaning party within the European Parliament.
 
 \begin{figure}[h]
   \centering
@@ -205,18 +224,48 @@ Lastly, figures \ref{ID_HY_deg}. and \ref{ID_HY_cls}. are, respectively, graphin
 \end{figure}
 
 \section{Conclusions} \label{sec:conclusions}
+
 The committee-wise analysis seems to have broken up the graph into too many pieces, thus many non-perfect results were calculated. Still, a noticeable trend is in the activity of the ITRE committee that we have touched on in the previous section. This might be an indicator of the lawmaking process and response to the effects of the Russian-Ukraine war and the consequent energy crisis. 
 
-While the different centrality measures were not always able to produce a meaningful number, the more robust approach in the latter part ensured that no 0 measure was given to these parties. 
+While the different centrality measures were not always able to produce a meaningful number, the more robust approach in the latter part ensured that the centrality measures were always positive, and there were no data points missing due to insufficient amounts of data. %no 0 measure was given to these parties. 
 
 While S\&D is generally considered left-leaning and the EPP is right-leaning, still, they are the moderate parties and the most populous ones. Mostly stagnation can be observed; a slight increase in centralities in recent years is also noticeable. Whereas, the ID is considered a far-right party, and its centralities seem to have increased more dramatically. While this is no strong evidence, a certain affinity to increase the centralities has recently emerged in the cases of the far-right and far-left-leaning parties. These parties are still far from being very influential and really central, however, they are no longer as isolated within the parliament as they once were.
 
 \begin{thebibliography}{1}
 \bibliographystyle{IEEEtran}
 
+\bibitem{Baller}
+Baller, Inger. "Specialists, party members, or national representatives: Patterns in co-sponsorship of amendments in the European Parliament." European Union Politics 18.3 (2017): 469-490.
+
+\bibitem{Cherepnalkoski}
+Cherepnalkoski, Darko \& Mozetič, Igor. "Retweet networks of the European Parliament: Evaluation of the community structure." Applied network science 1 (2016): 1-20.
+
+\bibitem{Desmarais}
+Desmarais, Bruce A., et al. "Measuring legislative collaboration: The Senate press events network." Social Networks 40 (2015): 43-54.
+
 \bibitem{Centralities}
 Everett, Martin \& Borgatti, Stephen. (1999). The Centrality of Groups and Classes. Journal of Mathematical Sociology. 23. 181-201. 10.1080/0022250X.1999.9990219.
 
+\bibitem{Fischer}
+Fischer, Manuel, et al. "How MPs ties to interest groups matter for legislative co-sponsorship." Social networks 57 (2019): 34-42.
+
+\bibitem{Fowler}
+Fowler, James H. "Connecting the Congress: A study of cosponsorship networks." Political analysis 14.4 (2006): 456-487.
+
+\bibitem{McPherson}
+McPherson, Miller \& Smith-Lovin, Lynn \& Cook, James M. "Birds of a feather: Homophily in social networks." Annual review of sociology 27.1 (2001): 415-444.
+
+\bibitem{Neal}
+Neal, Zachary. "The backbone of bipartite projections: Inferring relationships from co-authorship, co-sponsorship, co-attendance and other co-behaviors." Social Networks 39 (2014): 84-97.
+
+\bibitem{Peixoto}
+Peixoto, Tiago P. \& Rosvall, Martin. "Modelling sequences and temporal networks with dynamic community structures." Nature communications 8.1 (2017): 582.
+
+\bibitem{Porter}
+Porter, Mason A., et al. "A network analysis of committees in the US House of Representatives." Proceedings of the National Academy of Sciences 102.20 (2005): 7057-7062.
+
+\bibitem{Tanger}
+Tanger, Shaun M. \& Laband, David N. "An empirical analysis of bill co-sponsorship in the US Senate: The Tree Act of 2007." Forest Policy and Economics 11.4 (2009): 260-265.
 
 \end{thebibliography}
 
