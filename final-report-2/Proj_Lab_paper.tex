@@ -37,16 +37,46 @@
 \maketitle
 
 \begin{abstract}
-	Abstract goes here
+	We analyze a dataset of amendment co-sponsorship in the European Parliament. From this dataset, we construct a graph representing the co-sponsorship social network of the European Parliament, and we analyze its changes over time. We consider the changes in two important parameters of the social network, cohesion and centrality. For cohesion, we use a very simple measure, simply finding the proportion of pais of MEPs who co-contributed to amendments in a given period. For centrality, we use three different centrality measures to measure the change in centrality of political groups in the EP.
+	
+	We find %TODO
 \end{abstract}
 
-\section{Introduction}
+\section{Introduction} \label{sec:intro}
 
-Blah blah blah
+The European Parliament (EP for short) is a legislative institution of the European Union, in which representatives from each of the 28 (27 after Brexit) member states vote on legistation concerning the European Union. The Parliament consists of \textit{Members of the European Parliament} (MEPs), each of whom have a well-defined country of origin and political party. The political parties of each MEP are specific to their country of origin, but parties holding similar views organize themselves into \textit{political groups}, which act as super-parties in the context of the European Parliament.
+
+The major political groups in the EP are the European People's Party (EPP, centre-right), the Progressive Alliance of Socialists and Democrats (S\&D, left), Renew Europe (RE, liberal), the Greens–European Free Alliance (Greens/EFA, green), European Conservatives and Reformists (ECR, right), Identity and Democracy (ID, far-right) and The Left in the European Parliament (GUE/NGL, left). Representatives who do not belong to any of these groups are usually called Non-iscrits (French for `not registered'), often abbreviated as NI.
+
+Our aim is to analyze the social networks of the European Parliament, especially its change over time in the period between 2019 and 2023. For this analysis, we consider two important measures of the social network: cohesion and centrality.
+
+Cohesion is a measure of how well a social network is held together as a whole, how strongly is the graph of the social network connected. To measure this in a graph $G$, we introduce the \textit{cohesion} of $G$ as \[
+	\text{cohesion}(G) = \frac{2e}{\binom{n}{2}}
+\] where $e$ is the number of edges and $n$ is the number of vertices in $G$. This definition naturally generalizes to subgraphs of graphs, and we will use this extensively to study the cohesion of certain subgroups of MEPs, such as different political groups and different committees.
+
+Centrality is a measure of how `central' a node is within a graph. Notably, it is not a measure of the entire social network, rather only of a single MEP. To generalize and extend the notion to entire social networks, we use the methods outlined in \cite{Centralities}.
+
+Some analysis of social networks in the European Union has already been done in \cite{Baller} and \cite{Cherepnalkoski}. Work that is analogous to ours in the context of the United States Congress and Senate has also been seen before in \cite{Desmarais}, \cite{Fowler}, \cite{Porter} and \cite{Tanger}; while in \cite{Fischer}, Fischer et al. conducted an analysis of such co-sponsorship networks in the Swiss parliament.
+
+The present paper is organized as follows. In Section \ref{sec:data}, we detail the dataset available to us, its perks limitations. In Section \ref{sec:method}, we go into more detail on the three defferent centrality measures used for the analysis of group centrality. We detail our results in \ref{sec:results_coh} and \ref{sec:results}, also including a variety of plots to visualize the results on cohesiveness and centrality respectively.
+
+\section{Our data} \label{sec:data}
+
+Our dataset was acquired directly from the European Parliament's website. It is organized as a \texttt{csv} file which contains entries for each proposed amendment to a law, with information about when the amendment was proposed, some details about the amendment, and more importantly, information about who proposed the amendment, what party they belong to, which EP group said party belongs to, and which country are they are representative of.
+
+This data can therefore be viewed as a bipartite graph, in which one of the bipartitions consists of the MEPs, and the other consists of the proposed amendments. An MEP and an amendment are joined by an edge if and only if said MEP contributed to the amendment (\textit{sponsored} the amendment). Importantly, a single amendment may have multiple contributors, which allows us to analyze the social structure of the European Parliament as a whole.
+
+In total, our dataset contains 750,578 entries, which is the total number of edges in this bipartite graph. The dataset has data on a grand total of 754 MEPs.
+
+To analyze the social structure, we \textit{projected} this bipartite graph onto the set of MEPs. This procedure creates a new graph, wherein the nodes represent MEPs, and each edge connects two MEPs which have a contribution in common. (I.e. they \textit{co-sponsored} a bill.)
+
+With this projection, a new, not necessarily bipartite graph was created, which represents the state of the social network of the European Parliament. Notably, the number of contributions in common are not considered. An edge between two MEPs in this graph might represent a single amendment they co-sponsored, or it might represent a long-lasting relationship of co-sponsorship. The projection unfortunately obscures the details of the strength of the co-sponsorship based connection.
+
+To account for this, we also worked with a different type of projection, a \textit{weighted projection}. This modification of the projection algorithm serves to solve the problem outlined above. With a weighted projection, as previously, we create a new graph, whose nodes represent the MEPs, and connect to MEPs if they have co-sponsored a bill together. However, we also account for the number of co-contributions, which become the weight of each edge.
 
 \section{Our methods} \label{sec:method}
 
-Having gathered the aggregated data from between 2019 and 2023, we spit the dataset into multiple smaller sets with respect to the date. We tried monthly division, but the most suitable intervals seemed to be the quarterly and the half-yearly ones. Each data set is projected onto the set of  MEPs, using these graphs to observe the group behaviors of different parties in the European Parliament. We calculated multiple different centrality measures for each group and plotted the change of these measures over time. The different centrality measures that we used were the following:
+Having gathered the aggregated data from between 2019 and 2023, we split the dataset into multiple smaller sets with respect to the date. We tried monthly division, but the most suitable intervals seemed to be the quarterly and the half-yearly ones. Each data set is projected onto the set of  MEPs, using these graphs to observe the group behaviors of different parties in the European Parliament. We calculated multiple different centrality measures for each group and plotted the change of these measures over time. The different centrality measures that we used were the following:
 
 \begin{itemize}
 \item \underline{Group Degree Centrality}: The group degree centrality of a group of MEPs (e.g: European People's Party) is the fraction of non-group members connected to group members.
@@ -60,7 +90,9 @@ In some cases, we further considered the different committees within the Europea
 
 Our expectations and presuppositions were the following. If an event, cause, phenomenon, problem, or conflict is occurring close (either geographically or economically) to the EU, those parties that are willing to step up and have more prominent agendas regarding the aforementioned event will most likely have higher group centrality ratios as they must interact with other parties and members of the European Parliament in order to further their agendas. More cooperation and willingness for discussion from a party will lead it towards a more ``central" position as it interacts with many MEPs from other parties. On the other hand, deep division surrounding an event and unwillingness to move from one's position will result in stagnation and declining centrality for the more isolated party.
 
-\section{Our results} \label{sec:results}
+\section{Results on cohesion} \label{sec:results_coh}
+
+\section{Results on centrality} \label{sec:results}
 
 %TODO
 
