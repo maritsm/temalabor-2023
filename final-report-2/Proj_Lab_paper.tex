@@ -48,9 +48,9 @@ The major political groups in the EP are the European People's Party (EPP, centr
 
 Our aim is to analyze the social networks of the European Parliament, especially its change over time in the period between 2019 and 2023. For this analysis, we consider two important measures of the social network: cohesion and centrality.
 
-Cohesion is a measure of how well a social network is held together as a whole, how strongly is the graph of the social network connected. To measure this in a graph $G$, we introduce the \textit{cohesion} of $G$ as \[
+Cohesion is a measure of how well a social network is held together as a whole, how strongly is the graph of the social network connected. To measure this in a graph $G$, we introduce the \textit{cohesion} of $G$ as \begin{equation}
 	\text{cohesion}(G) = \frac{2e}{\binom{n}{2}} \label{coh_formula}
-\] where $e$ is the number of edges and $n$ is the number of vertices in $G$. This definition naturally generalizes to subgraphs of graphs, and we will use this extensively to study the cohesion of certain subgroups of MEPs, such as different political groups and different committees.
+\end{equation} where $e$ is the number of edges and $n$ is the number of vertices in $G$. This definition naturally generalizes to subgraphs of graphs, and we will use this extensively to study the cohesion of certain subgroups of MEPs, such as different political groups and different committees.
 
 Centrality is a measure of how `central' a node is within a graph. Notably, it is not a measure of the entire social network, rather only of a single MEP. To generalize and extend the notion to entire social networks, we use the methods outlined in \cite{Centralities}.
 
@@ -94,7 +94,7 @@ Our expectations and presuppositions were the following. If an event, cause, phe
 
 \section{Results on cohesion} \label{sec:results_coh}
 
-We plotted the cohesion values over time, aggregated by semesters. What this means is that for each semester, created a semesterly graph by taking the MEPs that contributed to any amendments at all in the given semester, adding an edge between two MEPs if and only if they both contributed to the same amendment during the semester. We then applied the formula \ref{coh_formula} to the resulting graph.
+We plotted the cohesion values over time, aggregated by semesters. What this means is that for each semester, created a semesterly graph by taking the MEPs that contributed to any amendments at all in the given semester, adding an edge between two MEPs if and only if they both contributed to the same amendment during the semester. We then applied the formula labeled (\ref{coh_formula}) above to the resulting graph.
 
 For each political group in the EP, we conducted a similar analysis for each semester, but only considering the MEPs from the given political group. Thus in these results, we only considered the co-sponsorship network of each political group.
 
