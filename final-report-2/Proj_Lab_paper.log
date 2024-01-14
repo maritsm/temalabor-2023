@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  14 JAN 2024 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  14 JAN 2024 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,164 +786,204 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<EPP_ENVI_Q_closeness.png, id=43, 409.7709pt x 347.6187pt>
+<coh_all.png, id=43, 408.3255pt x 314.3745pt>
+File: coh_all.png Graphic file (type png)
+<use coh_all.png>
+Package pdftex.def Info: coh_all.png  used on input line 106.
+(pdftex.def)             Requested size: 118.6778pt x 91.36774pt.
+ [2 <./coh_all.png>]
+<coh_epp.png, id=50, 401.8212pt x 314.3745pt>
+File: coh_epp.png Graphic file (type png)
+<use coh_epp.png>
+Package pdftex.def Info: coh_epp.png  used on input line 118.
+(pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
+<coh_s&d.png, id=51, 401.8212pt x 314.3745pt>
+File: coh_s&d.png Graphic file (type png)
+<use coh_s&d.png>
+Package pdftex.def Info: coh_s&d.png  used on input line 124.
+(pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
+<coh_re.png, id=52, 401.8212pt x 314.3745pt>
+File: coh_re.png Graphic file (type png)
+<use coh_re.png>
+Package pdftex.def Info: coh_re.png  used on input line 135.
+(pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
+<coh_ecr.png, id=53, 401.8212pt x 314.3745pt>
+File: coh_ecr.png Graphic file (type png)
+<use coh_ecr.png>
+Package pdftex.def Info: coh_ecr.png  used on input line 141.
+(pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
+<coh_id.png, id=54, 401.8212pt x 314.3745pt>
+File: coh_id.png Graphic file (type png)
+<use coh_id.png>
+Package pdftex.def Info: coh_id.png  used on input line 152.
+(pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
+<coh_guengl.png, id=55, 401.8212pt x 314.3745pt>
+File: coh_guengl.png Graphic file (type png)
+<use coh_guengl.png>
+Package pdftex.def Info: coh_guengl.png  used on input line 158.
+(pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
+
+Underfull \hbox (badness 1668) in paragraph at lines 159--159
+\OT1/ptm/m/n/8 Fig. 7.  Semesterly co-he-sion of
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<EPP_ENVI_Q_closeness.png, id=56, 409.7709pt x 347.6187pt>
 File: EPP_ENVI_Q_closeness.png Graphic file (type png)
 <use EPP_ENVI_Q_closeness.png>
-Package pdftex.def Info: EPP_ENVI_Q_closeness.png  used on input line 94.
+Package pdftex.def Info: EPP_ENVI_Q_closeness.png  used on input line 178.
 (pdftex.def)             Requested size: 118.6778pt x 100.67422pt.
-<S&D_ENVI_Q_closeness.png, id=45, 400.3758pt x 347.6187pt>
+<S&D_ENVI_Q_closeness.png, id=57, 400.3758pt x 347.6187pt>
 File: S&D_ENVI_Q_closeness.png Graphic file (type png)
 <use S&D_ENVI_Q_closeness.png>
-Package pdftex.def Info: S&D_ENVI_Q_closeness.png  used on input line 100.
+Package pdftex.def Info: S&D_ENVI_Q_closeness.png  used on input line 184.
 (pdftex.def)             Requested size: 118.6778pt x 103.03992pt.
-<EPP_ITRE_Q_closeness.png, id=46, 406.8801pt x 347.6187pt>
+<EPP_ITRE_Q_closeness.png, id=58, 406.8801pt x 347.6187pt>
 File: EPP_ITRE_Q_closeness.png Graphic file (type png)
 <use EPP_ITRE_Q_closeness.png>
-Package pdftex.def Info: EPP_ITRE_Q_closeness.png  used on input line 110.
+Package pdftex.def Info: EPP_ITRE_Q_closeness.png  used on input line 194.
 (pdftex.def)             Requested size: 118.6778pt x 101.3903pt.
-<S&D_ITRE_Q_closeness.png, id=47, 409.7709pt x 347.6187pt>
+<S&D_ITRE_Q_closeness.png, id=59, 409.7709pt x 347.6187pt>
 File: S&D_ITRE_Q_closeness.png Graphic file (type png)
 <use S&D_ITRE_Q_closeness.png>
-Package pdftex.def Info: S&D_ITRE_Q_closeness.png  used on input line 116.
+Package pdftex.def Info: S&D_ITRE_Q_closeness.png  used on input line 200.
 (pdftex.def)             Requested size: 118.6778pt x 100.67422pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<EPP_ENVI_Q_betweenness.png, id=48, 416.2752pt x 347.6187pt>
+<EPP_ENVI_Q_betweenness.png, id=60, 416.2752pt x 347.6187pt>
 File: EPP_ENVI_Q_betweenness.png Graphic file (type png)
 <use EPP_ENVI_Q_betweenness.png>
-Package pdftex.def Info: EPP_ENVI_Q_betweenness.png  used on input line 133.
+Package pdftex.def Info: EPP_ENVI_Q_betweenness.png  used on input line 217.
 (pdftex.def)             Requested size: 118.6778pt x 99.10417pt.
-<S&D_ENVI_Q_betweenness.png, id=49, 416.2752pt x 347.6187pt>
+<S&D_ENVI_Q_betweenness.png, id=61, 416.2752pt x 347.6187pt>
 File: S&D_ENVI_Q_betweenness.png Graphic file (type png)
 <use S&D_ENVI_Q_betweenness.png>
-Package pdftex.def Info: S&D_ENVI_Q_betweenness.png  used on input line 139.
+Package pdftex.def Info: S&D_ENVI_Q_betweenness.png  used on input line 223.
 (pdftex.def)             Requested size: 118.6778pt x 99.10417pt.
-<EPP_ENVI_Q_closeness_BIG.png, id=50, 409.7709pt x 347.6187pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./coh_epp.png> <./coh_s&d.png> <./coh_re.png> <./coh_ecr.png> <./coh_id.png
+> <./coh_guengl.png> <./EPP_ENVI_Q_closeness.png> <./S&D_ENVI_Q_closeness.png> 
+<./EPP_ITRE_Q_closeness.png> <./S&D_ITRE_Q_closeness.png>]
+<EPP_ENVI_Q_closeness_BIG.png, id=75, 409.7709pt x 347.6187pt>
 File: EPP_ENVI_Q_closeness_BIG.png Graphic file (type png)
 <use EPP_ENVI_Q_closeness_BIG.png>
-Package pdftex.def Info: EPP_ENVI_Q_closeness_BIG.png  used on input line 158.
+Package pdftex.def Info: EPP_ENVI_Q_closeness_BIG.png  used on input line 242.
 (pdftex.def)             Requested size: 118.6778pt x 100.67422pt.
-<S&D_ENVI_Q_closeness_BIG.png, id=51, 409.7709pt x 347.6187pt>
+<S&D_ENVI_Q_closeness_BIG.png, id=76, 409.7709pt x 347.6187pt>
 File: S&D_ENVI_Q_closeness_BIG.png Graphic file (type png)
 <use S&D_ENVI_Q_closeness_BIG.png>
-Package pdftex.def Info: S&D_ENVI_Q_closeness_BIG.png  used on input line 164.
+Package pdftex.def Info: S&D_ENVI_Q_closeness_BIG.png  used on input line 248.
 (pdftex.def)             Requested size: 118.6778pt x 100.67422pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<EPP_ITRE_Q_closeness_BIG.png, id=52, 409.7709pt x 347.6187pt>
+<EPP_ITRE_Q_closeness_BIG.png, id=77, 409.7709pt x 347.6187pt>
 File: EPP_ITRE_Q_closeness_BIG.png Graphic file (type png)
 <use EPP_ITRE_Q_closeness_BIG.png>
-Package pdftex.def Info: EPP_ITRE_Q_closeness_BIG.png  used on input line 174.
+Package pdftex.def Info: EPP_ITRE_Q_closeness_BIG.png  used on input line 258.
 (pdftex.def)             Requested size: 118.6778pt x 100.67422pt.
-<S&D_ITRE_Q_closeness_BIG.png, id=53, 409.7709pt x 347.6187pt>
+<S&D_ITRE_Q_closeness_BIG.png, id=78, 409.7709pt x 347.6187pt>
 File: S&D_ITRE_Q_closeness_BIG.png Graphic file (type png)
 <use S&D_ITRE_Q_closeness_BIG.png>
-Package pdftex.def Info: S&D_ITRE_Q_closeness_BIG.png  used on input line 180.
+Package pdftex.def Info: S&D_ITRE_Q_closeness_BIG.png  used on input line 264.
 (pdftex.def)             Requested size: 118.6778pt x 100.67422pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./EPP_ENVI_Q_closeness.png> <./S&D_ENVI_Q_closeness.png> <./EPP_ITRE_Q_clos
-eness.png> <./S&D_ITRE_Q_closeness.png> <./EPP_ENVI_Q_betweenness.png> <./S&D_E
-NVI_Q_betweenness.png>]
-<EPP_HY_deg.png, id=63, 401.8212pt x 314.3745pt>
+<EPP_HY_deg.png, id=79, 401.8212pt x 314.3745pt>
 File: EPP_HY_deg.png Graphic file (type png)
 <use EPP_HY_deg.png>
-Package pdftex.def Info: EPP_HY_deg.png  used on input line 200.
+Package pdftex.def Info: EPP_HY_deg.png  used on input line 284.
 (pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
-<EPP_HY_cls.png, id=64, 395.3169pt x 314.3745pt>
+<EPP_HY_cls.png, id=80, 395.3169pt x 314.3745pt>
 File: EPP_HY_cls.png Graphic file (type png)
 <use EPP_HY_cls.png>
-Package pdftex.def Info: EPP_HY_cls.png  used on input line 206.
+Package pdftex.def Info: EPP_HY_cls.png  used on input line 290.
 (pdftex.def)             Requested size: 118.6778pt x 94.37543pt.
-<S&D_HY_deg.png, id=65, 401.8212pt x 314.3745pt>
+<S&D_HY_deg.png, id=81, 401.8212pt x 314.3745pt>
 File: S&D_HY_deg.png Graphic file (type png)
 <use S&D_HY_deg.png>
-Package pdftex.def Info: S&D_HY_deg.png  used on input line 217.
+Package pdftex.def Info: S&D_HY_deg.png  used on input line 301.
 (pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
-<S&D_HY_cls.png, id=66, 395.3169pt x 314.3745pt>
+<S&D_HY_cls.png, id=82, 395.3169pt x 314.3745pt>
 File: S&D_HY_cls.png Graphic file (type png)
 <use S&D_HY_cls.png>
-Package pdftex.def Info: S&D_HY_cls.png  used on input line 223.
+Package pdftex.def Info: S&D_HY_cls.png  used on input line 307.
 (pdftex.def)             Requested size: 118.6778pt x 94.37543pt.
 
-Underfull \hbox (badness 1418) in paragraph at lines 224--224
+Underfull \hbox (badness 1418) in paragraph at lines 308--308
 \OT1/ptm/m/n/8 tral-ity of the S&D party in the
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 224--224
+Underfull \hbox (badness 3646) in paragraph at lines 308--308
 \OT1/ptm/m/n/8 biggest com-po-nent of the MEP
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<ID_HY_deg.png, id=67, 401.8212pt x 314.3745pt>
+<ID_HY_deg.png, id=83, 401.8212pt x 314.3745pt>
 File: ID_HY_deg.png Graphic file (type png)
 <use ID_HY_deg.png>
-Package pdftex.def Info: ID_HY_deg.png  used on input line 234.
+Package pdftex.def Info: ID_HY_deg.png  used on input line 318.
 (pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
-<ID_HY_cls.png, id=68, 401.8212pt x 314.3745pt>
+<ID_HY_cls.png, id=84, 401.8212pt x 314.3745pt>
 File: ID_HY_cls.png Graphic file (type png)
 <use ID_HY_cls.png>
-Package pdftex.def Info: ID_HY_cls.png  used on input line 240.
+Package pdftex.def Info: ID_HY_cls.png  used on input line 324.
 (pdftex.def)             Requested size: 118.6778pt x 92.84999pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 3713) in paragraph at lines 267--268
+[4 <./EPP_ENVI_Q_betweenness.png> <./S&D_ENVI_Q_betweenness.png> <./EPP_ENVI_Q_
+closeness_BIG.png> <./S&D_ENVI_Q_closeness_BIG.png> <./EPP_ITRE_Q_closeness_BIG
+.png> <./S&D_ITRE_Q_closeness_BIG.png> <./EPP_HY_deg.png> <./EPP_HY_cls.png> <.
+/S&D_HY_deg.png> <./S&D_HY_cls.png>]
+Underfull \hbox (badness 3713) in paragraph at lines 365--366
 []\OT1/ptm/m/n/8 Everett, Mar-tin & Bor-gatti, Stephen. (1999). The Cen-tral-it
 y of
  []
 
-[3 <./EPP_ENVI_Q_closeness_BIG.png> <./S&D_ENVI_Q_closeness_BIG.png> <./EPP_ITR
-E_Q_closeness_BIG.png> <./S&D_ITRE_Q_closeness_BIG.png> <./EPP_HY_deg.png> <./E
-PP_HY_cls.png> <./S&D_HY_deg.png> <./S&D_HY_cls.png> <./ID_HY_deg.png> <./ID_HY
-_cls.png>] [4
-
-] (./Proj_Lab_paper.aux) ) 
+[5 <./ID_HY_deg.png> <./ID_HY_cls.png>] (./Proj_Lab_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 18240 strings out of 478287
- 390097 string characters out of 5849289
- 692441 words of memory out of 5000000
- 36075 multiletter control sequences out of 15000+600000
- 502510 words of font info for 86 fonts, out of 8000000 for 9000
+ 18334 strings out of 478287
+ 391493 string characters out of 5849289
+ 691512 words of memory out of 5000000
+ 36157 multiletter control sequences out of 15000+600000
+ 503025 words of font info for 88 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 99i,8n,103p,836b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Proj_Lab_paper.pdf (4 pages, 341156 bytes).
+ 99i,8n,103p,834b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/tex
+live/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on Proj_Lab_paper.pdf (5 pages, 450659 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

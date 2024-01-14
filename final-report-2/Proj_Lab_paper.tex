@@ -37,9 +37,7 @@
 \maketitle
 
 \begin{abstract}
-	We analyze a dataset of amendment co-sponsorship in the European Parliament. From this dataset, we construct a graph representing the co-sponsorship social network of the European Parliament, and we analyze its changes over time. We consider the changes in two important parameters of the social network, cohesion and centrality. For cohesion, we use a very simple measure, simply finding the proportion of pais of MEPs who co-contributed to amendments in a given period. For centrality, we use three different centrality measures to measure the change in centrality of political groups in the EP.
-	
-	We find %TODO
+	We analyze a dataset of amendment co-sponsorship in the European Parliament. From this dataset, we construct a graph representing the co-sponsorship social network of the European Parliament, and we analyze its changes over time. We consider the changes in two important parameters of the social network, cohesion and centrality. For cohesion, we use a very simple measure, simply finding the proportion of pais of MEPs who co-contributed to amendments in a given period. For centrality, we use three different centrality measures to measure the change in centrality of political groups in the EP. We find that right-wing parties saw an increase in both of these measures of prominence over the period from 2019 to 2023.
 \end{abstract}
 
 \section{Introduction} \label{sec:intro}
@@ -51,7 +49,7 @@ The major political groups in the EP are the European People's Party (EPP, centr
 Our aim is to analyze the social networks of the European Parliament, especially its change over time in the period between 2019 and 2023. For this analysis, we consider two important measures of the social network: cohesion and centrality.
 
 Cohesion is a measure of how well a social network is held together as a whole, how strongly is the graph of the social network connected. To measure this in a graph $G$, we introduce the \textit{cohesion} of $G$ as \[
-	\text{cohesion}(G) = \frac{2e}{\binom{n}{2}}
+	\text{cohesion}(G) = \frac{2e}{\binom{n}{2}} \label{coh_formula}
 \] where $e$ is the number of edges and $n$ is the number of vertices in $G$. This definition naturally generalizes to subgraphs of graphs, and we will use this extensively to study the cohesion of certain subgroups of MEPs, such as different political groups and different committees.
 
 Centrality is a measure of how `central' a node is within a graph. Notably, it is not a measure of the entire social network, rather only of a single MEP. To generalize and extend the notion to entire social networks, we use the methods outlined in \cite{Centralities}.
@@ -74,23 +72,97 @@ With this projection, a new, not necessarily bipartite graph was created, which 
 
 To account for this, we also worked with a different type of projection, a \textit{weighted projection}. This modification of the projection algorithm serves to solve the problem outlined above. With a weighted projection, as previously, we create a new graph, whose nodes represent the MEPs, and connect to MEPs if they have co-sponsored a bill together. However, we also account for the number of co-contributions, which become the weight of each edge.
 
-\section{Our methods} \label{sec:method}
+To analyze the changes over time, we aggregated the data over semesters. At first, we only aggregated by month, but this resulted in fractured plots with many missing data points. Semesterly aggregation allowed us to see changes in the data much more clearly, mitigating the harsh effects of random noise that could be seen when aggregated over finer time intervals. In certain analyses, it was possible to use quarterly aggregation instead, without the negative effects previously described. In these cases, we included plots of the data by quarter.
 
-Having gathered the aggregated data from between 2019 and 2023, we split the dataset into multiple smaller sets with respect to the date. We tried monthly division, but the most suitable intervals seemed to be the quarterly and the half-yearly ones. Each data set is projected onto the set of  MEPs, using these graphs to observe the group behaviors of different parties in the European Parliament. We calculated multiple different centrality measures for each group and plotted the change of these measures over time. The different centrality measures that we used were the following:
+Semesterly aggregation is also very natural for analysis of data from the EP, because its work schedule is naturally divisible into semesters.
+
+\section{Measures of centrality} \label{sec:method}
+
+Having gathered the aggregated data from between 2019 and 2023, we split the dataset into multiple smaller sets with respect to the date. We tried using monthly aggregation, but it turned out that quarterly and semesterly aggregation results in much more coherent data. Each dataset is projected onto the set of MEPs, and we are using these graphs to observe the group behaviors of different parties in the European Parliament. We calculated multiple different centrality measures for each group and plotted the change of these measures over time. The different centrality measures that we used were the following:
 
 \begin{itemize}
-\item \underline{Group Degree Centrality}: The group degree centrality of a group of MEPs (e.g: European People's Party) is the fraction of non-group members connected to group members.
-\item \underline{Group Closeness Centrality}: Group closeness centrality of a group of MEPs is a measure of how close the group is to the other members in the graph.
-\item \underline{Group Betweenness Centrality}: Group betweenness centrality of a group of MEPs is the sum of the fraction of all pairs' shortest paths that pass through any member of the given group.
+\item \underline{Group Degree Centrality}: The group degree centrality of a group of MEPs (e.g: European People's Party) is the fraction of MEPs from outside the group which are connected to group members.
+\item \underline{Group Closeness Centrality}: The group closeness centrality of a group of MEPs is a measure of how close the group is to the other members in the graph.
+\item \underline{Group Betweenness Centrality}: The group betweenness centrality of a group of MEPs is the sum of the fraction of all pairs' shortest paths that pass through any member of the given group.
 \end{itemize}
 
-These measures are very similar to their corresponding vertex versions. The correct definitions and methodologies of the group centrality measures are discussed in \cite{Centralities}
+Each of these measures is derived in a straightforward way from a measure of node centrality. The derivation of the group centrality measures from node centrality measures are discussed in \cite{Centralities}.
 
 In some cases, we further considered the different committees within the European Union. Each committee consists of several MEPs and are specialized on issues arising from one specific area and making laws in relation to said area. For example, the ITRE committee stands for ``Committee on Industry, Research and Energy" and thus deals with issues related to industrial, research and energy policy. When we specified a committee, we selected MEPs from the given committee, and we considered the MEPs in the committee as the vertices of a graph.
 
-Our expectations and presuppositions were the following. If an event, cause, phenomenon, problem, or conflict is occurring close (either geographically or economically) to the EU, those parties that are willing to step up and have more prominent agendas regarding the aforementioned event will most likely have higher group centrality ratios as they must interact with other parties and members of the European Parliament in order to further their agendas. More cooperation and willingness for discussion from a party will lead it towards a more ``central" position as it interacts with many MEPs from other parties. On the other hand, deep division surrounding an event and unwillingness to move from one's position will result in stagnation and declining centrality for the more isolated party.
+Our expectations and presuppositions were the following. If an event, cause, phenomenon, problem, or conflict is occurring close (either geographically or economically) to the EU, the parties that are willing to step up and have more prominent agendas regarding the aforementioned event will most likely have higher group centrality ratios as they must interact with other parties and members of the European Parliament in order to further their agendas. More cooperation and willingness for discussion from a party will lead it towards a more ``central" position as it interacts with many MEPs from other parties. On the other hand, deep division surrounding an event and unwillingness to move from one's position will result in stagnation and declining centrality for the more isolated party.
 
 \section{Results on cohesion} \label{sec:results_coh}
+
+We plotted the cohesion values over time, aggregated by semesters. What this means is that for each semester, created a semesterly graph by taking the MEPs that contributed to any amendments at all in the given semester, adding an edge between two MEPs if and only if they both contributed to the same amendment during the semester. We then applied the formula \ref{coh_formula} to the resulting graph.
+
+For each political group in the EP, we conducted a similar analysis for each semester, but only considering the MEPs from the given political group. Thus in these results, we only considered the co-sponsorship network of each political group.
+
+The analysis of the entire social network gave the data plotted in Figure \ref{fig:coh_all}. The first datapoint is likely to be so low because of the fact that the current term of the EP was just beginning, and people were still busy getting used to the EP. From then on, we see a slight downward trend. It is difficult to attribute this to any specific factor.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_all.png}
+		\caption{Changes in cohesion of the entire social network}
+		\label{fig:coh_all}
+	\end{minipage}
+	\hfill
+\end{figure}
+
+The analysis of each political group gave much clearer results. The two largest groups in the EP are the EPP and S\& D. The EPP is center-right, while the S\& D is center-left. Figures \ref{fig:coh_epp} and \ref{fig:coh_sd} show the changes in cohesion of the two groups. The EPP saw a clear increase in cohesion over time, while the S\& D saw a clear decrease. It can therefore be hypothesized that the right-wing is `on the rise' in the European Parliament. What is certain is that the largest right-leaning group in the EU has been able to consistently increase its internal cohesion.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_epp.png}
+		\caption{Semesterly cohesion of EPP}
+		\label{fig:coh_epp}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_s&d.png}
+		\caption{Semesterly cohesion of S\& D}
+		\label{fig:coh_sd}
+	\end{minipage}
+\end{figure}
+
+Similar conclusions can be drawn by observing Figures \ref{fig:coh_re} and \ref{fig:coh_ecr}. The liberal Renew Europe (RE) party has suffered tremendous losses over time in cohesion. This seems to imply that its members are less in touch with each other as previously. Meanwhile, the right-wing ECR party does not seem to be experiencing such a decrease in cohesion. It is to be noted though that the data in the case of ECR seems to have a clear periodicity to it, starting in 2021. ECR members seem to work more with each other in the first semester each year, and less so during the second semester.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_re.png}
+		\caption{Semesterly cohesion of RE}
+		\label{fig:coh_re}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_ecr.png}
+		\caption{Semesterly cohesion of ECR}
+		\label{fig:coh_ecr}
+	\end{minipage}
+\end{figure}
+
+Figures \ref{fig:coh_id} and \ref{fig:coh_guengl} show the changes in cohesion for ID (Identity and Democracy) and GUE/NGL. The former is a far-right party, while the other is a left-wing party, also dubbing itself ``The Left". What we see is that the right-wing ID is the only party in the EP which managed to consistently increase its cohesion, meanwhile GUE/NGL has experienced a decrease in cohesion.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_id.png}
+		\caption{Semesterly cohesion of ID}
+		\label{fig:coh_id}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.23\textwidth}
+		\includegraphics[width=\textwidth]{coh_guengl.png}
+		\caption{Semesterly cohesion of GUE/NGL}
+		\label{fig:coh_guengl}
+	\end{minipage}
+\end{figure}
+
+It is quite clear that the trend is for right-wing parties to be gaining cohesion, while left-wing parties stagnate or decrease in this measure. The overall trend for the whole EP is also for the cohesion to decrease slowly. In the future, of course, it will be possible to see if these trends continue. The `rise of the right' or `rise of the far-right' has been a trend in European politics since at least 2014, and it is possible that the rise in internal cohesion of right-wing political parties plays a role in this.
+
 
 \section{Results on centrality} \label{sec:results}
 
@@ -210,13 +282,13 @@ On Figures \ref{EPP_HY_deg} and \ref{EPP_HY_cls}, we have plotted the degree and
   \centering
   \begin{minipage}[b]{0.23\textwidth}
     \includegraphics[width=\textwidth]{EPP_HY_deg.png}
-    \caption{Half-yearly degree centrality of the EPP party in the biggest component of the MEP graph}
+    \caption{Semesterly degree centrality of the EPP party in the biggest component of the MEP graph}
     \label{EPP_HY_deg}
   \end{minipage}
   \hfill
   \begin{minipage}[b]{0.23\textwidth}
     \includegraphics[width=\textwidth]{EPP_HY_cls.png}
-    \caption{Half-yearly closeness centrality of the EPP party in the  biggest component of the MEP graph}
+    \caption{Semesterly closeness centrality of the EPP party in the  biggest component of the MEP graph}
     \label{EPP_HY_cls}
   \end{minipage}
 \end{figure}
@@ -227,13 +299,13 @@ Similarly, Figures \ref{S&D_HY_deg} and \ref{S&D_HY_cls} show the degree and clo
   \centering
   \begin{minipage}[b]{0.23\textwidth}
     \includegraphics[width=\textwidth]{S&D_HY_deg.png}
-    \caption{Half-yearly degree centrality of the S\&D party in the biggest component of the MEP graph}
+    \caption{Semesterly degree centrality of the S\&D party in the biggest component of the MEP graph}
     \label{S&D_HY_deg}
   \end{minipage}
   \hfill
   \begin{minipage}[b]{0.23\textwidth}
     \includegraphics[width=\textwidth]{S&D_HY_cls.png}
-    \caption{Half-yearly closeness centrality of the S\&D party in the  biggest component of the MEP graph}
+    \caption{Semesterly closeness centrality of the S\&D party in the  biggest component of the MEP graph}
     \label{S&D_HY_cls}
   \end{minipage}
 \end{figure}
@@ -244,24 +316,38 @@ Lastly, Figures \ref{ID_HY_deg} and \ref{ID_HY_cls} show the degree and closenes
   \centering
   \begin{minipage}[b]{0.23\textwidth}
     \includegraphics[width=\textwidth]{ID_HY_deg.png}
-    \caption{Half-yearly degree centrality of the ID party in the biggest component of the MEP graph}
+    \caption{Semesterly degree centrality of the ID party in the largest component of the MEP graph}
     \label{ID_HY_deg}
   \end{minipage}
   \hfill
   \begin{minipage}[b]{0.23\textwidth}
     \includegraphics[width=\textwidth]{ID_HY_cls.png}
-    \caption{Half-yearly closeness centrality of the ID party in the  biggest component of the MEP graph}
+    \caption{Semesterly closeness centrality of the ID party in the largest component of the MEP graph}
     \label{ID_HY_cls}
   \end{minipage}
 \end{figure}
 
-\section{Conclusions} \label{sec:conclusions}
 
-The committee-wise analysis seems to have broken up the graph into too many pieces, thus many non-perfect results were calculated. Still, a noticeable trend is in the activity of the ITRE committee that we have touched on in the previous section. This might be an indicator of the lawmaking process and response to the effects of the Russian-Ukraine war and the consequent energy crisis. 
 
-While the different centrality measures were not always able to produce a meaningful number, the more robust approach in the latter part ensured that the centrality measures were always positive, and there were no data points missing due to insufficient amounts of data. %no 0 measure was given to these parties. 
+The analysis broken up by committee seems to have broken up the graph into too many pieces, thus many imperfect results were calculated. Still, a noticeable trend is in the activity of the ITRE committee that we have touched on in the previous section. This might be an indicator of the lawmaking process and response to the effects of the Russian-Ukraine war and the consequent energy crisis. 
+
+While the different centrality measures were not always able to produce meaningful numbers, the more robust approach in the latter part ensured that the centrality measures were always positive, and there were no data points missing due to insufficient amounts of data. %no 0 measure was given to these parties. 
 
 While S\&D is generally considered left-leaning and the EPP is right-leaning, still, they are the moderate parties and the most populous ones. Mostly stagnation can be observed; a slight increase in centralities in recent years is also noticeable. Whereas, the ID is considered a far-right party, and its centralities seem to have increased more dramatically. While this is no strong evidence, a certain affinity to increase the centralities has recently emerged in the cases of the far-right and far-left-leaning parties. These parties are still far from being very influential and really central, however, they are no longer as isolated within the parliament as they once were.
+
+\section{Conclusions} \label{sec:conclusions}
+
+Both cohesion and centrality of a political group measure, in a way, their prominence within the policial structure of the European Parliament. We saw very similar results in both cases. Right-wing political forces are measurably gaining prominence, both in terms of cohesion and in terms of centrality.
+
+The increases in cohesion imply that right-wing political groups are less divided, they are more focused on achieving their goals than ever, and at the same time, left-wing and centrist groups are more divided and less able to act as a unified bloc.
+
+The increases in centrality imply that right-wing groups take a more central role than previously. This is especially apparent when looking at the far-right. Traditionally, the far-right was extremely isolated in the EP due to their unpopular views. The current trends seem to imply that this historical isolation has ended and they now have stronger connections to the more moderate right-wing parties. This of course doesn't mean that the far-right has become mainstream, far from it, but it play a much more prominent role in politics than before.
+
+Partly as a result of this, the center-right party EPP is now taking on the role of the `bridge' between right-wing and left-wing parties in the EP. Traditionally, this role was assumed by the liberals, who seem to have instead taken a turn towards the left.
+
+In light of these results, one can make predictions about the upcoming elections for the EP. It seems likely that the future of the EP will be decided by right-wing coalitions.
+
+%\section{Future reserach} \label{sec:futureresearch}
 
 \begin{thebibliography}{1}
 \bibliographystyle{IEEEtran}
