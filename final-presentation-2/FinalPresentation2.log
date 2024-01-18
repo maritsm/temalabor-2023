@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  8 JAN 2024 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  18 JAN 2024 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,7 +913,7 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count345
 \l__pdf_internal_box=\box100
 )
-No file FinalPresentation2.aux.
+(./FinalPresentation2.aux)
 \openout1 = `FinalPresentation2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -934,6 +934,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1006,6 +1007,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
 LaTeX Info: Redefining \nameref on input line 38.
+
+(./FinalPresentation2.out) (./FinalPresentation2.out)
 \@outlinefile=\write5
 \openout5 = `FinalPresentation2.out'.
 
@@ -1088,9 +1091,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-No file FinalPresentation2.nav.
-[1
+ (./FinalPresentation2.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
@@ -2943,20 +2944,14 @@ If that doesn't work, type  X <return>  to quit.
 \openout8 = `FinalPresentation2.snm'.
 
  (./FinalPresentation2.aux)
-
-Package rerunfilecheck Warning: File `FinalPresentation2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `FinalPresentation2.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `FinalPresentation2.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30664 strings out of 478287
- 666402 string characters out of 5849289
- 1095247 words of memory out of 5000000
- 47517 multiletter control sequences out of 15000+600000
+ 30715 strings out of 478287
+ 666921 string characters out of 5849289
+ 1094904 words of memory out of 5000000
+ 47560 multiletter control sequences out of 15000+600000
  479228 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,398b,1600s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2967,7 +2962,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on FinalPresentation2.pdf (66 pages, 585210 bytes).
+Output written on FinalPresentation2.pdf (66 pages, 585900 bytes).
 PDF statistics:
  1871 PDF objects out of 2073 (max. 8388607)
  1738 compressed objects within 18 object streams

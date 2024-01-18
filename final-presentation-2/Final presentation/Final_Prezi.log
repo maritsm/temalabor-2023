@@ -1,17 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.27)  18 JAN 2024 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.19)  18 JAN 2024 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Final_Prezi.tex
-(Final_Prezi.tex
+**Final_Prezi.tex
+(./Final_Prezi.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
-Document Class: beamer 2022/05/17 v3.67 A class for typesetting presentations
-
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
-sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2022/01/21 v3.65 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
@@ -19,8 +17,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \beamer@tempcount=\count186
 \c@beamerpauses=\count187
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
-.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 \beamer@slideinframe=\count188
 \beamer@minimum=\count189
 \beamer@decode@box=\box51
@@ -28,9 +25,12 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \beamer@commentbox=\box52
 \beamer@modecount=\count190
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
 \headdp=\dimen138
 \footheight=\dimen139
 \sidebarheight=\dimen140
@@ -75,19 +75,18 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \beamer@toclastsection=\count275
 \beamer@tocsectionnumber=\count276
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
-s.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count277
@@ -102,172 +101,98 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen160
 \Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks17
-
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
-\pgfutil@everybye=\toks18
-\pgfutil@tempdima=\dimen162
-\pgfutil@tempdimb=\dimen163
-
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common-lists.tex))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
-\pgfutil@abb=\box59
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
-
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-filtered.code.tex
-\pgfkeys@tmptoks=\toks21
-)))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex
-\pgf@x=\dimen164
-\pgf@xa=\dimen165
-\pgf@xb=\dimen166
-\pgf@xc=\dimen167
-\pgf@y=\dimen168
-\pgf@ya=\dimen169
-\pgf@yb=\dimen170
-\pgf@yc=\dimen171
-\c@pgf@counta=\count280
-\c@pgf@countb=\count281
-\c@pgf@countc=\count282
-\c@pgf@countd=\count283
-)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
-\pgfmath@dimen=\dimen172
-\pgfmath@count=\count284
-\pgfmath@box=\box60
-\pgfmath@toks=\toks22
-\pgfmath@stack@operand=\toks23
-\pgfmath@stack@operation=\toks24
-)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
-\c@pgfmathroundto@lastzeros=\count285
-)))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen173
-\Gin@req@width=\dimen174
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex)
-\pgf@x=\dimen175
-\pgf@y=\dimen176
-\pgf@xa=\dimen177
-\pgf@ya=\dimen178
-\pgf@xb=\dimen179
-\pgf@yb=\dimen180
-\pgf@xc=\dimen181
-\pgf@yc=\dimen182
-\pgf@xd=\dimen183
-\pgf@yd=\dimen184
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count286
-\c@pgf@countb=\count287
-\c@pgf@countc=\count288
-\c@pgf@countd=\count289
-\t@pgf@toka=\toks25
-\t@pgf@tokb=\toks26
-\t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count290
-
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count284
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count291
-\pgfsyssoftpath@bigbuffer@items=\count292
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
@@ -281,262 +206,283 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count287
+\pgfmath@box=\box60
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
 .tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
 tex)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count288
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen185
-\pgf@picmaxx=\dimen186
-\pgf@picminy=\dimen187
-\pgf@picmaxy=\dimen188
-\pgf@pathminx=\dimen189
-\pgf@pathmaxx=\dimen190
-\pgf@pathminy=\dimen191
-\pgf@pathmaxy=\dimen192
-\pgf@xx=\dimen193
-\pgf@xy=\dimen194
-\pgf@yx=\dimen195
-\pgf@yy=\dimen196
-\pgf@zx=\dimen197
-\pgf@zy=\dimen198
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen199
-\pgf@path@lasty=\dimen256
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen257
-\pgf@shorten@start@additional=\dimen258
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count293
+\pgf@picture@serial@count=\count289
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen259
+\pgflinewidth=\dimen195
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen260
-\pgf@pt@y=\dimen261
-\pgf@pt@temp=\dimen262
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen263
+\pgfarrowsep=\dimen199
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen264
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count290
+\pgf@shadingcount=\count291
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box64
 ))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
-ty
-Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count296
-\XC@countmixins=\count297
+))) (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count292
+\XC@countmixins=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
-.sty
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen265
-\Hy@linkcounter=\count298
-\Hy@pagecounter=\count299
- (C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen257
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count300
- (C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count296
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4018.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4018.
-Package hyperref Info: Option `implicit' set `false' on input line 4018.
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
+Package hyperref Info: Option `implicit' set `false' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count301
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count297
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen266
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen258
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count302
-\Field@Width=\dimen267
-\Fld@charsize=\dimen268
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
-\Hy@abspage=\count303
+\Fld@menulength=\count298
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+\Hy@abspage=\count299
 
 
 Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count304
-\c@bookmark@seq@number=\count305
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
-es.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
-ibility.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
-ty (C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks28
 \symAMSa=\mathgroup4
@@ -545,178 +491,155 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
-accent.sty
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
-Package: scrlfile 2022/05/01 v3.36 KOMA-Script package (file load hooks)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
-Package: scrlfile-hook 2022/05/01 v3.36 KOMA-Script package (using LaTeX hooks)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
 
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2022/05/01 v3.36 KOMA-Script package (logo)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
 )))))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
-ator.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
-ty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
-ty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
-eens.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
-y.sty
-\beamer@argscount=\count306
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count302
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count307
+\beamer@trivlistdepth=\count303
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
-sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
-n.sty
-\c@lecture=\count308
-\c@part=\count309
-\c@section=\count310
-\c@subsection=\count311
-\c@subsubsection=\count312
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count304
+\c@part=\count305
+\c@section=\count306
+\c@subsection=\count307
+\c@subsubsection=\count308
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
 \beamer@framebox=\box65
 \beamer@frametitlebox=\box66
 \beamer@zoombox=\box67
-\beamer@zoomcount=\count313
-\beamer@zoomframecount=\count314
-\beamer@frametextheight=\dimen269
-\c@subsectionslide=\count315
+\beamer@zoomcount=\count309
+\beamer@zoomframecount=\count310
+\beamer@frametextheight=\dimen261
+\c@subsectionslide=\count311
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
 \beamer@envbody=\toks29
-\framewidth=\dimen270
-\c@framenumber=\count316
+\framewidth=\dimen262
+\c@framenumber=\count312
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
-im.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
-ize.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 \beamer@splitbox=\box68
-\beamer@autobreakcount=\count317
-\beamer@autobreaklastheight=\dimen271
+\beamer@autobreakcount=\count313
+\beamer@autobreaklastheight=\dimen263
 \beamer@frametitletoks=\toks30
 \beamer@framesubtitletoks=\toks31
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
-omponents.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
 \beamer@footins=\box69
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
-sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
 \beamer@frameboxcopy=\box70
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
-y)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
-tes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 \beamer@sbttoks=\toks32
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
-plates.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 \bmb@box=\box71
 \bmb@colorbox=\box72
-\bmb@boxwidth=\dimen272
-\bmb@boxheight=\dimen273
-\bmb@prevheight=\dimen274
-\bmb@temp=\dimen275
-\bmb@dima=\dimen276
-\bmb@dimb=\dimen277
-\bmb@prevheight=\dimen278
+\bmb@boxwidth=\dimen264
+\bmb@boxheight=\dimen265
+\bmb@prevheight=\dimen266
+\bmb@temp=\dimen267
+\bmb@dima=\dimen268
+\bmb@dimb=\dimen269
+\bmb@prevheight=\dimen270
 )
-\beamer@blockheadheight=\dimen279
+\beamer@blockheadheight=\dimen271
 ))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
-tructure.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks33
 )
 \beamer@bibiconwidth=\skip55
-\c@figure=\count318
-\c@table=\count319
+\c@figure=\count314
+\c@table=\count315
 \abovecaptionskip=\skip56
 \belowcaptionskip=\skip57
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
-tion.sty
-\beamer@section@min@dim=\dimen280
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen272
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
-ms.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
-\ex@=\dimen281
+\ex@=\dimen273
 ))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen282
+\pmbraise@=\dimen274
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count320
+\inf@bad=\count316
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count321
-\leftroot@=\count322
+\uproot@=\count317
+\leftroot@=\count318
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count323
-\DOTSCASE@=\count324
+\classnum@=\count319
+\DOTSCASE@=\count320
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box73
 \strutbox@=\box74
-\big@size=\dimen283
+\big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count325
-\c@MaxMatrixCols=\count326
+\macc@depth=\count321
+\c@MaxMatrixCols=\count322
 \dotsspace@=\muskip17
-\c@parentequation=\count327
-\dspbrk@lvl=\count328
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
 \tag@help=\toks35
-\row@=\count329
-\column@=\count330
-\maxfields@=\count331
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
 \andhelp@=\toks36
-\eqnshift@=\dimen284
-\alignsep@=\dimen285
-\tagshift@=\dimen286
-\tagwidth@=\dimen287
-\totwidth@=\dimen288
-\lineht@=\dimen289
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
 \@envbody=\toks37
 \multlinegap=\skip59
 \multlinetaggap=\skip60
@@ -724,7 +647,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks39
 \thm@bodyfont=\toks40
@@ -736,79 +659,64 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip63
 \dth@everypar=\toks44
 )
-\c@theorem=\count332
+\c@theorem=\count328
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
-.sty))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
-lt.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
-efault.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-default.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-default.sty
-\beamer@dima=\dimen290
-\beamer@dimb=\dimen291
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen282
+\beamer@dimb=\dimen283
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-default.sty)))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen292
-\captionmargin=\dimen293
-\caption@leftmargin=\dimen294
-\caption@rightmargin=\dimen295
-\caption@width=\dimen296
-\caption@indent=\dimen297
-\caption@parindent=\dimen298
-\caption@hangindent=\dimen299
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen284
+\captionmargin@=\dimen285
+\captionwidth=\dimen286
+\caption@tempdima=\dimen287
+\caption@indent=\dimen288
+\caption@parindent=\dimen289
+\caption@hangindent=\dimen290
 Package caption Info: beamer document class detected.
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-beamer.
-sto
-File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
-e beamer document classes (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
 ))
-\c@caption@flags=\count333
-\c@continuedfloat=\count334
+\c@caption@flags=\count329
+\c@continuedfloat=\count330
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
-\c@subfigure=\count335
-\c@subtable=\count336
+\c@subfigure=\count331
+\c@subtable=\count332
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeAntib
-es.sty
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-tree.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-whale.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-orchid.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-rectangles.sty))
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-miniframes.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-circles.sty)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-beaver.sty)
-\c@thm=\count337
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeAntibes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemetree.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)
+\c@thm=\count333
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count334
 \l__pdf_internal_box=\box75
-) (Final_Prezi.aux)
+)
+(./Final_Prezi.aux)
 \openout1 = `Final_Prezi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -864,50 +772,46 @@ LaTeX Font Info:    ... okay on input line 39.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen300
+\scratchcounter=\count335
+\scratchdimen=\dimen291
 \scratchbox=\box76
-\nofMPsegments=\count340
-\nofMParguments=\count341
+\nofMPsegments=\count336
+\nofMParguments=\count337
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen301
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen292
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
 \everyMPtoPDFconversion=\toks46
-)
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package hyperref Info: Link coloring OFF on input line 39.
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count345
+\c@section@level=\count341
 )
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
 LaTeX Info: Redefining \nameref on input line 39.
- (Final_Prezi.out) (Final_Prezi.out)
+
+(./Final_Prezi.out) (./Final_Prezi.out)
 \@outlinefile=\write5
 \openout5 = `Final_Prezi.out'.
 
@@ -964,36 +868,36 @@ LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
 ut line 39.
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
-asic-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
-ibliography-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
+tionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
-nvironment-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
+ionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
-onths-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
-umbers-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
+ry-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
-heorem-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
+ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (Final_Prezi.nav) [1
+ (./Final_Prezi.nav) [1
 
-{C:/Users/galax/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<img/euparl.jpg, id=42, 1203.49625pt x 676.5275pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<img/euparl.jpg, id=43, 1203.49625pt x 676.5275pt>
 File: img/euparl.jpg Graphic file (type jpg)
 <use img/euparl.jpg>
 Package pdftex.def Info: img/euparl.jpg  used on input line 59.
@@ -1004,29 +908,29 @@ Package pdftex.def Info: img/euparl.jpg  used on input line 59.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
 
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
 
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
 ut line 88.
 
-(C:\Users\galax\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathk
-erncmss.fd
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<img/BipartiteGraph.png, id=68, 451.6875pt x 430.60875pt>
+<img/BipartiteGraph.png, id=69, 451.6875pt x 430.60875pt>
 File: img/BipartiteGraph.png Graphic file (type png)
 <use img/BipartiteGraph.png>
 Package pdftex.def Info: img/BipartiteGraph.png  used on input line 88.
 (pdftex.def)             Requested size: 95.50504pt x 91.04872pt.
- [3
+
+[3
 
  <./img/BipartiteGraph.png>]
 File: img/BipartiteGraph.png Graphic file (type png)
@@ -1057,14 +961,14 @@ Package pdftex.def Info: img/BipartiteGraph.png  used on input line 88.
 
 ] [10
 
-]
-[11
+] [11
 
 ] [12
 
 ] [13
 
-] [14
+]
+[14
 
 ] [15
 
@@ -1080,57 +984,57 @@ Package pdftex.def Info: img/BipartiteGraph.png  used on input line 88.
 
 ] [21
 
-]
-Overfull \hbox (8.37915pt too wide) detected at line 172
-\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
-.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
-]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
-10.95 V[][] \OT1/cmss/m/n/10.95 = []
- []
+] [22
 
-[22
+] [23
 
-]
-Overfull \hbox (8.37915pt too wide) detected at line 172
-\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
-.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
-]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
-10.95 V[][] \OT1/cmss/m/n/10.95 = []
- []
+] [24
 
-[23
-
-]
-Overfull \hbox (8.37915pt too wide) detected at line 172
-\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
-.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
-]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
-10.95 V[][] \OT1/cmss/m/n/10.95 = []
- []
-
-[24
-
-]
-Overfull \hbox (8.37915pt too wide) detected at line 172
-\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
-.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
-]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
-10.95 V[][] \OT1/cmss/m/n/10.95 = []
- []
-
-[25
+] [25
 
 ] [26
 
 ] [27
 
-] [28
+]
+Overfull \hbox (8.37915pt too wide) detected at line 186
+\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
+.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
+]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
+10.95 V[][] \OT1/cmss/m/n/10.95 = []
+ []
 
-] [29
+[28
 
-] [30
+]
+Overfull \hbox (8.37915pt too wide) detected at line 186
+\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
+.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
+]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
+10.95 V[][] \OT1/cmss/m/n/10.95 = []
+ []
 
-] [31
+[29
+
+]
+Overfull \hbox (8.37915pt too wide) detected at line 186
+\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
+.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
+]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
+10.95 V[][] \OT1/cmss/m/n/10.95 = []
+ []
+
+[30
+
+]
+Overfull \hbox (8.37915pt too wide) detected at line 186
+\OT1/mathkerncmss/m/sl/10.95 G \OT1/cmss/m/n/10.95 = (\OT1/mathkerncmss/m/sl/10
+.95 V\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 E\OT1/cmss/m/n/10.95 )[
+]\OT1/mathkerncmss/m/sl/10.95 S \OMS/cmsy/m/n/10.95 ^^Z \OT1/mathkerncmss/m/sl/
+10.95 V[][] \OT1/cmss/m/n/10.95 = []
+ []
+
+[31
 
 ] [32
 
@@ -1142,310 +1046,333 @@ Overfull \hbox (8.37915pt too wide) detected at line 172
 
 ] [36
 
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...ar Considering the \bftext 
-                                                  {closeness} centralities o...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ... of parties in the \bftext 
-                                                  {quarterly} and \bftext {c...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...xt {quarterly} and \bftext 
-                                                  {committee division}: \vsp...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<img/EPP_ENVI_Q_closeness.png, id=935, 409.7709pt x 347.6187pt>
+<img/EPP_ENVI_Q_closeness.png, id=1097, 409.7709pt x 347.6187pt>
 File: img/EPP_ENVI_Q_closeness.png Graphic file (type png)
 <use img/EPP_ENVI_Q_closeness.png>
-Package pdftex.def Info: img/EPP_ENVI_Q_closeness.png  used on input line 233.
-(pdftex.def)             Requested size: 117.38617pt x 99.58464pt.
-<img/S&D_ENVI_Q_closeness.png, id=936, 400.3758pt x 347.6187pt>
+Package pdftex.def Info: img/EPP_ENVI_Q_closeness.png  used on input line 247.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+<img/S&D_ENVI_Q_closeness.png, id=1098, 400.3758pt x 347.6187pt>
 File: img/S&D_ENVI_Q_closeness.png Graphic file (type png)
 <use img/S&D_ENVI_Q_closeness.png>
-Package pdftex.def Info: img/S&D_ENVI_Q_closeness.png  used on input line 233.
-(pdftex.def)             Requested size: 114.69476pt x 99.58464pt.
-[37
+Package pdftex.def Info: img/S&D_ENVI_Q_closeness.png  used on input line 247.
+(pdftex.def)             Requested size: 153.64493pt x 133.4013pt.
+ [43
 
  <./img/EPP_ENVI_Q_closeness.png> <./img/S&D_ENVI_Q_closeness.png>]
-! Undefined control sequence.
-\beamer@doifinframe ...ar Considering the \bftext 
-                                                  {closeness} centralities o...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ... of parties in the \bftext 
-                                                  {quarterly} and \bftext {c...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...xt {quarterly} and \bftext 
-                                                  {committee division}: \vsp...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 File: img/EPP_ENVI_Q_closeness.png Graphic file (type png)
 <use img/EPP_ENVI_Q_closeness.png>
-Package pdftex.def Info: img/EPP_ENVI_Q_closeness.png  used on input line 233.
-(pdftex.def)             Requested size: 117.38617pt x 99.58464pt.
+Package pdftex.def Info: img/EPP_ENVI_Q_closeness.png  used on input line 247.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
 File: img/S&D_ENVI_Q_closeness.png Graphic file (type png)
 <use img/S&D_ENVI_Q_closeness.png>
-Package pdftex.def Info: img/S&D_ENVI_Q_closeness.png  used on input line 233.
-(pdftex.def)             Requested size: 114.69476pt x 99.58464pt.
-[38
+Package pdftex.def Info: img/S&D_ENVI_Q_closeness.png  used on input line 247.
+(pdftex.def)             Requested size: 153.64493pt x 133.4013pt.
+ [44
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...ar Considering the \bftext 
-                                                  {closeness} centralities o...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ... of parties in the \bftext 
-                                                  {quarterly} and \bftext {c...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...xt {quarterly} and \bftext 
-                                                  {committee division}: \vsp...
-l.233 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 File: img/EPP_ENVI_Q_closeness.png Graphic file (type png)
 <use img/EPP_ENVI_Q_closeness.png>
-Package pdftex.def Info: img/EPP_ENVI_Q_closeness.png  used on input line 233.
-(pdftex.def)             Requested size: 117.38617pt x 99.58464pt.
+Package pdftex.def Info: img/EPP_ENVI_Q_closeness.png  used on input line 247.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
 File: img/S&D_ENVI_Q_closeness.png Graphic file (type png)
 <use img/S&D_ENVI_Q_closeness.png>
-Package pdftex.def Info: img/S&D_ENVI_Q_closeness.png  used on input line 233.
-(pdftex.def)             Requested size: 114.69476pt x 99.58464pt.
-[39
+Package pdftex.def Info: img/S&D_ENVI_Q_closeness.png  used on input line 247.
+(pdftex.def)             Requested size: 153.64493pt x 133.4013pt.
+ [45
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...ar Considering the \bftext 
-                                                  {closeness} centralities o...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<img/EPP_ITRE_Q_closeness_BIG.png, id=1177, 409.7709pt x 347.6187pt>
+File: img/EPP_ITRE_Q_closeness_BIG.png Graphic file (type png)
+<use img/EPP_ITRE_Q_closeness_BIG.png>
+Package pdftex.def Info: img/EPP_ITRE_Q_closeness_BIG.png  used on input line 2
+69.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+<img/S&D_ITRE_Q_closeness_BIG.png, id=1178, 409.7709pt x 347.6187pt>
+File: img/S&D_ITRE_Q_closeness_BIG.png Graphic file (type png)
+<use img/S&D_ITRE_Q_closeness_BIG.png>
+Package pdftex.def Info: img/S&D_ITRE_Q_closeness_BIG.png  used on input line 2
+69.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+ [46
 
-! Undefined control sequence.
-\beamer@doifinframe ... of parties in the \bftext 
-                                                  {quarterly} and \bftext {c...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...xt {quarterly} and \bftext 
-                                                  {committee} division and o...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...on and only in the \bftext 
-                                                  {biggest component}: \vspa...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<img/EPP_ITRE_Q_closeness.png, id=1015, 406.8801pt x 347.6187pt>
-File: img/EPP_ITRE_Q_closeness.png Graphic file (type png)
-<use img/EPP_ITRE_Q_closeness.png>
-Package pdftex.def Info: img/EPP_ITRE_Q_closeness.png  used on input line 254.
-(pdftex.def)             Requested size: 116.55804pt x 99.58464pt.
-<img/S&D_ITRE_Q_closeness.png, id=1016, 409.7709pt x 347.6187pt>
-File: img/S&D_ITRE_Q_closeness.png Graphic file (type png)
-<use img/S&D_ITRE_Q_closeness.png>
-Package pdftex.def Info: img/S&D_ITRE_Q_closeness.png  used on input line 254.
-(pdftex.def)             Requested size: 117.38617pt x 99.58464pt.
-[40
-
- <./img/EPP_ITRE_Q_closeness.png> <./img/S&D_ITRE_Q_closeness.png>]
-! Undefined control sequence.
-\beamer@doifinframe ...ar Considering the \bftext 
-                                                  {closeness} centralities o...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ... of parties in the \bftext 
-                                                  {quarterly} and \bftext {c...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...xt {quarterly} and \bftext 
-                                                  {committee} division and o...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...on and only in the \bftext 
-                                                  {biggest component}: \vspa...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: img/EPP_ITRE_Q_closeness.png Graphic file (type png)
-<use img/EPP_ITRE_Q_closeness.png>
-Package pdftex.def Info: img/EPP_ITRE_Q_closeness.png  used on input line 254.
-(pdftex.def)             Requested size: 116.55804pt x 99.58464pt.
-File: img/S&D_ITRE_Q_closeness.png Graphic file (type png)
-<use img/S&D_ITRE_Q_closeness.png>
-Package pdftex.def Info: img/S&D_ITRE_Q_closeness.png  used on input line 254.
-(pdftex.def)             Requested size: 117.38617pt x 99.58464pt.
-[41
+ <./img/EPP_ITRE_Q_closeness_BIG.png> <./img/S&D_ITRE_Q_closeness_BIG.png>]
+File: img/EPP_ITRE_Q_closeness_BIG.png Graphic file (type png)
+<use img/EPP_ITRE_Q_closeness_BIG.png>
+Package pdftex.def Info: img/EPP_ITRE_Q_closeness_BIG.png  used on input line 2
+69.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+File: img/S&D_ITRE_Q_closeness_BIG.png Graphic file (type png)
+<use img/S&D_ITRE_Q_closeness_BIG.png>
+Package pdftex.def Info: img/S&D_ITRE_Q_closeness_BIG.png  used on input line 2
+69.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+ [47
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...ar Considering the \bftext 
-                                                  {closeness} centralities o...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+File: img/EPP_ITRE_Q_closeness_BIG.png Graphic file (type png)
+<use img/EPP_ITRE_Q_closeness_BIG.png>
+Package pdftex.def Info: img/EPP_ITRE_Q_closeness_BIG.png  used on input line 2
+69.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+File: img/S&D_ITRE_Q_closeness_BIG.png Graphic file (type png)
+<use img/S&D_ITRE_Q_closeness_BIG.png>
+Package pdftex.def Info: img/S&D_ITRE_Q_closeness_BIG.png  used on input line 2
+69.
+(pdftex.def)             Requested size: 153.64493pt x 130.34077pt.
+ [48
 
-! Undefined control sequence.
-\beamer@doifinframe ... of parties in the \bftext 
-                                                  {quarterly} and \bftext {c...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+]
+<img/EPP_HY_deg.png, id=1257, 401.8212pt x 314.3745pt>
+File: img/EPP_HY_deg.png Graphic file (type png)
+<use img/EPP_HY_deg.png>
+Package pdftex.def Info: img/EPP_HY_deg.png  used on input line 291.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+<img/S&D_HY_deg.png, id=1258, 401.8212pt x 314.3745pt>
+File: img/S&D_HY_deg.png Graphic file (type png)
+<use img/S&D_HY_deg.png>
+Package pdftex.def Info: img/S&D_HY_deg.png  used on input line 291.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
 
-! Undefined control sequence.
-\beamer@doifinframe ...xt {quarterly} and \bftext 
-                                                  {committee} division and o...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[49
 
-! Undefined control sequence.
-\beamer@doifinframe ...on and only in the \bftext 
-                                                  {biggest component}: \vspa...
-l.254 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ <./img/EPP_HY_deg.png> <./img/S&D_HY_deg.png>]
+File: img/EPP_HY_deg.png Graphic file (type png)
+<use img/EPP_HY_deg.png>
+Package pdftex.def Info: img/EPP_HY_deg.png  used on input line 291.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+File: img/S&D_HY_deg.png Graphic file (type png)
+<use img/S&D_HY_deg.png>
+Package pdftex.def Info: img/S&D_HY_deg.png  used on input line 291.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [50
 
-File: img/EPP_ITRE_Q_closeness.png Graphic file (type png)
-<use img/EPP_ITRE_Q_closeness.png>
-Package pdftex.def Info: img/EPP_ITRE_Q_closeness.png  used on input line 254.
-(pdftex.def)             Requested size: 116.55804pt x 99.58464pt.
-File: img/S&D_ITRE_Q_closeness.png Graphic file (type png)
-<use img/S&D_ITRE_Q_closeness.png>
-Package pdftex.def Info: img/S&D_ITRE_Q_closeness.png  used on input line 254.
-(pdftex.def)             Requested size: 117.38617pt x 99.58464pt.
-[42
+]
+File: img/EPP_HY_deg.png Graphic file (type png)
+<use img/EPP_HY_deg.png>
+Package pdftex.def Info: img/EPP_HY_deg.png  used on input line 291.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+File: img/S&D_HY_deg.png Graphic file (type png)
+<use img/S&D_HY_deg.png>
+Package pdftex.def Info: img/S&D_HY_deg.png  used on input line 291.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [51
 
-] [43
+]
+<img/ID_HY_deg.png, id=1338, 401.8212pt x 314.3745pt>
+File: img/ID_HY_deg.png Graphic file (type png)
+<use img/ID_HY_deg.png>
+Package pdftex.def Info: img/ID_HY_deg.png  used on input line 314.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+File: img/ID_HY_deg.png Graphic file (type png)
+<use img/ID_HY_deg.png>
+Package pdftex.def Info: img/ID_HY_deg.png  used on input line 314.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [52
 
-] [44
+ <./img/ID_HY_deg.png>]
+File: img/ID_HY_deg.png Graphic file (type png)
+<use img/ID_HY_deg.png>
+Package pdftex.def Info: img/ID_HY_deg.png  used on input line 314.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+File: img/ID_HY_deg.png Graphic file (type png)
+<use img/ID_HY_deg.png>
+Package pdftex.def Info: img/ID_HY_deg.png  used on input line 314.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [53
+
+]
+File: img/ID_HY_deg.png Graphic file (type png)
+<use img/ID_HY_deg.png>
+Package pdftex.def Info: img/ID_HY_deg.png  used on input line 314.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+File: img/ID_HY_deg.png Graphic file (type png)
+<use img/ID_HY_deg.png>
+Package pdftex.def Info: img/ID_HY_deg.png  used on input line 314.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [54
+
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+]
+<img/coh_all.png, id=1517, 408.3255pt x 314.3745pt>
+File: img/coh_all.png Graphic file (type png)
+<use img/coh_all.png>
+Package pdftex.def Info: img/coh_all.png  used on input line 343.
+(pdftex.def)             Requested size: 153.64493pt x 118.29308pt.
+ [59
+
+ <./img/coh_all.png>]
+File: img/coh_all.png Graphic file (type png)
+<use img/coh_all.png>
+Package pdftex.def Info: img/coh_all.png  used on input line 343.
+(pdftex.def)             Requested size: 153.64493pt x 118.29308pt.
+ [60
+
+]
+<img/coh_epp.png, id=1570, 401.8212pt x 314.3745pt>
+File: img/coh_epp.png Graphic file (type png)
+<use img/coh_epp.png>
+Package pdftex.def Info: img/coh_epp.png  used on input line 364.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+<img/coh_s&d.png, id=1571, 401.8212pt x 314.3745pt>
+File: img/coh_s&d.png Graphic file (type png)
+<use img/coh_s&d.png>
+Package pdftex.def Info: img/coh_s&d.png  used on input line 364.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [61
+
+ <./img/coh_epp.png> <./img/coh_s&d.png>]
+File: img/coh_epp.png Graphic file (type png)
+<use img/coh_epp.png>
+Package pdftex.def Info: img/coh_epp.png  used on input line 364.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+File: img/coh_s&d.png Graphic file (type png)
+<use img/coh_s&d.png>
+Package pdftex.def Info: img/coh_s&d.png  used on input line 364.
+(pdftex.def)             Requested size: 153.64493pt x 120.20708pt.
+ [62
+
+]
+<img/coh_re.png, id=1625, 401.8212pt x 314.3745pt>
+File: img/coh_re.png Graphic file (type png)
+<use img/coh_re.png>
+Package pdftex.def Info: img/coh_re.png  used on input line 389.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+<img/coh_guengl.png, id=1626, 401.8212pt x 314.3745pt>
+File: img/coh_guengl.png Graphic file (type png)
+<use img/coh_guengl.png>
+Package pdftex.def Info: img/coh_guengl.png  used on input line 389.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+ [63
+
+ <./img/coh_re.png> <./img/coh_guengl.png>]
+File: img/coh_re.png Graphic file (type png)
+<use img/coh_re.png>
+Package pdftex.def Info: img/coh_re.png  used on input line 389.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+File: img/coh_guengl.png Graphic file (type png)
+<use img/coh_guengl.png>
+Package pdftex.def Info: img/coh_guengl.png  used on input line 389.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+ [64
+
+]
+File: img/coh_re.png Graphic file (type png)
+<use img/coh_re.png>
+Package pdftex.def Info: img/coh_re.png  used on input line 389.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+File: img/coh_guengl.png Graphic file (type png)
+<use img/coh_guengl.png>
+Package pdftex.def Info: img/coh_guengl.png  used on input line 389.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+ [65
+
+]
+<img/coh_ecr.png, id=1705, 401.8212pt x 314.3745pt>
+File: img/coh_ecr.png Graphic file (type png)
+<use img/coh_ecr.png>
+Package pdftex.def Info: img/coh_ecr.png  used on input line 414.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+<img/coh_id.png, id=1706, 401.8212pt x 314.3745pt>
+File: img/coh_id.png Graphic file (type png)
+<use img/coh_id.png>
+Package pdftex.def Info: img/coh_id.png  used on input line 414.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+ [66
+
+ <./img/coh_ecr.png> <./img/coh_id.png>]
+File: img/coh_ecr.png Graphic file (type png)
+<use img/coh_ecr.png>
+Package pdftex.def Info: img/coh_ecr.png  used on input line 414.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+File: img/coh_id.png Graphic file (type png)
+<use img/coh_id.png>
+Package pdftex.def Info: img/coh_id.png  used on input line 414.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+ [67
+
+]
+File: img/coh_ecr.png Graphic file (type png)
+<use img/coh_ecr.png>
+Package pdftex.def Info: img/coh_ecr.png  used on input line 414.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+File: img/coh_id.png Graphic file (type png)
+<use img/coh_id.png>
+Package pdftex.def Info: img/coh_id.png  used on input line 414.
+(pdftex.def)             Requested size: 122.91406pt x 96.16469pt.
+ [68
+
+]
+<img/coh_greens.png, id=1786, 408.3255pt x 314.3745pt>
+File: img/coh_greens.png Graphic file (type png)
+<use img/coh_greens.png>
+Package pdftex.def Info: img/coh_greens.png  used on input line 436.
+(pdftex.def)             Requested size: 122.91406pt x 94.62967pt.
+
+[69
+
+ <./img/coh_greens.png>]
+File: img/coh_greens.png Graphic file (type png)
+<use img/coh_greens.png>
+Package pdftex.def Info: img/coh_greens.png  used on input line 436.
+(pdftex.def)             Requested size: 122.91406pt x 94.62967pt.
+ [70
+
+]
+File: img/coh_greens.png Graphic file (type png)
+<use img/coh_greens.png>
+Package pdftex.def Info: img/coh_greens.png  used on input line 436.
+(pdftex.def)             Requested size: 122.91406pt x 94.62967pt.
+ [71
+
+]
+File: img/coh_greens.png Graphic file (type png)
+<use img/coh_greens.png>
+Package pdftex.def Info: img/coh_greens.png  used on input line 436.
+(pdftex.def)             Requested size: 122.91406pt x 94.62967pt.
+ [72
+
+] [73
+
+] [74
+
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+]
+[79
+
+] [80
+
+] [81
+
+] [82
+
+] [83
 
 ]
 \tf@nav=\write6
@@ -1457,34 +1384,33 @@ Package pdftex.def Info: img/S&D_ITRE_Q_closeness.png  used on input line 254.
 \tf@snm=\write8
 \openout8 = `Final_Prezi.snm'.
 
- (Final_Prezi.aux)
+ (./Final_Prezi.aux)
 Package rerunfilecheck Info: File `Final_Prezi.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23329 strings out of 478582
- 464644 string characters out of 2844344
- 704444 words of memory out of 3000000
- 40938 multiletter control sequences out of 15000+600000
+ 23386 strings out of 478287
+ 458427 string characters out of 5849289
+ 703890 words of memory out of 5000000
+ 40924 multiletter control sequences out of 15000+600000
  476608 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,417b,642s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/galax/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmex10.pfb><C:/Users/galax/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/galax/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/galax/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/galax/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/galax/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/galax/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/gala
-x/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/
-Users/galax/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8
-.pfb><C:/Users/galax/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/galax/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb>
-Output written on Final_Prezi.pdf (44 pages, 599239 bytes).
+ 128i,15n,122p,391b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb>
+Output written on Final_Prezi.pdf (83 pages, 644994 bytes).
 PDF statistics:
- 1211 PDF objects out of 1440 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2252 PDF objects out of 2487 (max. 8388607)
+ 2085 compressed objects within 21 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

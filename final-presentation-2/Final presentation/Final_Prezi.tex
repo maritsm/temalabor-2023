@@ -89,8 +89,7 @@ We acquired data regarding amendments, for each amendment we know which MEP prop
 
 
 
-\begin{frame}
-\frametitle{Projection}
+\begin{frame}{Projection}
 
 We then created a projection of this bipartite graph:
 
@@ -108,18 +107,33 @@ We then created a projection of this bipartite graph:
 
 \begin{frame}{Committees}
 
-	HERE WHAT IS A COMMITTEE 
+	What is a committee in the European Parliament?
+	
+	\pause They are groups of MEPs that work together on specific topics
+	
 	\pause Commitee members work together on a specific set of law changes
-
-	EG FOR COMMITTEES (ITRE, ENVI)
+	
+	\pause MEPs can join and leave committees at any time \pause (this makes this analysis non-trivial)
+	
 	\vspace{2mm}
 	
-	\pause We will also analyze the changes in the network based on the committees
+	\pause Analysis of the EP has to take into account the committees, as they are important units for how work in the EP is distributed
 	
 \end{frame}
 
-\begin{frame}
-\frametitle{Motivation}
+\begin{frame}{Important committees}
+	
+	The following are the largest and most influential committees in the EP: \pause \begin{itemize}
+		\item Committee on Industry, Research and Energy (ITRE)
+		\item Committee on the Environment, Public Health and Food Safety (ENVI)
+		\item Committee on Foreign Affairs (AFET)
+	\end{itemize}
+
+	\pause We will try to analyze changes in the operations of these committees as well
+	
+\end{frame}
+
+\begin{frame}{Motivation}
 
 Understanding the network of MEPs might give us a better understanding of the following:
 
@@ -186,8 +200,7 @@ Understanding the network of MEPs might give us a better understanding of the fo
 \end{frame}
 
 
-\begin{frame}
-\frametitle{Subgraphs}
+\begin{frame}{Subgraphs}
 	We will measure the cohesion and centralities of certain subgraphs of the MEP social network.
 	Which subset/subgraph did we consider ? 
 	\begin{itemize}
@@ -198,8 +211,7 @@ Understanding the network of MEPs might give us a better understanding of the fo
 \end{frame}
 
 
-\begin{frame}
-\frametitle{Assumptions}
+\begin{frame}{Assumptions}
 
 Our initial assumptions are the following:
 \bigskip
@@ -212,8 +224,7 @@ Our initial assumptions are the following:
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{Our results: centrality}
+\begin{frame}{Our results: Centrality}
 	
 	Considering the \textbf{closeness} centralities of parties in the \textbf{quarterly} and \textbf{committee division}:
 	\vspace{4mm}
@@ -235,8 +246,7 @@ Our initial assumptions are the following:
 \end{columns}
 \end{frame}
 
-\begin{frame}
-\frametitle{Our results: centrality}
+\begin{frame}{Our results: Centrality}
 	
 	Considering the \textbf{closeness} centralities of parties in the \textbf{quarterly} and \textbf{committee} division and only in the \textbf{biggest component}:
 	\vspace{4mm}
@@ -258,64 +268,204 @@ Our initial assumptions are the following:
 
 \end{frame}
 
-\begin{frame}
-\frametitle{Our results: centrality}
+\begin{frame}{Our results: Centrality}
 	
-	Considering the \textbf{degree} centralities of parties in the \textbf{half-yearly} division and only in the \textbf{biggest component}:
+	Considering the \textbf{degree} centralities of parties in the \textbf{semesterly} division and only in the \textbf{biggest component}:
 	\vspace{4mm}
 	\pause
 	
 \begin{columns}
 	\begin{column}{0.5\textwidth}
-	Degree centrality of EPP in the greatest component:
+	Degree centrality of EPP in the largest component:
 	\\
 	\includegraphics[width=\textwidth]{img/EPP_HY_deg.png}
 	\end{column}
 	
 	\pause 
 	\begin{column}{0.5\textwidth}
-	Degree centrality of S\&D in the greatest component:
+	Degree centrality of S\&D in the largest component:
 	\includegraphics[width=\textwidth]{img/S&D_HY_deg.png}
 	\end{column}
 \end{columns}
 
 \end{frame}
 
-
-\begin{frame}
-\frametitle{Our results: centrality}
+\begin{frame}{Our results: Centrality}
 	
 	It is especially interesting to consider the far-right Identity and Democracy Group (ID).
-	 \textbf{degree} (left) and \textbf{closeness} (right) centralities the ID party in the \textbf{half-yearly} division and only in the \textbf{biggest component}:
+	 \textbf{degree} (left) and \textbf{closeness} (right) centralities the ID party in the \textbf{semesterly} division and only in the \textbf{biggest component}:
 	\vspace{4mm}
 	\pause
 	
 \begin{columns}
 	\begin{column}{0.5\textwidth}
-	Degree centrality of ID in the greatest component:
+	Degree centrality of ID in the largest component:
 	\\
 	\includegraphics[width=\textwidth]{img/ID_HY_deg.png}
 	\end{column}
 	
 	\pause 
 	\begin{column}{0.5\textwidth}
-	Closeness centrality of ID in the greatest component:
+	Closeness centrality of ID in the largest component:
 	\includegraphics[width=\textwidth]{img/ID_HY_deg.png}
 	\end{column}
 \end{columns}
 
 \end{frame}
 
-
-\begin{frame}
-\frametitle{Our results: cohesion}
+\begin{frame}{Our results: Cohesion}
+	We analyzed cohesion on a \textbf{semesterly basis}. \pause The data was too fractured for a more granular analysis.
+	
+	\vspace{1cm}
+	
+	\pause The semesterly analysis is a more useful way to aggregate the data because the work of the EP is naturally divided into semesters.
+	
+	\vspace{1cm}
+	
+	\pause General results: cohesion decreased across the board, with some exceptions.
 \end{frame}
 
+\begin{frame}{Our results: Cohesion}
+	
+	The cohesion of the \textbf{entire European Parliament}, across the given time period.
+	
+	\pause
+	
+	\vspace{0.5cm}
+	
+	\begin{columns}
+		
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_all.png}
+		\end{column}
+	
+	\end{columns}
+\end{frame}
 
+\begin{frame}{Our results: Cohesion}
+	
+	The cohesion of the two major parties, EPP and S\&D
+	
+	\pause
+	
+	\vspace{0.5cm}
+	
+	\begin{columns}
+		
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_epp.png}
+		\end{column}
+	
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_s&d.png}
+		\end{column}
+		
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Our results: Cohesion}
+	
+	The cohesion of RE and GUE/NGL (both left-leaning parties)
+	
+	\pause
+	
+	\vspace{0.5cm}
+	
+	\begin{columns}
+		
+		\begin{column}{0.4\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_re.png}
+		\end{column}
+		
+		\begin{column}{0.4\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_guengl.png}
+		\end{column}
+			
+	\end{columns}
+	
+	\vspace{0.5cm}
+	
+	\pause We see a notable decrease over time
+\end{frame}
+
+\begin{frame}{Our results: Cohesion}
+	
+	The cohesion of ECR and ID (both right-wing parties)
+	
+	\pause
+	
+	\vspace{0.5cm}
+	
+	\begin{columns}
+		
+		\begin{column}{0.4\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_ecr.png}
+		\end{column}
+		
+		\begin{column}{0.4\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_id.png}
+		\end{column}
+		
+	\end{columns}
+	
+	\vspace{0.5cm}
+	
+	\pause We mostly see stagnation
+\end{frame}
+
+\begin{frame}{Our results: Cohesion}
+	
+	The cohesion of the Greens (left-leaning `green' party)
+	
+	\pause
+	
+	\vspace{0.5cm}
+	
+	\begin{columns}
+		
+		\begin{column}{0.4\textwidth}
+			\includegraphics[width=\textwidth]{img/coh_greens.png}
+		\end{column}
+		
+		
+	\end{columns}
+	
+	\vspace{0.5cm}
+	
+	\pause This one shows no clear trends\pause, and the spike in the last semester is mysterious and unexplained
+\end{frame}
+
+\begin{frame}{Cohesion conclusions}
+	
+	\pause The `rise of the right-wing' phenomenon is observed\pause, left-wing parties are losing cohesion
+	
+	\vspace{0.5cm}
+	
+	\pause Some parties show alternation between first and second semesters of each year, some parties don't
+	
+	\vspace{0.5cm}
+	
+	\pause The overall cohesion of the network is decreasing
+	
+\end{frame}
+
+\begin{frame}{Final conclusions}
+	
+	\pause Right-wing parties are gaining prominence across the board
+	
+	\vspace{0.5cm}
+	
+	\pause The liberal RE party lost its previous ``bridge" status\pause, instead it seems that EPP is now the bridge between the left and right wings
+	
+	\vspace{0.5cm}
+	
+	\pause The future of the EP is probably going to be decided by a right-wing coalition
+	
+\end{frame}
 
 \begin{frame}{}
 	
-	thx for watching
+	\centering Thanks for watching
 	
 \end{frame}
 
